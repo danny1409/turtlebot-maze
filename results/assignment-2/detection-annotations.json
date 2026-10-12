@@ -1,0 +1,4807 @@
+{
+  "method": "Box and scene review, SDF/geometry references; no identities inferred from association radius.",
+  "rows": [
+    {
+      "det_id": "MSI-20261012T005529_kf3_d0",
+      "keyframe_id": 3,
+      "detection_index": 0,
+      "timestamp_ns": 12402000000,
+      "object_id": 1,
+      "observation_id": 1,
+      "class_name": "sports ball",
+      "bbox": [
+        0.0,
+        100.57394409179688,
+        28.298337936401367,
+        136.4051513671875
+      ],
+      "map_position": [
+        3.16054350865672,
+        3.721262641567127,
+        0.1269501401701772
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf4_d0",
+      "keyframe_id": 4,
+      "detection_index": 0,
+      "timestamp_ns": 14601000000,
+      "object_id": 2,
+      "observation_id": 2,
+      "class_name": "refrigerator",
+      "bbox": [
+        278.0186462402344,
+        68.07666015625,
+        317.8432922363281,
+        128.38333129882812
+      ],
+      "map_position": [
+        2.72524888971823,
+        0.037761355952999565,
+        0.3594615189199866
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Refrigerator_01_001",
+      "identity_status": "correct class/identity, fused position outside tolerance"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf5_d0",
+      "keyframe_id": 5,
+      "detection_index": 0,
+      "timestamp_ns": 16800000000,
+      "object_id": 3,
+      "observation_id": 3,
+      "class_name": "traffic light",
+      "bbox": [
+        119.97030639648438,
+        111.73501586914062,
+        133.563232421875,
+        133.85202026367188
+      ],
+      "map_position": [
+        2.8919016075807793,
+        2.603415989108966,
+        0.05431212228822841
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf5_d1",
+      "keyframe_id": 5,
+      "detection_index": 1,
+      "timestamp_ns": 16800000000,
+      "object_id": 4,
+      "observation_id": 4,
+      "class_name": "traffic light",
+      "bbox": [
+        0.01410675048828125,
+        48.95165252685547,
+        16.002538681030273,
+        64.55538177490234
+      ],
+      "map_position": [
+        1.8685989383425874,
+        4.299058144167802,
+        1.1660789855441152
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf7_d0",
+      "keyframe_id": 7,
+      "detection_index": 0,
+      "timestamp_ns": 22401000000,
+      "object_id": 5,
+      "observation_id": 5,
+      "class_name": "person",
+      "bbox": [
+        193.17193603515625,
+        0.06285476684570312,
+        260.08428955078125,
+        18.273284912109375
+      ],
+      "map_position": [
+        1.9383191829022688,
+        -1.2000190784334102,
+        1.795128624652944
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf10_d0",
+      "keyframe_id": 10,
+      "detection_index": 0,
+      "timestamp_ns": 25401000000,
+      "object_id": 6,
+      "observation_id": 6,
+      "class_name": "person",
+      "bbox": [
+        274.6791687011719,
+        97.05010986328125,
+        300.4715270996094,
+        133.4728240966797
+      ],
+      "map_position": [
+        -0.7987622994422221,
+        -5.073167146938805,
+        0.18148070545890055
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf10_d1",
+      "keyframe_id": 10,
+      "detection_index": 1,
+      "timestamp_ns": 25401000000,
+      "object_id": 7,
+      "observation_id": 7,
+      "class_name": "bench",
+      "bbox": [
+        157.0479736328125,
+        105.79518127441406,
+        257.79644775390625,
+        135.22488403320312
+      ],
+      "map_position": [
+        0.3082940962619709,
+        -4.386575187019508,
+        0.09495485304125578
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf12_d0",
+      "keyframe_id": 12,
+      "detection_index": 0,
+      "timestamp_ns": 28800000000,
+      "object_id": 8,
+      "observation_id": 8,
+      "class_name": "airplane",
+      "bbox": [
+        0.007495880126953125,
+        0.34252166748046875,
+        29.171802520751953,
+        30.433685302734375
+      ],
+      "map_position": [
+        1.0303939986343402,
+        -1.3994025143193864,
+        1.6607954857232339
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf32_d0",
+      "keyframe_id": 32,
+      "detection_index": 0,
+      "timestamp_ns": 55602000000,
+      "object_id": 9,
+      "observation_id": 9,
+      "class_name": "person",
+      "bbox": [
+        173.9413299560547,
+        38.156494140625,
+        184.5525360107422,
+        70.17314147949219
+      ],
+      "map_position": [
+        -6.664841991333989,
+        -1.1906122825608798,
+        0.8331881517630728
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf33_d0",
+      "keyframe_id": 33,
+      "detection_index": 0,
+      "timestamp_ns": 56802000000,
+      "object_id": 9,
+      "observation_id": 10,
+      "class_name": "person",
+      "bbox": [
+        89.98323059082031,
+        19.35089874267578,
+        101.85127258300781,
+        58.88404846191406
+      ],
+      "map_position": [
+        -6.628712127114629,
+        -1.2632127073796913,
+        0.8294891807153094
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf33_d1",
+      "keyframe_id": 33,
+      "detection_index": 1,
+      "timestamp_ns": 56802000000,
+      "object_id": 9,
+      "observation_id": 11,
+      "class_name": "person",
+      "bbox": [
+        101.325927734375,
+        19.391845703125,
+        113.52963256835938,
+        68.36079406738281
+      ],
+      "map_position": [
+        -6.782152780574025,
+        -1.261529365890944,
+        0.8230704975023312
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf33_d2",
+      "keyframe_id": 33,
+      "detection_index": 2,
+      "timestamp_ns": 56802000000,
+      "object_id": 10,
+      "observation_id": 12,
+      "class_name": "person",
+      "bbox": [
+        12.574984550476074,
+        0.0,
+        29.875560760498047,
+        38.22066879272461
+      ],
+      "map_position": [
+        -5.928710147573746,
+        -1.289733424375735,
+        0.7931004758449176
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "wrong person label on two distinct physical surfaces",
+      "visual_target_id": "TV_02_001"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf33_d3",
+      "keyframe_id": 33,
+      "detection_index": 3,
+      "timestamp_ns": 56802000000,
+      "object_id": 9,
+      "observation_id": 13,
+      "class_name": "person",
+      "bbox": [
+        50.42716979980469,
+        8.446456909179688,
+        63.807518005371094,
+        40.502296447753906
+      ],
+      "map_position": [
+        -6.219151141307726,
+        -1.2801480484585377,
+        0.8415034354122055
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf34_d0",
+      "keyframe_id": 34,
+      "detection_index": 0,
+      "timestamp_ns": 58002000000,
+      "object_id": 11,
+      "observation_id": 14,
+      "class_name": "cup",
+      "bbox": [
+        295.0169982910156,
+        109.73478698730469,
+        319.8351745605469,
+        142.66787719726562
+      ],
+      "map_position": [
+        -8.438826096147793,
+        1.2116514421148734,
+        0.03836352342308784
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf35_d0",
+      "keyframe_id": 35,
+      "detection_index": 0,
+      "timestamp_ns": 59202000000,
+      "object_id": 11,
+      "observation_id": 15,
+      "class_name": "cup",
+      "bbox": [
+        238.75039672851562,
+        108.541015625,
+        267.0595703125,
+        145.16513061523438
+      ],
+      "map_position": [
+        -8.41936556559297,
+        1.0374693349574042,
+        0.03771067481548876
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf35_d1",
+      "keyframe_id": 35,
+      "detection_index": 1,
+      "timestamp_ns": 59202000000,
+      "object_id": 12,
+      "observation_id": 16,
+      "class_name": "chair",
+      "bbox": [
+        279.9021911621094,
+        69.79815673828125,
+        319.7624206542969,
+        144.49180603027344
+      ],
+      "map_position": [
+        -9.121906675544894,
+        1.8069635572231888,
+        0.2596308339932984
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf36_d0",
+      "keyframe_id": 36,
+      "detection_index": 0,
+      "timestamp_ns": 60402000000,
+      "object_id": 11,
+      "observation_id": 17,
+      "class_name": "cup",
+      "bbox": [
+        224.36557006835938,
+        105.97158813476562,
+        258.8380432128906,
+        150.4495849609375
+      ],
+      "map_position": [
+        -8.468229404448262,
+        0.9383905195701783,
+        0.03854210627321154
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf36_d1",
+      "keyframe_id": 36,
+      "detection_index": 1,
+      "timestamp_ns": 60402000000,
+      "object_id": 12,
+      "observation_id": 18,
+      "class_name": "chair",
+      "bbox": [
+        268.6807556152344,
+        60.68852233886719,
+        319.7693786621094,
+        147.57823181152344
+      ],
+      "map_position": [
+        -9.178342384130328,
+        1.745941640290647,
+        0.27295445139180846
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf37_d0",
+      "keyframe_id": 37,
+      "detection_index": 0,
+      "timestamp_ns": 61602000000,
+      "object_id": 11,
+      "observation_id": 19,
+      "class_name": "cup",
+      "bbox": [
+        234.26034545898438,
+        101.49566650390625,
+        280.5961608886719,
+        159.10055541992188
+      ],
+      "map_position": [
+        -8.433715714313584,
+        1.0125647154434785,
+        0.0416930458945749
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf38_d0",
+      "keyframe_id": 38,
+      "detection_index": 0,
+      "timestamp_ns": 63000000000,
+      "object_id": 11,
+      "observation_id": 20,
+      "class_name": "cup",
+      "bbox": [
+        152.70684814453125,
+        94.46700286865234,
+        209.6722412109375,
+        171.43838500976562
+      ],
+      "map_position": [
+        -8.476896288014146,
+        0.8607122493833562,
+        0.04557316839509141
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf39_d0",
+      "keyframe_id": 39,
+      "detection_index": 0,
+      "timestamp_ns": 64002000000,
+      "object_id": 13,
+      "observation_id": 21,
+      "class_name": "refrigerator",
+      "bbox": [
+        29.510894775390625,
+        81.18006134033203,
+        116.23406982421875,
+        194.82257080078125
+      ],
+      "map_position": [
+        -8.366740887369216,
+        0.9610200800363674,
+        0.04950879782024843
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf39_d1",
+      "keyframe_id": 39,
+      "detection_index": 1,
+      "timestamp_ns": 64002000000,
+      "object_id": 14,
+      "observation_id": 22,
+      "class_name": "umbrella",
+      "bbox": [
+        241.94552612304688,
+        10.053962707519531,
+        319.8475036621094,
+        93.70893859863281
+      ],
+      "map_position": [
+        -8.030774334126464,
+        1.6743695487635155,
+        0.37450736162611187
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf39_d2",
+      "keyframe_id": 39,
+      "detection_index": 2,
+      "timestamp_ns": 64002000000,
+      "object_id": 11,
+      "observation_id": 23,
+      "class_name": "cup",
+      "bbox": [
+        29.59882354736328,
+        81.08336639404297,
+        115.6567611694336,
+        195.15179443359375
+      ],
+      "map_position": [
+        -8.367260941271425,
+        0.9604926617196641,
+        0.04915685778374562
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf39_d3",
+      "keyframe_id": 39,
+      "detection_index": 3,
+      "timestamp_ns": 64002000000,
+      "object_id": 15,
+      "observation_id": 24,
+      "class_name": "umbrella",
+      "bbox": [
+        112.61328125,
+        10.288223266601562,
+        249.1859130859375,
+        169.5355224609375
+      ],
+      "map_position": [
+        -8.881143372883468,
+        2.0470284968546304,
+        0.317632225238438
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf40_d0",
+      "keyframe_id": 40,
+      "detection_index": 0,
+      "timestamp_ns": 64602000000,
+      "object_id": 15,
+      "observation_id": 25,
+      "class_name": "umbrella",
+      "bbox": [
+        0.4799957275390625,
+        0.23626708984375,
+        136.5066680908203,
+        180.80096435546875
+      ],
+      "map_position": [
+        -9.139369871969338,
+        1.8798345657649094,
+        0.2980342292161924
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf47_d0",
+      "keyframe_id": 47,
+      "detection_index": 0,
+      "timestamp_ns": 67401000000,
+      "object_id": 16,
+      "observation_id": 26,
+      "class_name": "surfboard",
+      "bbox": [
+        0.0536956787109375,
+        3.6549453735351562,
+        86.71733093261719,
+        114.47635650634766
+      ],
+      "map_position": [
+        -6.563942593153859,
+        1.0326940926639971,
+        0.3712924068633501
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf49_d0",
+      "keyframe_id": 49,
+      "detection_index": 0,
+      "timestamp_ns": 68400000000,
+      "object_id": 9,
+      "observation_id": 27,
+      "class_name": "person",
+      "bbox": [
+        236.61334228515625,
+        0.20123672485351562,
+        256.0863037109375,
+        52.93048095703125
+      ],
+      "map_position": [
+        -6.861139978778498,
+        -1.3976955630732775,
+        0.8376615674324706
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf49_d1",
+      "keyframe_id": 49,
+      "detection_index": 1,
+      "timestamp_ns": 68400000000,
+      "object_id": 9,
+      "observation_id": 28,
+      "class_name": "person",
+      "bbox": [
+        221.22531127929688,
+        8.41958236694336,
+        236.80294799804688,
+        52.16615295410156
+      ],
+      "map_position": [
+        -6.708530553753883,
+        -1.3968561154485668,
+        0.8427387677153269
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf50_d0",
+      "keyframe_id": 50,
+      "detection_index": 0,
+      "timestamp_ns": 68802000000,
+      "object_id": 9,
+      "observation_id": 29,
+      "class_name": "person",
+      "bbox": [
+        140.05178833007812,
+        12.781452178955078,
+        154.49899291992188,
+        53.64018630981445
+      ],
+      "map_position": [
+        -6.715999289281761,
+        -1.407533875671852,
+        0.834685003765735
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf50_d1",
+      "keyframe_id": 50,
+      "detection_index": 1,
+      "timestamp_ns": 68802000000,
+      "object_id": 9,
+      "observation_id": 30,
+      "class_name": "person",
+      "bbox": [
+        154.5582275390625,
+        4.313472747802734,
+        172.51901245117188,
+        55.51921081542969
+      ],
+      "map_position": [
+        -6.871348051907696,
+        -1.4042740416008195,
+        0.83796955238459
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf51_d0",
+      "keyframe_id": 51,
+      "detection_index": 0,
+      "timestamp_ns": 69402000000,
+      "object_id": 9,
+      "observation_id": 31,
+      "class_name": "person",
+      "bbox": [
+        25.48598861694336,
+        0.0,
+        43.614139556884766,
+        43.98065948486328
+      ],
+      "map_position": [
+        -6.698110782888469,
+        -1.4195256941465486,
+        0.8261699476710547
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf51_d1",
+      "keyframe_id": 51,
+      "detection_index": 1,
+      "timestamp_ns": 69402000000,
+      "object_id": 9,
+      "observation_id": 32,
+      "class_name": "person",
+      "bbox": [
+        43.6707763671875,
+        0.11278533935546875,
+        64.4664535522461,
+        48.93865203857422
+      ],
+      "map_position": [
+        -6.8512494404261375,
+        -1.4188335039276718,
+        0.8003551311232531
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf51_d2",
+      "keyframe_id": 51,
+      "detection_index": 2,
+      "timestamp_ns": 69402000000,
+      "object_id": 9,
+      "observation_id": 33,
+      "class_name": "person",
+      "bbox": [
+        7.407426834106445,
+        2.289886474609375,
+        27.022138595581055,
+        43.92608642578125
+      ],
+      "map_position": [
+        -6.559122065964669,
+        -1.4206203043382835,
+        0.8246665234532141
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf64_d0",
+      "keyframe_id": 64,
+      "detection_index": 0,
+      "timestamp_ns": 101601000000,
+      "object_id": 17,
+      "observation_id": 34,
+      "class_name": "boat",
+      "bbox": [
+        109.04639434814453,
+        0.07457733154296875,
+        162.98211669921875,
+        36.51283264160156
+      ],
+      "map_position": [
+        0.7084339667065094,
+        -1.7065807816884417,
+        1.652750228647928
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf65_d0",
+      "keyframe_id": 65,
+      "detection_index": 0,
+      "timestamp_ns": 102801000000,
+      "object_id": 18,
+      "observation_id": 35,
+      "class_name": "airplane",
+      "bbox": [
+        14.589836120605469,
+        0.0,
+        83.37633514404297,
+        22.104297637939453
+      ],
+      "map_position": [
+        1.4860101026762425,
+        -1.8416583664679456,
+        1.7558373691187685
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf66_d0",
+      "keyframe_id": 66,
+      "detection_index": 0,
+      "timestamp_ns": 103602000000,
+      "object_id": 19,
+      "observation_id": 36,
+      "class_name": "person",
+      "bbox": [
+        94.75503540039062,
+        0.015645980834960938,
+        160.24180603027344,
+        21.214319229125977
+      ],
+      "map_position": [
+        1.4731588068615324,
+        -1.8223723477161873,
+        1.7706124529277973
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf66_d1",
+      "keyframe_id": 66,
+      "detection_index": 1,
+      "timestamp_ns": 103602000000,
+      "object_id": 20,
+      "observation_id": 37,
+      "class_name": "chair",
+      "bbox": [
+        161.86541748046875,
+        18.838134765625,
+        222.43667602539062,
+        40.502899169921875
+      ],
+      "map_position": [
+        -0.8195650352975674,
+        -1.9404608051756838,
+        0.7711106840138535
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf71_d0",
+      "keyframe_id": 71,
+      "detection_index": 0,
+      "timestamp_ns": 105801000000,
+      "object_id": 21,
+      "observation_id": 38,
+      "class_name": "person",
+      "bbox": [
+        145.3027801513672,
+        91.26199340820312,
+        176.8860321044922,
+        134.33438110351562
+      ],
+      "map_position": [
+        -1.1863508763525978,
+        3.634757724426664,
+        0.2326238863274871
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf71_d1",
+      "keyframe_id": 71,
+      "detection_index": 1,
+      "timestamp_ns": 105801000000,
+      "object_id": 22,
+      "observation_id": 39,
+      "class_name": "skateboard",
+      "bbox": [
+        142.1028594970703,
+        130.73777770996094,
+        170.6814727783203,
+        134.5795135498047
+      ],
+      "map_position": [
+        -1.2733111024816925,
+        3.636475955814631,
+        -0.12099782362328111
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf72_d0",
+      "keyframe_id": 72,
+      "detection_index": 0,
+      "timestamp_ns": 108600000000,
+      "object_id": 21,
+      "observation_id": 40,
+      "class_name": "person",
+      "bbox": [
+        228.5789794921875,
+        91.29801940917969,
+        262.31011962890625,
+        134.26075744628906
+      ],
+      "map_position": [
+        -1.2042627415255112,
+        3.6291102870554504,
+        0.23332126915455914
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf74_d0",
+      "keyframe_id": 74,
+      "detection_index": 0,
+      "timestamp_ns": 110001000000,
+      "object_id": 23,
+      "observation_id": 41,
+      "class_name": "bed",
+      "bbox": [
+        32.038177490234375,
+        64.65260314941406,
+        196.07693481445312,
+        138.894287109375
+      ],
+      "map_position": [
+        -5.370667198745991,
+        1.1197390925613053,
+        0.34746054108579044
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Bed_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf74_d1",
+      "keyframe_id": 74,
+      "detection_index": 1,
+      "timestamp_ns": 110001000000,
+      "object_id": 24,
+      "observation_id": 42,
+      "class_name": "refrigerator",
+      "bbox": [
+        209.97174072265625,
+        89.15615844726562,
+        265.5791320800781,
+        136.83047485351562
+      ],
+      "map_position": [
+        -4.208983340512029,
+        2.5394376237275735,
+        0.20894560935013837
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf75_d0",
+      "keyframe_id": 75,
+      "detection_index": 0,
+      "timestamp_ns": 110400000000,
+      "object_id": 23,
+      "observation_id": 43,
+      "class_name": "bed",
+      "bbox": [
+        118.5560302734375,
+        65.16496276855469,
+        282.8654479980469,
+        138.0759735107422
+      ],
+      "map_position": [
+        -5.320752171392567,
+        1.1653262254920107,
+        0.3481066531445103
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Bed_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf75_d1",
+      "keyframe_id": 75,
+      "detection_index": 1,
+      "timestamp_ns": 110400000000,
+      "object_id": 25,
+      "observation_id": 44,
+      "class_name": "bed",
+      "bbox": [
+        0.337921142578125,
+        128.053955078125,
+        314.5107421875,
+        239.5714111328125
+      ],
+      "map_position": [
+        -3.5118409537208723,
+        -0.8809716707170631,
+        -0.1275148204062433
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf76_d0",
+      "keyframe_id": 76,
+      "detection_index": 0,
+      "timestamp_ns": 110802000000,
+      "object_id": 23,
+      "observation_id": 45,
+      "class_name": "bed",
+      "bbox": [
+        208.8740997314453,
+        83.7578125,
+        319.87188720703125,
+        140.99488830566406
+      ],
+      "map_position": [
+        -5.692908583985275,
+        0.9694960200202185,
+        0.20255127741557627
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Bed_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf78_d0",
+      "keyframe_id": 78,
+      "detection_index": 0,
+      "timestamp_ns": 111600000000,
+      "object_id": 26,
+      "observation_id": 46,
+      "class_name": "sports ball",
+      "bbox": [
+        47.92632293701172,
+        97.68453979492188,
+        87.3610610961914,
+        134.97872924804688
+      ],
+      "map_position": [
+        -6.721207951364474,
+        -4.015571109446082,
+        0.16204765103037114
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Ball_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf79_d0",
+      "keyframe_id": 79,
+      "detection_index": 0,
+      "timestamp_ns": 112200000000,
+      "object_id": 26,
+      "observation_id": 47,
+      "class_name": "sports ball",
+      "bbox": [
+        152.74102783203125,
+        98.67698669433594,
+        189.71868896484375,
+        134.90550231933594
+      ],
+      "map_position": [
+        -6.678376454930513,
+        -4.085416230138774,
+        0.155949852748292
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Ball_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf79_d1",
+      "keyframe_id": 79,
+      "detection_index": 1,
+      "timestamp_ns": 112200000000,
+      "object_id": 27,
+      "observation_id": 48,
+      "class_name": "person",
+      "bbox": [
+        54.30485534667969,
+        34.99443054199219,
+        80.62484741210938,
+        75.96672058105469
+      ],
+      "map_position": [
+        -5.75030712018649,
+        -5.5269406123665705,
+        1.1707642908889553
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf80_d0",
+      "keyframe_id": 80,
+      "detection_index": 0,
+      "timestamp_ns": 113601000000,
+      "object_id": 27,
+      "observation_id": 49,
+      "class_name": "person",
+      "bbox": [
+        113.25904846191406,
+        29.167722702026367,
+        140.3894805908203,
+        70.84297180175781
+      ],
+      "map_position": [
+        -5.7681725202735015,
+        -5.475470309624127,
+        1.1772048642846706
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf80_d1",
+      "keyframe_id": 80,
+      "detection_index": 1,
+      "timestamp_ns": 113601000000,
+      "object_id": 26,
+      "observation_id": 50,
+      "class_name": "sports ball",
+      "bbox": [
+        220.8148193359375,
+        94.75180053710938,
+        265.52056884765625,
+        137.20046997070312
+      ],
+      "map_position": [
+        -6.683284134641413,
+        -4.032279706264861,
+        0.1590056450649015
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Ball_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf81_d0",
+      "keyframe_id": 81,
+      "detection_index": 0,
+      "timestamp_ns": 114600000000,
+      "object_id": 27,
+      "observation_id": 51,
+      "class_name": "person",
+      "bbox": [
+        6.027381896972656,
+        6.416019439697266,
+        42.25102233886719,
+        62.59872055053711
+      ],
+      "map_position": [
+        -5.693375062329603,
+        -5.504801168635617,
+        1.1774156801397428
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf81_d1",
+      "keyframe_id": 81,
+      "detection_index": 1,
+      "timestamp_ns": 114600000000,
+      "object_id": 26,
+      "observation_id": 52,
+      "class_name": "sports ball",
+      "bbox": [
+        136.63803100585938,
+        92.88621520996094,
+        182.65707397460938,
+        138.1678466796875
+      ],
+      "map_position": [
+        -6.627195644037803,
+        -4.081797691148577,
+        0.16095598906535113
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Ball_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf82_d0",
+      "keyframe_id": 82,
+      "detection_index": 0,
+      "timestamp_ns": 115200000000,
+      "object_id": 26,
+      "observation_id": 53,
+      "class_name": "sports ball",
+      "bbox": [
+        52.880340576171875,
+        89.62631225585938,
+        105.58169555664062,
+        139.90093994140625
+      ],
+      "map_position": [
+        -6.6372535514923925,
+        -4.078518281845723,
+        0.16365416715408135
+      ],
+      "class_correct": true,
+      "physical_instance_id": "Ball_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf83_d0",
+      "keyframe_id": 83,
+      "detection_index": 0,
+      "timestamp_ns": 116400000000,
+      "object_id": 28,
+      "observation_id": 54,
+      "class_name": "person",
+      "bbox": [
+        28.26731300354004,
+        42.34410095214844,
+        53.859291076660156,
+        77.31182861328125
+      ],
+      "map_position": [
+        -9.209651013166038,
+        -4.584261397323164,
+        1.1656865918669164
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf83_d1",
+      "keyframe_id": 83,
+      "detection_index": 1,
+      "timestamp_ns": 116400000000,
+      "object_id": 29,
+      "observation_id": 55,
+      "class_name": "bed",
+      "bbox": [
+        22.035400390625,
+        133.54312133789062,
+        319.01123046875,
+        239.45672607421875
+      ],
+      "map_position": [
+        -5.344727644487524,
+        -2.3323206025068974,
+        -0.1261158420000668
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf83_d2",
+      "keyframe_id": 83,
+      "detection_index": 2,
+      "timestamp_ns": 116400000000,
+      "object_id": 30,
+      "observation_id": 56,
+      "class_name": "couch",
+      "bbox": [
+        0.0,
+        82.97969055175781,
+        34.27631378173828,
+        137.7134552001953
+      ],
+      "map_position": [
+        -8.139072476655507,
+        -4.420023084117087,
+        0.23687992107901917
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf83_d3",
+      "keyframe_id": 83,
+      "detection_index": 3,
+      "timestamp_ns": 116400000000,
+      "object_id": 10,
+      "observation_id": 57,
+      "class_name": "person",
+      "bbox": [
+        269.576171875,
+        0.8458099365234375,
+        302.3516845703125,
+        104.46121215820312
+      ],
+      "map_position": [
+        -6.108878075391505,
+        -1.618027191554217,
+        0.517452443474714
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "wrong person label on two distinct physical surfaces",
+      "visual_target_id": "wall_portrait_in_southwest_room"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf83_d4",
+      "keyframe_id": 83,
+      "detection_index": 4,
+      "timestamp_ns": 116400000000,
+      "object_id": 31,
+      "observation_id": 58,
+      "class_name": "chair",
+      "bbox": [
+        0.028179168701171875,
+        83.010498046875,
+        34.03126525878906,
+        137.90447998046875
+      ],
+      "map_position": [
+        -8.139027689488397,
+        -4.421515020934859,
+        0.23535315473645624
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairD_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf84_d0",
+      "keyframe_id": 84,
+      "detection_index": 0,
+      "timestamp_ns": 117600000000,
+      "object_id": 28,
+      "observation_id": 59,
+      "class_name": "person",
+      "bbox": [
+        7.651501655578613,
+        32.46044921875,
+        37.0431022644043,
+        71.71846008300781
+      ],
+      "map_position": [
+        -9.22940850322247,
+        -4.47086659066329,
+        1.162303997866464
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf92_d0",
+      "keyframe_id": 92,
+      "detection_index": 0,
+      "timestamp_ns": 125001000000,
+      "object_id": 32,
+      "observation_id": 60,
+      "class_name": "traffic light",
+      "bbox": [
+        0.11483001708984375,
+        45.648468017578125,
+        93.73036193847656,
+        160.0586700439453
+      ],
+      "map_position": [
+        -8.177502485092791,
+        -4.253244583009451,
+        0.20286138934771333
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf93_d0",
+      "keyframe_id": 93,
+      "detection_index": 0,
+      "timestamp_ns": 125400000000,
+      "object_id": 32,
+      "observation_id": 61,
+      "class_name": "traffic light",
+      "bbox": [
+        118.01036071777344,
+        46.37261962890625,
+        216.0043487548828,
+        158.74874877929688
+      ],
+      "map_position": [
+        -8.231518353011916,
+        -4.2684294341884765,
+        0.2135888005035359
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf94_d0",
+      "keyframe_id": 94,
+      "detection_index": 0,
+      "timestamp_ns": 125802000000,
+      "object_id": 27,
+      "observation_id": 62,
+      "class_name": "person",
+      "bbox": [
+        43.146339416503906,
+        1.0187034606933594,
+        76.52852630615234,
+        56.987396240234375
+      ],
+      "map_position": [
+        -5.844098614365452,
+        -5.467859485345718,
+        1.2171839137680973
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf94_d1",
+      "keyframe_id": 94,
+      "detection_index": 1,
+      "timestamp_ns": 125802000000,
+      "object_id": 33,
+      "observation_id": 63,
+      "class_name": "frisbee",
+      "bbox": [
+        33.346736907958984,
+        60.532657623291016,
+        132.55050659179688,
+        156.37716674804688
+      ],
+      "map_position": [
+        -7.108593544713259,
+        -3.898976428032724,
+        0.168138263903573
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf95_d0",
+      "keyframe_id": 95,
+      "detection_index": 0,
+      "timestamp_ns": 126201000000,
+      "object_id": 34,
+      "observation_id": 64,
+      "class_name": "person",
+      "bbox": [
+        0.016094207763671875,
+        45.02111053466797,
+        20.202564239501953,
+        78.4351577758789
+      ],
+      "map_position": [
+        -2.727140693878888,
+        -4.718931506847358,
+        1.1475286327495984
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf95_d1",
+      "keyframe_id": 95,
+      "detection_index": 1,
+      "timestamp_ns": 126201000000,
+      "object_id": 33,
+      "observation_id": 65,
+      "class_name": "frisbee",
+      "bbox": [
+        149.59194946289062,
+        62.85308837890625,
+        242.56753540039062,
+        155.30368041992188
+      ],
+      "map_position": [
+        -7.084319107095702,
+        -3.882478333399163,
+        0.16699424808180607
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf95_d2",
+      "keyframe_id": 95,
+      "detection_index": 2,
+      "timestamp_ns": 126201000000,
+      "object_id": 27,
+      "observation_id": 66,
+      "class_name": "person",
+      "bbox": [
+        153.29022216796875,
+        10.377218246459961,
+        182.794921875,
+        63.29454803466797
+      ],
+      "map_position": [
+        -5.749566792135424,
+        -5.397689323947702,
+        1.1888487441337834
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf96_d0",
+      "keyframe_id": 96,
+      "detection_index": 0,
+      "timestamp_ns": 126600000000,
+      "object_id": 27,
+      "observation_id": 67,
+      "class_name": "person",
+      "bbox": [
+        245.4989013671875,
+        0.19604110717773438,
+        278.796142578125,
+        59.58631134033203
+      ],
+      "map_position": [
+        -5.756381214849448,
+        -5.386067440585791,
+        1.2111450183328774
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf96_d1",
+      "keyframe_id": 96,
+      "detection_index": 1,
+      "timestamp_ns": 126600000000,
+      "object_id": 33,
+      "observation_id": 68,
+      "class_name": "frisbee",
+      "bbox": [
+        243.76434326171875,
+        57.086544036865234,
+        319.83197021484375,
+        158.62734985351562
+      ],
+      "map_position": [
+        -7.035838814686324,
+        -3.8539476366181393,
+        0.1697229748862069
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf98_d0",
+      "keyframe_id": 98,
+      "detection_index": 0,
+      "timestamp_ns": 128802000000,
+      "object_id": 33,
+      "observation_id": 69,
+      "class_name": "frisbee",
+      "bbox": [
+        222.7452392578125,
+        60.01895523071289,
+        320.0,
+        156.42926025390625
+      ],
+      "map_position": [
+        -7.14959921463282,
+        -3.924202495747296,
+        0.16934532701009664
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf98_d1",
+      "keyframe_id": 98,
+      "detection_index": 1,
+      "timestamp_ns": 128802000000,
+      "object_id": 27,
+      "observation_id": 70,
+      "class_name": "person",
+      "bbox": [
+        226.474365234375,
+        4.057727813720703,
+        258.1315002441406,
+        61.439632415771484
+      ],
+      "map_position": [
+        -5.846065172870256,
+        -5.462090015147197,
+        1.2086851698919425
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf99_d0",
+      "keyframe_id": 99,
+      "detection_index": 0,
+      "timestamp_ns": 129402000000,
+      "object_id": 33,
+      "observation_id": 71,
+      "class_name": "frisbee",
+      "bbox": [
+        105.9714584350586,
+        63.562774658203125,
+        196.94778442382812,
+        154.321044921875
+      ],
+      "map_position": [
+        -7.108679457862457,
+        -3.909612494589254,
+        0.16922738653661792
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf99_d1",
+      "keyframe_id": 99,
+      "detection_index": 1,
+      "timestamp_ns": 129402000000,
+      "object_id": 27,
+      "observation_id": 72,
+      "class_name": "person",
+      "bbox": [
+        113.58074951171875,
+        10.804744720458984,
+        142.54583740234375,
+        62.1102180480957
+      ],
+      "map_position": [
+        -5.773076471793589,
+        -5.42297412999466,
+        1.1951277414779213
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf100_d0",
+      "keyframe_id": 100,
+      "detection_index": 0,
+      "timestamp_ns": 130002000000,
+      "object_id": 27,
+      "observation_id": 73,
+      "class_name": "person",
+      "bbox": [
+        5.414070129394531,
+        0.0,
+        43.38921356201172,
+        53.03104782104492
+      ],
+      "map_position": [
+        -5.74628465616075,
+        -5.43242417700026,
+        1.1725063973192837
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf100_d1",
+      "keyframe_id": 100,
+      "detection_index": 1,
+      "timestamp_ns": 130002000000,
+      "object_id": 32,
+      "observation_id": 74,
+      "class_name": "traffic light",
+      "bbox": [
+        211.6330108642578,
+        33.13702392578125,
+        319.97564697265625,
+        165.56637573242188
+      ],
+      "map_position": [
+        -8.190693734760643,
+        -4.33025965002501,
+        0.2200994361257892
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf101_d0",
+      "keyframe_id": 101,
+      "detection_index": 0,
+      "timestamp_ns": 131202000000,
+      "object_id": 32,
+      "observation_id": 75,
+      "class_name": "traffic light",
+      "bbox": [
+        158.71908569335938,
+        9.241470336914062,
+        307.05523681640625,
+        182.7329559326172
+      ],
+      "map_position": [
+        -8.217385316585375,
+        -4.293757591702871,
+        0.20012333099961432
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf106_d0",
+      "keyframe_id": 106,
+      "detection_index": 0,
+      "timestamp_ns": 137001000000,
+      "object_id": 34,
+      "observation_id": 76,
+      "class_name": "person",
+      "bbox": [
+        44.12798309326172,
+        32.92481231689453,
+        72.60808563232422,
+        69.96022033691406
+      ],
+      "map_position": [
+        -2.748531288709878,
+        -4.674860391810579,
+        1.1708237016483374
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf106_d1",
+      "keyframe_id": 106,
+      "detection_index": 1,
+      "timestamp_ns": 137001000000,
+      "object_id": 35,
+      "observation_id": 77,
+      "class_name": "bed",
+      "bbox": [
+        1.36077880859375,
+        134.57748413085938,
+        319.302001953125,
+        239.21310424804688
+      ],
+      "map_position": [
+        -6.446047342957943,
+        -5.031984556866737,
+        -0.12572794285189515
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf108_d0",
+      "keyframe_id": 108,
+      "detection_index": 0,
+      "timestamp_ns": 142800000000,
+      "object_id": 34,
+      "observation_id": 78,
+      "class_name": "person",
+      "bbox": [
+        18.910581588745117,
+        19.531944274902344,
+        52.59710693359375,
+        62.760154724121094
+      ],
+      "map_position": [
+        -2.734164060358931,
+        -4.568265494262336,
+        1.1718948593524892
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf109_d0",
+      "keyframe_id": 109,
+      "detection_index": 0,
+      "timestamp_ns": 143400000000,
+      "object_id": 34,
+      "observation_id": 79,
+      "class_name": "person",
+      "bbox": [
+        118.91415405273438,
+        21.317861557006836,
+        149.04373168945312,
+        62.375694274902344
+      ],
+      "map_position": [
+        -2.7820412699635138,
+        -4.612844107857558,
+        1.1750565499132066
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf110_d0",
+      "keyframe_id": 110,
+      "detection_index": 0,
+      "timestamp_ns": 144000000000,
+      "object_id": 34,
+      "observation_id": 80,
+      "class_name": "person",
+      "bbox": [
+        199.84906005859375,
+        11.387130737304688,
+        233.71102905273438,
+        57.36524963378906
+      ],
+      "map_position": [
+        -2.779794025865906,
+        -4.728282973506928,
+        1.1684107956598495
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf111_d0",
+      "keyframe_id": 111,
+      "detection_index": 0,
+      "timestamp_ns": 145002000000,
+      "object_id": 34,
+      "observation_id": 81,
+      "class_name": "person",
+      "bbox": [
+        300.274658203125,
+        0.037876129150390625,
+        319.9041748046875,
+        39.79523849487305
+      ],
+      "map_position": [
+        -2.8007715103586994,
+        -4.649454282101589,
+        1.08356311442264
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf129_d0",
+      "keyframe_id": 129,
+      "detection_index": 0,
+      "timestamp_ns": 165801000000,
+      "object_id": 36,
+      "observation_id": 82,
+      "class_name": "tv",
+      "bbox": [
+        216.36654663085938,
+        16.94055938720703,
+        304.7766418457031,
+        97.51277923583984
+      ],
+      "map_position": [
+        0.3817434076157551,
+        -5.612275138970306,
+        0.9521780029893193
+      ],
+      "class_correct": true,
+      "physical_instance_id": "TV_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf130_d0",
+      "keyframe_id": 130,
+      "detection_index": 0,
+      "timestamp_ns": 166401000000,
+      "object_id": 37,
+      "observation_id": 83,
+      "class_name": "person",
+      "bbox": [
+        274.8406982421875,
+        83.68377685546875,
+        317.99822998046875,
+        139.33770751953125
+      ],
+      "map_position": [
+        -1.4985858685389037,
+        -5.5299612220847845,
+        0.19237321518824552
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf130_d1",
+      "keyframe_id": 130,
+      "detection_index": 1,
+      "timestamp_ns": 166401000000,
+      "object_id": 36,
+      "observation_id": 84,
+      "class_name": "tv",
+      "bbox": [
+        103.94493865966797,
+        27.243209838867188,
+        179.68634033203125,
+        95.60835266113281
+      ],
+      "map_position": [
+        0.5047515484941731,
+        -5.5741558801266375,
+        0.9442834341261475
+      ],
+      "class_correct": true,
+      "physical_instance_id": "TV_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf130_d2",
+      "keyframe_id": 130,
+      "detection_index": 2,
+      "timestamp_ns": 166401000000,
+      "object_id": 38,
+      "observation_id": 85,
+      "class_name": "bench",
+      "bbox": [
+        72.18612670898438,
+        124.08047485351562,
+        247.4005126953125,
+        144.90780639648438
+      ],
+      "map_position": [
+        0.17891161567300018,
+        -5.537748744320312,
+        -0.09334939518454706
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf130_d3",
+      "keyframe_id": 130,
+      "detection_index": 3,
+      "timestamp_ns": 166401000000,
+      "object_id": 39,
+      "observation_id": 86,
+      "class_name": "bench",
+      "bbox": [
+        73.48085021972656,
+        96.13143920898438,
+        244.17674255371094,
+        140.23077392578125
+      ],
+      "map_position": [
+        -0.09525144757636173,
+        -5.07341553207247,
+        0.12522726509660048
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf131_d0",
+      "keyframe_id": 131,
+      "detection_index": 0,
+      "timestamp_ns": 167001000000,
+      "object_id": 37,
+      "observation_id": 87,
+      "class_name": "person",
+      "bbox": [
+        177.84271240234375,
+        85.73709106445312,
+        217.8619384765625,
+        139.454345703125
+      ],
+      "map_position": [
+        -1.402170705194775,
+        -5.516321049522473,
+        0.18505498510428015
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf131_d1",
+      "keyframe_id": 131,
+      "detection_index": 1,
+      "timestamp_ns": 167001000000,
+      "object_id": 40,
+      "observation_id": 88,
+      "class_name": "person",
+      "bbox": [
+        58.181854248046875,
+        46.837181091308594,
+        68.84994506835938,
+        75.8222885131836
+      ],
+      "map_position": [
+        0.26271146449680294,
+        -5.5109830502809345,
+        0.83316662983987
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf131_d2",
+      "keyframe_id": 131,
+      "detection_index": 2,
+      "timestamp_ns": 167001000000,
+      "object_id": 40,
+      "observation_id": 89,
+      "class_name": "person",
+      "bbox": [
+        68.17167663574219,
+        43.482017517089844,
+        79.99908447265625,
+        77.40814971923828
+      ],
+      "map_position": [
+        0.11273601659886201,
+        -5.506874614417772,
+        0.8352600554709265
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf132_d0",
+      "keyframe_id": 132,
+      "detection_index": 0,
+      "timestamp_ns": 168201000000,
+      "object_id": 37,
+      "observation_id": 90,
+      "class_name": "person",
+      "bbox": [
+        106.92196655273438,
+        78.47183227539062,
+        151.65313720703125,
+        142.05564880371094
+      ],
+      "map_position": [
+        -1.4296952695515217,
+        -5.511565960061834,
+        0.19332335798731753
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf132_d1",
+      "keyframe_id": 132,
+      "detection_index": 1,
+      "timestamp_ns": 168201000000,
+      "object_id": 41,
+      "observation_id": 91,
+      "class_name": "chair",
+      "bbox": [
+        0.11527252197265625,
+        85.96002197265625,
+        75.69682312011719,
+        152.4377899169922
+      ],
+      "map_position": [
+        -0.6570515496532532,
+        -5.356779354036993,
+        0.1109310207411855
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf133_d0",
+      "keyframe_id": 133,
+      "detection_index": 0,
+      "timestamp_ns": 169401000000,
+      "object_id": 37,
+      "observation_id": 92,
+      "class_name": "person",
+      "bbox": [
+        116.30317687988281,
+        66.91020202636719,
+        173.7896270751953,
+        147.4565887451172
+      ],
+      "map_position": [
+        -1.3649373959387794,
+        -5.517339383761512,
+        0.19641477674905294
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf134_d0",
+      "keyframe_id": 134,
+      "detection_index": 0,
+      "timestamp_ns": 170601000000,
+      "object_id": 37,
+      "observation_id": 93,
+      "class_name": "person",
+      "bbox": [
+        149.9800567626953,
+        45.28001403808594,
+        230.5315399169922,
+        158.67156982421875
+      ],
+      "map_position": [
+        -1.388891829189388,
+        -5.485580726330224,
+        0.19703066781710776
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf134_d1",
+      "keyframe_id": 134,
+      "detection_index": 1,
+      "timestamp_ns": 170601000000,
+      "object_id": 42,
+      "observation_id": 94,
+      "class_name": "bench",
+      "bbox": [
+        0.192779541015625,
+        126.82733917236328,
+        102.49128723144531,
+        179.306884765625
+      ],
+      "map_position": [
+        -0.6580631575197384,
+        -5.366495201212329,
+        -0.0732012974524258
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf134_d2",
+      "keyframe_id": 134,
+      "detection_index": 2,
+      "timestamp_ns": 170601000000,
+      "object_id": 41,
+      "observation_id": 95,
+      "class_name": "chair",
+      "bbox": [
+        0.135284423828125,
+        126.99385070800781,
+        102.12530517578125,
+        179.74134826660156
+      ],
+      "map_position": [
+        -0.6569597980391697,
+        -5.366230474561288,
+        -0.07481156139573043
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf135_d0",
+      "keyframe_id": 135,
+      "detection_index": 0,
+      "timestamp_ns": 172002000000,
+      "object_id": 37,
+      "observation_id": 96,
+      "class_name": "person",
+      "bbox": [
+        274.68402099609375,
+        1.564605712890625,
+        319.90057373046875,
+        182.34169006347656
+      ],
+      "map_position": [
+        -1.2354523544470792,
+        -5.464862557537043,
+        0.1927544058460533
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf135_d1",
+      "keyframe_id": 135,
+      "detection_index": 1,
+      "timestamp_ns": 172002000000,
+      "object_id": 42,
+      "observation_id": 97,
+      "class_name": "bench",
+      "bbox": [
+        0.1772003173828125,
+        128.84902954101562,
+        196.90684509277344,
+        210.71514892578125
+      ],
+      "map_position": [
+        -0.6889726183391247,
+        -5.133747293509102,
+        -0.06065516386460869
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf136_d0",
+      "keyframe_id": 136,
+      "detection_index": 0,
+      "timestamp_ns": 172602000000,
+      "object_id": 43,
+      "observation_id": 98,
+      "class_name": "traffic light",
+      "bbox": [
+        22.69247055053711,
+        4.3007965087890625,
+        58.343631744384766,
+        35.61310958862305
+      ],
+      "map_position": [
+        2.5206156117685437,
+        -5.543690425705087,
+        1.4145656515328602
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf137_d0",
+      "keyframe_id": 137,
+      "detection_index": 0,
+      "timestamp_ns": 173202000000,
+      "object_id": 44,
+      "observation_id": 99,
+      "class_name": "tv",
+      "bbox": [
+        295.372314453125,
+        82.22618103027344,
+        319.83282470703125,
+        133.3372039794922
+      ],
+      "map_position": [
+        -0.6786699091406072,
+        -5.128762130816774,
+        0.13576444953175076
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf140_d0",
+      "keyframe_id": 140,
+      "detection_index": 0,
+      "timestamp_ns": 175800000000,
+      "object_id": 45,
+      "observation_id": 100,
+      "class_name": "refrigerator",
+      "bbox": [
+        0.062389373779296875,
+        86.74394226074219,
+        53.554840087890625,
+        163.42974853515625
+      ],
+      "map_position": [
+        0.7542041588942832,
+        -3.029897050273029,
+        0.07417302663482694
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf140_d1",
+      "keyframe_id": 140,
+      "detection_index": 1,
+      "timestamp_ns": 175800000000,
+      "object_id": 46,
+      "observation_id": 101,
+      "class_name": "person",
+      "bbox": [
+        304.8778991699219,
+        120.94904327392578,
+        314.9060363769531,
+        139.12969970703125
+      ],
+      "map_position": [
+        3.5282155897323375,
+        -5.024515754305884,
+        -0.02813279554673563
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf141_d0",
+      "keyframe_id": 141,
+      "detection_index": 0,
+      "timestamp_ns": 177000000000,
+      "object_id": 46,
+      "observation_id": 102,
+      "class_name": "person",
+      "bbox": [
+        226.03199768066406,
+        120.00247955322266,
+        236.4633331298828,
+        140.18612670898438
+      ],
+      "map_position": [
+        3.5524146768600455,
+        -5.035555656995837,
+        -0.024621503930732855
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf141_d1",
+      "keyframe_id": 141,
+      "detection_index": 1,
+      "timestamp_ns": 177000000000,
+      "object_id": 47,
+      "observation_id": 103,
+      "class_name": "person",
+      "bbox": [
+        256.6909484863281,
+        128.7476348876953,
+        263.8635559082031,
+        147.5481414794922
+      ],
+      "map_position": [
+        2.494553049006569,
+        -5.045530473675549,
+        -0.05796806522204255
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf143_d0",
+      "keyframe_id": 143,
+      "detection_index": 0,
+      "timestamp_ns": 179400000000,
+      "object_id": 46,
+      "observation_id": 104,
+      "class_name": "person",
+      "bbox": [
+        242.72821044921875,
+        120.35507202148438,
+        259.8759765625,
+        148.56588745117188
+      ],
+      "map_position": [
+        3.52011860768409,
+        -4.915545487195542,
+        -0.02188644047962711
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf144_d0",
+      "keyframe_id": 144,
+      "detection_index": 0,
+      "timestamp_ns": 180600000000,
+      "object_id": 48,
+      "observation_id": 105,
+      "class_name": "dog",
+      "bbox": [
+        257.0570068359375,
+        120.44856262207031,
+        279.40625,
+        156.0388641357422
+      ],
+      "map_position": [
+        3.5227026649087714,
+        -4.83434212931066,
+        -0.018812805001062666
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf145_d0",
+      "keyframe_id": 145,
+      "detection_index": 0,
+      "timestamp_ns": 181800000000,
+      "object_id": 49,
+      "observation_id": 106,
+      "class_name": "horse",
+      "bbox": [
+        274.590576171875,
+        120.40503692626953,
+        309.0726318359375,
+        170.34686279296875
+      ],
+      "map_position": [
+        3.451613827209874,
+        -4.9130406029933775,
+        -0.018757595599393093
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf146_d0",
+      "keyframe_id": 146,
+      "detection_index": 0,
+      "timestamp_ns": 183201000000,
+      "object_id": 50,
+      "observation_id": 107,
+      "class_name": "bed",
+      "bbox": [
+        65.09197998046875,
+        0.137786865234375,
+        310.24420166015625,
+        182.15036010742188
+      ],
+      "map_position": [
+        4.792173929297981,
+        -5.043387143581068,
+        0.3346149560182504
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf148_d0",
+      "keyframe_id": 148,
+      "detection_index": 0,
+      "timestamp_ns": 185400000000,
+      "object_id": 51,
+      "observation_id": 108,
+      "class_name": "chair",
+      "bbox": [
+        3.8787155151367188,
+        98.44195556640625,
+        27.40554428100586,
+        133.95159912109375
+      ],
+      "map_position": [
+        5.700677414533447,
+        0.41067624279672277,
+        0.17196920798955245
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "partly overlapping dining-chair region; exact physical identity unresolved",
+      "visual_target_id": null,
+      "candidate_physical_ids": [
+        "ChairA_01_001",
+        "ChairA_01_002",
+        "ChairA_01_003",
+        "ChairA_01_004"
+      ]
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf148_d1",
+      "keyframe_id": 148,
+      "detection_index": 1,
+      "timestamp_ns": 185400000000,
+      "object_id": 51,
+      "observation_id": 109,
+      "class_name": "chair",
+      "bbox": [
+        26.843608856201172,
+        83.29148864746094,
+        47.43050765991211,
+        133.62298583984375
+      ],
+      "map_position": [
+        5.902669361156242,
+        0.0922786421773063,
+        0.3109867737878141
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf152_d0",
+      "keyframe_id": 152,
+      "detection_index": 0,
+      "timestamp_ns": 188001000000,
+      "object_id": 52,
+      "observation_id": 110,
+      "class_name": "chair",
+      "bbox": [
+        301.59552001953125,
+        85.93040466308594,
+        319.77545166015625,
+        134.26577758789062
+      ],
+      "map_position": [
+        5.588439007748537,
+        1.4195632162221385,
+        0.28248053081687713
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf153_d0",
+      "keyframe_id": 153,
+      "detection_index": 0,
+      "timestamp_ns": 189201000000,
+      "object_id": 52,
+      "observation_id": 111,
+      "class_name": "chair",
+      "bbox": [
+        290.24322509765625,
+        84.04454040527344,
+        316.28668212890625,
+        135.25155639648438
+      ],
+      "map_position": [
+        5.6725743449026345,
+        1.514015374276326,
+        0.27995682503250796
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf154_d0",
+      "keyframe_id": 154,
+      "detection_index": 0,
+      "timestamp_ns": 190401000000,
+      "object_id": 52,
+      "observation_id": 112,
+      "class_name": "chair",
+      "bbox": [
+        284.50457763671875,
+        80.63064575195312,
+        314.90850830078125,
+        136.59527587890625
+      ],
+      "map_position": [
+        5.764235326936703,
+        1.5174705012033698,
+        0.28408307109501024
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf155_d0",
+      "keyframe_id": 155,
+      "detection_index": 0,
+      "timestamp_ns": 191400000000,
+      "object_id": 53,
+      "observation_id": 113,
+      "class_name": "chair",
+      "bbox": [
+        246.13043212890625,
+        88.19143676757812,
+        275.9935302734375,
+        137.18756103515625
+      ],
+      "map_position": [
+        6.698227951046476,
+        1.3895509418610055,
+        0.23126856870761403
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_004",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf155_d1",
+      "keyframe_id": 155,
+      "detection_index": 1,
+      "timestamp_ns": 191400000000,
+      "object_id": 52,
+      "observation_id": 114,
+      "class_name": "chair",
+      "bbox": [
+        196.36312866210938,
+        81.79161071777344,
+        223.76223754882812,
+        136.302978515625
+      ],
+      "map_position": [
+        5.705309848334631,
+        1.5154830299935873,
+        0.28182516394822565
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf155_d2",
+      "keyframe_id": 155,
+      "detection_index": 2,
+      "timestamp_ns": 191400000000,
+      "object_id": 54,
+      "observation_id": 115,
+      "class_name": "dining table",
+      "bbox": [
+        207.92953491210938,
+        76.22334289550781,
+        303.73870849609375,
+        138.12986755371094
+      ],
+      "map_position": [
+        5.820795014043197,
+        0.641185558427519,
+        0.27825171119477965
+      ],
+      "class_correct": true,
+      "physical_instance_id": "KitchenTable_01_001",
+      "identity_status": "reviewed same physical table; record 56 is an extra estimate"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf155_d3",
+      "keyframe_id": 155,
+      "detection_index": 3,
+      "timestamp_ns": 191400000000,
+      "object_id": 54,
+      "observation_id": 116,
+      "class_name": "dining table",
+      "bbox": [
+        204.16439819335938,
+        76.07687377929688,
+        304.3840026855469,
+        90.8968505859375
+      ],
+      "map_position": [
+        5.8239872645362425,
+        0.672774236327804,
+        0.6040820559612169
+      ],
+      "class_correct": true,
+      "physical_instance_id": "KitchenTable_01_001",
+      "identity_status": "reviewed same physical table; record 56 is an extra estimate"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf155_d4",
+      "keyframe_id": 155,
+      "detection_index": 4,
+      "timestamp_ns": 191400000000,
+      "object_id": 51,
+      "observation_id": 117,
+      "class_name": "chair",
+      "bbox": [
+        273.53662109375,
+        61.95521545410156,
+        319.79339599609375,
+        140.11441040039062
+      ],
+      "map_position": [
+        5.890780090486658,
+        0.06724032329009111,
+        0.3285770235919273
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf156_d0",
+      "keyframe_id": 156,
+      "detection_index": 0,
+      "timestamp_ns": 192000000000,
+      "object_id": 52,
+      "observation_id": 118,
+      "class_name": "chair",
+      "bbox": [
+        99.04161071777344,
+        80.98423767089844,
+        126.73419189453125,
+        136.3721923828125
+      ],
+      "map_position": [
+        5.638000494486387,
+        1.5359291668854511,
+        0.284888031614035
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf156_d1",
+      "keyframe_id": 156,
+      "detection_index": 1,
+      "timestamp_ns": 192000000000,
+      "object_id": 54,
+      "observation_id": 119,
+      "class_name": "dining table",
+      "bbox": [
+        110.60704803466797,
+        77.97206115722656,
+        197.7396240234375,
+        137.21139526367188
+      ],
+      "map_position": [
+        5.6972675858443385,
+        0.6459220199012994,
+        0.27598195518727153
+      ],
+      "class_correct": true,
+      "physical_instance_id": "KitchenTable_01_001",
+      "identity_status": "reviewed same physical table; record 56 is an extra estimate"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf156_d2",
+      "keyframe_id": 156,
+      "detection_index": 2,
+      "timestamp_ns": 192000000000,
+      "object_id": 53,
+      "observation_id": 120,
+      "class_name": "chair",
+      "bbox": [
+        149.16915893554688,
+        91.12640380859375,
+        174.53097534179688,
+        134.92617797851562
+      ],
+      "map_position": [
+        6.591971294642915,
+        1.3773216169610407,
+        0.2295953005521985
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_004",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf157_d0",
+      "keyframe_id": 157,
+      "detection_index": 0,
+      "timestamp_ns": 192600000000,
+      "object_id": 54,
+      "observation_id": 121,
+      "class_name": "dining table",
+      "bbox": [
+        0.296417236328125,
+        73.96434020996094,
+        97.80021667480469,
+        138.94546508789062
+      ],
+      "map_position": [
+        5.757394840283993,
+        0.73603803905849,
+        0.2819848104769352
+      ],
+      "class_correct": true,
+      "physical_instance_id": "KitchenTable_01_001",
+      "identity_status": "reviewed same physical table; record 56 is an extra estimate"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf157_d1",
+      "keyframe_id": 157,
+      "detection_index": 1,
+      "timestamp_ns": 192600000000,
+      "object_id": 53,
+      "observation_id": 122,
+      "class_name": "chair",
+      "bbox": [
+        43.84855651855469,
+        88.28189086914062,
+        74.22979736328125,
+        136.9944610595703
+      ],
+      "map_position": [
+        6.603237782679397,
+        1.3995960345305614,
+        0.2285133104481914
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_004",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf158_d0",
+      "keyframe_id": 158,
+      "detection_index": 0,
+      "timestamp_ns": 193401000000,
+      "object_id": 55,
+      "observation_id": 123,
+      "class_name": "chair",
+      "bbox": [
+        30.992767333984375,
+        74.26513671875,
+        67.32279968261719,
+        136.78012084960938
+      ],
+      "map_position": [
+        6.700126845647363,
+        0.10636227689091049,
+        0.3112686248545816
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "overlapping dining-chair box; exact identity unresolved",
+      "candidate_physical_ids": [
+        "ChairA_01_001",
+        "ChairA_01_002",
+        "ChairA_01_004"
+      ]
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf158_d1",
+      "keyframe_id": 158,
+      "detection_index": 1,
+      "timestamp_ns": 193401000000,
+      "object_id": 55,
+      "observation_id": 124,
+      "class_name": "chair",
+      "bbox": [
+        43.84882354736328,
+        74.16932678222656,
+        67.19355773925781,
+        136.6837921142578
+      ],
+      "map_position": [
+        6.832965223771165,
+        0.0852075869056641,
+        0.31934538609899094
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "overlapping dining-chair box; exact identity unresolved",
+      "candidate_physical_ids": [
+        "ChairA_01_001",
+        "ChairA_01_002",
+        "ChairA_01_004"
+      ]
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf158_d2",
+      "keyframe_id": 158,
+      "detection_index": 2,
+      "timestamp_ns": 193401000000,
+      "object_id": 56,
+      "observation_id": 125,
+      "class_name": "dining table",
+      "bbox": [
+        0.078887939453125,
+        71.85792541503906,
+        66.39739990234375,
+        139.40452575683594
+      ],
+      "map_position": [
+        6.650885708396535,
+        0.3234979123879862,
+        0.3090784480330266
+      ],
+      "class_correct": true,
+      "physical_instance_id": "KitchenTable_01_001",
+      "identity_status": "reviewed same physical table; record 56 is an extra estimate"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf166_d0",
+      "keyframe_id": 166,
+      "detection_index": 0,
+      "timestamp_ns": 202002000000,
+      "object_id": 57,
+      "observation_id": 126,
+      "class_name": "bed",
+      "bbox": [
+        0.099609375,
+        162.21102905273438,
+        319.75030517578125,
+        239.39889526367188
+      ],
+      "map_position": [
+        6.098145810714151,
+        -4.906681017944536,
+        -0.12457710804761828
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf167_d0",
+      "keyframe_id": 167,
+      "detection_index": 0,
+      "timestamp_ns": 203202000000,
+      "object_id": 57,
+      "observation_id": 127,
+      "class_name": "bed",
+      "bbox": [
+        1.4324951171875,
+        179.83651733398438,
+        317.895263671875,
+        239.81051635742188
+      ],
+      "map_position": [
+        6.464399261737929,
+        -5.020760383139177,
+        -0.1255151490135188
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf173_d0",
+      "keyframe_id": 173,
+      "detection_index": 0,
+      "timestamp_ns": 213201000000,
+      "object_id": 55,
+      "observation_id": 128,
+      "class_name": "chair",
+      "bbox": [
+        94.33309936523438,
+        77.91746520996094,
+        129.01385498046875,
+        136.2570343017578
+      ],
+      "map_position": [
+        6.311551879608183,
+        -0.016685981052614096,
+        0.3113964374839708
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf173_d1",
+      "keyframe_id": 173,
+      "detection_index": 1,
+      "timestamp_ns": 213201000000,
+      "object_id": 55,
+      "observation_id": 129,
+      "class_name": "chair",
+      "bbox": [
+        135.64352416992188,
+        79.58982849121094,
+        180.34304809570312,
+        135.5319061279297
+      ],
+      "map_position": [
+        7.0682864585800775,
+        -0.03035359885501343,
+        0.31028090146698256
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed southeast/front-row chair",
+      "visual_target_id": "ChairA_01_001"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf173_d2",
+      "keyframe_id": 173,
+      "detection_index": 2,
+      "timestamp_ns": 213201000000,
+      "object_id": 56,
+      "observation_id": 130,
+      "class_name": "dining table",
+      "bbox": [
+        79.41448974609375,
+        78.95704650878906,
+        180.56637573242188,
+        136.17669677734375
+      ],
+      "map_position": [
+        6.60262255569771,
+        -0.045443433670004474,
+        0.3051576239470672
+      ],
+      "class_correct": true,
+      "physical_instance_id": "KitchenTable_01_001",
+      "identity_status": "reviewed same physical table; record 56 is an extra estimate"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf174_d0",
+      "keyframe_id": 174,
+      "detection_index": 0,
+      "timestamp_ns": 213801000000,
+      "object_id": 55,
+      "observation_id": 131,
+      "class_name": "chair",
+      "bbox": [
+        179.43450927734375,
+        77.31198120117188,
+        214.872802734375,
+        136.92520141601562
+      ],
+      "map_position": [
+        6.323466689902642,
+        -0.019492782496426386,
+        0.3113132139200081
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf174_d1",
+      "keyframe_id": 174,
+      "detection_index": 1,
+      "timestamp_ns": 213801000000,
+      "object_id": 58,
+      "observation_id": 132,
+      "class_name": "chair",
+      "bbox": [
+        238.78216552734375,
+        76.80528259277344,
+        269.97943115234375,
+        136.41053771972656
+      ],
+      "map_position": [
+        7.213571056574253,
+        -0.0473260249348284,
+        0.31425416022211977
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf174_d2",
+      "keyframe_id": 174,
+      "detection_index": 2,
+      "timestamp_ns": 213801000000,
+      "object_id": 55,
+      "observation_id": 133,
+      "class_name": "chair",
+      "bbox": [
+        221.12823486328125,
+        76.80207824707031,
+        269.7799072265625,
+        136.31585693359375
+      ],
+      "map_position": [
+        7.0766404866301444,
+        -0.04766479093533338,
+        0.3156143028574339
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed southeast/front-row chair",
+      "visual_target_id": "ChairA_01_001"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf175_d0",
+      "keyframe_id": 175,
+      "detection_index": 0,
+      "timestamp_ns": 215001000000,
+      "object_id": 55,
+      "observation_id": 134,
+      "class_name": "chair",
+      "bbox": [
+        101.12117004394531,
+        75.90684509277344,
+        136.23764038085938,
+        136.98086547851562
+      ],
+      "map_position": [
+        6.32730036374368,
+        0.012316739225246565,
+        0.31386506988591534
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf175_d1",
+      "keyframe_id": 175,
+      "detection_index": 1,
+      "timestamp_ns": 215001000000,
+      "object_id": 55,
+      "observation_id": 135,
+      "class_name": "chair",
+      "bbox": [
+        141.97698974609375,
+        77.67195129394531,
+        189.11358642578125,
+        135.91770935058594
+      ],
+      "map_position": [
+        7.065813480268578,
+        0.0066610706200478376,
+        0.31434772221644164
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "overlapping dining-chair box; exact identity unresolved",
+      "candidate_physical_ids": [
+        "ChairA_01_001",
+        "ChairA_01_002",
+        "ChairA_01_004"
+      ]
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf175_d2",
+      "keyframe_id": 175,
+      "detection_index": 2,
+      "timestamp_ns": 215001000000,
+      "object_id": 58,
+      "observation_id": 136,
+      "class_name": "chair",
+      "bbox": [
+        159.57827758789062,
+        77.59432983398438,
+        189.54901123046875,
+        136.16978454589844
+      ],
+      "map_position": [
+        7.210132509151169,
+        -0.006146608845098989,
+        0.3135614353267455
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf176_d0",
+      "keyframe_id": 176,
+      "detection_index": 0,
+      "timestamp_ns": 215601000000,
+      "object_id": 55,
+      "observation_id": 137,
+      "class_name": "chair",
+      "bbox": [
+        0.0,
+        69.45863342285156,
+        38.89487075805664,
+        140.31053161621094
+      ],
+      "map_position": [
+        6.363331314782549,
+        0.029906197342778107,
+        0.30792883974288193
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf176_d1",
+      "keyframe_id": 176,
+      "detection_index": 1,
+      "timestamp_ns": 215601000000,
+      "object_id": 55,
+      "observation_id": 138,
+      "class_name": "chair",
+      "bbox": [
+        49.14921951293945,
+        74.36244201660156,
+        100.25315856933594,
+        136.6577606201172
+      ],
+      "map_position": [
+        7.092503133219878,
+        0.04883708889833471,
+        0.3182603399364656
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed southeast/front-row chair",
+      "visual_target_id": "ChairA_01_001"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf178_d0",
+      "keyframe_id": 178,
+      "detection_index": 0,
+      "timestamp_ns": 218001000000,
+      "object_id": 59,
+      "observation_id": 139,
+      "class_name": "traffic light",
+      "bbox": [
+        166.60623168945312,
+        135.85873413085938,
+        183.55093383789062,
+        146.41143798828125
+      ],
+      "map_position": [
+        8.692653198438949,
+        -1.6609130305861317,
+        -0.08295155954823737
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf179_d0",
+      "keyframe_id": 179,
+      "detection_index": 0,
+      "timestamp_ns": 219201000000,
+      "object_id": 59,
+      "observation_id": 140,
+      "class_name": "traffic light",
+      "bbox": [
+        191.88258361816406,
+        141.2325439453125,
+        205.66749572753906,
+        153.679443359375
+      ],
+      "map_position": [
+        8.718901365388168,
+        -1.7261882092086727,
+        -0.08272644962068244
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf180_d0",
+      "keyframe_id": 180,
+      "detection_index": 0,
+      "timestamp_ns": 220401000000,
+      "object_id": 59,
+      "observation_id": 141,
+      "class_name": "traffic light",
+      "bbox": [
+        180.04107666015625,
+        149.48504638671875,
+        211.0093994140625,
+        165.4871826171875
+      ],
+      "map_position": [
+        8.688897110621173,
+        -1.7113746067910485,
+        -0.07825417900595939
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf182_d0",
+      "keyframe_id": 182,
+      "detection_index": 0,
+      "timestamp_ns": 223002000000,
+      "object_id": 60,
+      "observation_id": 142,
+      "class_name": "person",
+      "bbox": [
+        5.687339782714844,
+        78.7978744506836,
+        36.803199768066406,
+        115.39948272705078
+      ],
+      "map_position": [
+        8.298362699492225,
+        2.8186490124949444,
+        0.45686320685223797
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf183_d0",
+      "keyframe_id": 183,
+      "detection_index": 0,
+      "timestamp_ns": 223401000000,
+      "object_id": 60,
+      "observation_id": 143,
+      "class_name": "person",
+      "bbox": [
+        107.73472595214844,
+        82.31985473632812,
+        134.1657257080078,
+        115.48696899414062
+      ],
+      "map_position": [
+        8.18793958297742,
+        2.8103696649754744,
+        0.4574660939617913
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf184_d0",
+      "keyframe_id": 184,
+      "detection_index": 0,
+      "timestamp_ns": 223800000000,
+      "object_id": 60,
+      "observation_id": 144,
+      "class_name": "person",
+      "bbox": [
+        207.71478271484375,
+        81.67454528808594,
+        235.3018798828125,
+        115.52735900878906
+      ],
+      "map_position": [
+        8.177523645462385,
+        2.816133207761831,
+        0.4551208532904784
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf184_d1",
+      "keyframe_id": 184,
+      "detection_index": 1,
+      "timestamp_ns": 223800000000,
+      "object_id": 55,
+      "observation_id": 145,
+      "class_name": "chair",
+      "bbox": [
+        0.06409454345703125,
+        66.00636291503906,
+        34.95935821533203,
+        147.5949249267578
+      ],
+      "map_position": [
+        6.601707827496167,
+        0.08359204472987125,
+        0.21155283736293035
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf184_d2",
+      "keyframe_id": 184,
+      "detection_index": 2,
+      "timestamp_ns": 223800000000,
+      "object_id": 58,
+      "observation_id": 146,
+      "class_name": "chair",
+      "bbox": [
+        42.21943664550781,
+        13.274765014648438,
+        127.48443603515625,
+        155.96759033203125
+      ],
+      "map_position": [
+        7.359952383242809,
+        -0.19914483480380052,
+        0.3345799840340452
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf185_d0",
+      "keyframe_id": 185,
+      "detection_index": 0,
+      "timestamp_ns": 224202000000,
+      "object_id": 58,
+      "observation_id": 147,
+      "class_name": "chair",
+      "bbox": [
+        150.1855926513672,
+        15.412826538085938,
+        229.2520294189453,
+        155.01414489746094
+      ],
+      "map_position": [
+        7.406950771571686,
+        -0.16667721492746002,
+        0.3374768654269638
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf185_d1",
+      "keyframe_id": 185,
+      "detection_index": 1,
+      "timestamp_ns": 224202000000,
+      "object_id": 61,
+      "observation_id": 148,
+      "class_name": "traffic light",
+      "bbox": [
+        74.4765625,
+        38.94343566894531,
+        109.97611999511719,
+        107.123779296875
+      ],
+      "map_position": [
+        6.460012450376847,
+        -0.1508216110480154,
+        0.5092170035457069
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf186_d0",
+      "keyframe_id": 186,
+      "detection_index": 0,
+      "timestamp_ns": 224601000000,
+      "object_id": 58,
+      "observation_id": 149,
+      "class_name": "chair",
+      "bbox": [
+        239.08294677734375,
+        2.493316650390625,
+        319.69219970703125,
+        160.12249755859375
+      ],
+      "map_position": [
+        7.373313259328481,
+        -0.12136105488007143,
+        0.34731886049919286
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf186_d1",
+      "keyframe_id": 186,
+      "detection_index": 1,
+      "timestamp_ns": 224601000000,
+      "object_id": 55,
+      "observation_id": 150,
+      "class_name": "chair",
+      "bbox": [
+        162.30087280273438,
+        36.90040588378906,
+        230.52066040039062,
+        148.67013549804688
+      ],
+      "map_position": [
+        6.629148309373203,
+        -0.08167226574116482,
+        0.33398457223711575
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_002",
+      "identity_status": "reviewed southwest/front-row chair",
+      "visual_target_id": "ChairA_01_002"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf188_d0",
+      "keyframe_id": 188,
+      "detection_index": 0,
+      "timestamp_ns": 227400000000,
+      "object_id": 61,
+      "observation_id": 151,
+      "class_name": "traffic light",
+      "bbox": [
+        224.932373046875,
+        10.439682006835938,
+        314.7720947265625,
+        104.88478088378906
+      ],
+      "map_position": [
+        6.5050637502975235,
+        -0.049414929254075535,
+        0.5036060675463191
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf189_d0",
+      "keyframe_id": 189,
+      "detection_index": 0,
+      "timestamp_ns": 228000000000,
+      "object_id": 61,
+      "observation_id": 152,
+      "class_name": "traffic light",
+      "bbox": [
+        114.8330078125,
+        14.879714965820312,
+        164.28973388671875,
+        104.55181884765625
+      ],
+      "map_position": [
+        6.322855700047806,
+        -0.12316532346826614,
+        0.5169172710981007
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf189_d1",
+      "keyframe_id": 189,
+      "detection_index": 1,
+      "timestamp_ns": 228000000000,
+      "object_id": 58,
+      "observation_id": 153,
+      "class_name": "chair",
+      "bbox": [
+        228.60446166992188,
+        0.7309112548828125,
+        319.7779846191406,
+        169.51028442382812
+      ],
+      "map_position": [
+        7.190732053825268,
+        -0.05132069725565658,
+        0.28139265023663035
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf190_d0",
+      "keyframe_id": 190,
+      "detection_index": 0,
+      "timestamp_ns": 228402000000,
+      "object_id": 60,
+      "observation_id": 154,
+      "class_name": "person",
+      "bbox": [
+        283.3470458984375,
+        75.21710205078125,
+        318.2532958984375,
+        114.83909606933594
+      ],
+      "map_position": [
+        7.864444324070598,
+        2.9907465607362753,
+        0.45976811352203617
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf190_d1",
+      "keyframe_id": 190,
+      "detection_index": 1,
+      "timestamp_ns": 228402000000,
+      "object_id": 52,
+      "observation_id": 155,
+      "class_name": "chair",
+      "bbox": [
+        85.08172607421875,
+        45.76530075073242,
+        163.1099853515625,
+        162.6311798095703
+      ],
+      "map_position": [
+        5.7988191710339665,
+        1.5795623057717778,
+        0.30184543124826607
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_003",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf190_d2",
+      "keyframe_id": 190,
+      "detection_index": 2,
+      "timestamp_ns": 228402000000,
+      "object_id": 58,
+      "observation_id": 156,
+      "class_name": "chair",
+      "bbox": [
+        150.2095947265625,
+        0.49603271484375,
+        241.2216796875,
+        167.94903564453125
+      ],
+      "map_position": [
+        7.190867855239784,
+        -0.05206200102960845,
+        0.2873803265373267
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf191_d0",
+      "keyframe_id": 191,
+      "detection_index": 0,
+      "timestamp_ns": 229002000000,
+      "object_id": 60,
+      "observation_id": 157,
+      "class_name": "person",
+      "bbox": [
+        182.724609375,
+        78.67681884765625,
+        210.98370361328125,
+        114.47625732421875
+      ],
+      "map_position": [
+        7.8661911779988545,
+        2.994722944832654,
+        0.4599173340917164
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf191_d1",
+      "keyframe_id": 191,
+      "detection_index": 1,
+      "timestamp_ns": 229002000000,
+      "object_id": 58,
+      "observation_id": 158,
+      "class_name": "chair",
+      "bbox": [
+        15.935638427734375,
+        0.1898956298828125,
+        141.54454040527344,
+        171.1611328125
+      ],
+      "map_position": [
+        7.132918615107531,
+        -0.06471276185820685,
+        0.2526184343078385
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairA_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf192_d0",
+      "keyframe_id": 192,
+      "detection_index": 0,
+      "timestamp_ns": 229800000000,
+      "object_id": 60,
+      "observation_id": 159,
+      "class_name": "person",
+      "bbox": [
+        91.47827911376953,
+        74.56709289550781,
+        123.27300262451172,
+        114.35038757324219
+      ],
+      "map_position": [
+        7.827451647976108,
+        3.0092628961070282,
+        0.4587822243715047
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf192_d1",
+      "keyframe_id": 192,
+      "detection_index": 1,
+      "timestamp_ns": 229800000000,
+      "object_id": 62,
+      "observation_id": 160,
+      "class_name": "traffic light",
+      "bbox": [
+        0.04676246643066406,
+        0.056121826171875,
+        19.804140090942383,
+        87.43685913085938
+      ],
+      "map_position": [
+        7.326431850194259,
+        0.16594749617171445,
+        0.37082167248651393
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf193_d0",
+      "keyframe_id": 193,
+      "detection_index": 0,
+      "timestamp_ns": 231000000000,
+      "object_id": 60,
+      "observation_id": 161,
+      "class_name": "person",
+      "bbox": [
+        0.3078422546386719,
+        62.2743034362793,
+        43.235145568847656,
+        112.39735412597656
+      ],
+      "map_position": [
+        7.902388663696374,
+        3.0342764453929933,
+        0.46517445492209947
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf194_d0",
+      "keyframe_id": 194,
+      "detection_index": 0,
+      "timestamp_ns": 232200000000,
+      "object_id": 60,
+      "observation_id": 162,
+      "class_name": "person",
+      "bbox": [
+        0.035648345947265625,
+        50.473297119140625,
+        27.5191650390625,
+        110.81764221191406
+      ],
+      "map_position": [
+        7.9724144597705635,
+        3.0151443071040527,
+        0.4728389903668505
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf195_d0",
+      "keyframe_id": 195,
+      "detection_index": 0,
+      "timestamp_ns": 233202000000,
+      "object_id": 60,
+      "observation_id": 163,
+      "class_name": "person",
+      "bbox": [
+        69.62014770507812,
+        46.3129768371582,
+        119.58761596679688,
+        109.40083312988281
+      ],
+      "map_position": [
+        7.94099768701882,
+        2.9974810925804416,
+        0.47206889236494937
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf196_d0",
+      "keyframe_id": 196,
+      "detection_index": 0,
+      "timestamp_ns": 234402000000,
+      "object_id": 60,
+      "observation_id": 164,
+      "class_name": "person",
+      "bbox": [
+        121.21354675292969,
+        26.38790512084961,
+        183.7972869873047,
+        106.32333374023438
+      ],
+      "map_position": [
+        7.978417203129171,
+        2.995262972819627,
+        0.4747694012179055
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf197_d0",
+      "keyframe_id": 197,
+      "detection_index": 0,
+      "timestamp_ns": 235800000000,
+      "object_id": 60,
+      "observation_id": 165,
+      "class_name": "person",
+      "bbox": [
+        157.0074462890625,
+        0.1439971923828125,
+        246.66281127929688,
+        100.18350219726562
+      ],
+      "map_position": [
+        7.973672359545947,
+        2.955117733320289,
+        0.437809075712001
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf198_d0",
+      "keyframe_id": 198,
+      "detection_index": 0,
+      "timestamp_ns": 236400000000,
+      "object_id": 60,
+      "observation_id": 166,
+      "class_name": "person",
+      "bbox": [
+        250.624755859375,
+        0.1278839111328125,
+        319.87884521484375,
+        94.69456481933594
+      ],
+      "map_position": [
+        7.881510680628186,
+        2.9585572316532187,
+        0.3767600831705343
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf202_d0",
+      "keyframe_id": 202,
+      "detection_index": 0,
+      "timestamp_ns": 248202000000,
+      "object_id": 63,
+      "observation_id": 167,
+      "class_name": "bed",
+      "bbox": [
+        0.800201416015625,
+        144.11740112304688,
+        318.4844970703125,
+        239.00961303710938
+      ],
+      "map_position": [
+        6.803371896500656,
+        2.887750191896978,
+        -0.12257631849178328
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf203_d0",
+      "keyframe_id": 203,
+      "detection_index": 0,
+      "timestamp_ns": 248802000000,
+      "object_id": 63,
+      "observation_id": 168,
+      "class_name": "bed",
+      "bbox": [
+        0.428680419921875,
+        145.06939697265625,
+        319.6941223144531,
+        238.98748779296875
+      ],
+      "map_position": [
+        6.436186307948503,
+        2.773781840138927,
+        -0.12579225102010744
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf204_d0",
+      "keyframe_id": 204,
+      "detection_index": 0,
+      "timestamp_ns": 249801000000,
+      "object_id": 64,
+      "observation_id": 169,
+      "class_name": "person",
+      "bbox": [
+        273.9883728027344,
+        0.2898101806640625,
+        319.8521423339844,
+        93.8539810180664
+      ],
+      "map_position": [
+        5.795427614242493,
+        3.0552883626189016,
+        0.36835678241374714
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf204_d1",
+      "keyframe_id": 204,
+      "detection_index": 1,
+      "timestamp_ns": 249801000000,
+      "object_id": 65,
+      "observation_id": 170,
+      "class_name": "bed",
+      "bbox": [
+        4.672210693359375,
+        151.83810424804688,
+        319.37921142578125,
+        239.54031372070312
+      ],
+      "map_position": [
+        5.953823287986082,
+        2.5638333652603174,
+        -0.12602678391884875
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf205_d0",
+      "keyframe_id": 205,
+      "detection_index": 0,
+      "timestamp_ns": 251001000000,
+      "object_id": 66,
+      "observation_id": 171,
+      "class_name": "bench",
+      "bbox": [
+        233.6484375,
+        95.0697021484375,
+        281.80963134765625,
+        140.70968627929688
+      ],
+      "map_position": [
+        3.9207604521314767,
+        3.2169632665805667,
+        0.12157950985660462
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf206_d0",
+      "keyframe_id": 206,
+      "detection_index": 0,
+      "timestamp_ns": 252402000000,
+      "object_id": 67,
+      "observation_id": 172,
+      "class_name": "airplane",
+      "bbox": [
+        292.85321044921875,
+        36.941917419433594,
+        319.91119384765625,
+        56.75909423828125
+      ],
+      "map_position": [
+        1.5571736246272945,
+        3.952120779413985,
+        1.1473733246078635
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf207_d0",
+      "keyframe_id": 207,
+      "detection_index": 0,
+      "timestamp_ns": 253200000000,
+      "object_id": 3,
+      "observation_id": 173,
+      "class_name": "traffic light",
+      "bbox": [
+        269.65380859375,
+        105.26411437988281,
+        282.20709228515625,
+        145.4762725830078
+      ],
+      "map_position": [
+        2.8388756061736844,
+        2.2811508652557744,
+        0.05582865845258528
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf214_d0",
+      "keyframe_id": 214,
+      "detection_index": 0,
+      "timestamp_ns": 259800000000,
+      "object_id": 68,
+      "observation_id": 174,
+      "class_name": "traffic light",
+      "bbox": [
+        0.0252532958984375,
+        0.0600128173828125,
+        12.429431915283203,
+        16.738567352294922
+      ],
+      "map_position": [
+        1.2558924462812935,
+        -1.3626024814899576,
+        1.6465385666095935
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf215_d0",
+      "keyframe_id": 215,
+      "detection_index": 0,
+      "timestamp_ns": 268401000000,
+      "object_id": 69,
+      "observation_id": 175,
+      "class_name": "truck",
+      "bbox": [
+        278.737060546875,
+        89.73390197753906,
+        319.8614501953125,
+        161.6787872314453
+      ],
+      "map_position": [
+        2.6559888612063434,
+        2.015471626818831,
+        0.07296881845395534
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf215_d1",
+      "keyframe_id": 215,
+      "detection_index": 1,
+      "timestamp_ns": 268401000000,
+      "object_id": 70,
+      "observation_id": 176,
+      "class_name": "car",
+      "bbox": [
+        278.61468505859375,
+        91.25810241699219,
+        319.82073974609375,
+        161.62925720214844
+      ],
+      "map_position": [
+        2.648863056066383,
+        2.018463320610072,
+        0.06879468183338093
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf216_d0",
+      "keyframe_id": 216,
+      "detection_index": 0,
+      "timestamp_ns": 269601000000,
+      "object_id": 71,
+      "observation_id": 177,
+      "class_name": "bench",
+      "bbox": [
+        284.67327880859375,
+        91.73867797851562,
+        319.89154052734375,
+        133.96884155273438
+      ],
+      "map_position": [
+        -1.1501863793109766,
+        3.7359099941033724,
+        0.2274095673867154
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf223_d0",
+      "keyframe_id": 223,
+      "detection_index": 0,
+      "timestamp_ns": 275601000000,
+      "object_id": 72,
+      "observation_id": 178,
+      "class_name": "bench",
+      "bbox": [
+        231.0299530029297,
+        87.76402282714844,
+        319.79510498046875,
+        137.46142578125
+      ],
+      "map_position": [
+        2.6857866380752005,
+        6.247038749469203,
+        0.21142568872994263
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf225_d0",
+      "keyframe_id": 225,
+      "detection_index": 0,
+      "timestamp_ns": 278001000000,
+      "object_id": 73,
+      "observation_id": 179,
+      "class_name": "chair",
+      "bbox": [
+        261.56243896484375,
+        86.25787353515625,
+        319.63592529296875,
+        138.09188842773438
+      ],
+      "map_position": [
+        3.275902579790431,
+        6.751994043937872,
+        0.21373820776852437
+      ],
+      "class_correct": true,
+      "physical_instance_id": "ChairD_01_002",
+      "identity_status": "correct class/identity, fused position outside tolerance"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf226_d0",
+      "keyframe_id": 226,
+      "detection_index": 0,
+      "timestamp_ns": 279201000000,
+      "object_id": 74,
+      "observation_id": 180,
+      "class_name": "bench",
+      "bbox": [
+        253.52008056640625,
+        87.38406372070312,
+        319.9412841796875,
+        139.79638671875
+      ],
+      "map_position": [
+        3.905570765467264,
+        6.868026673926383,
+        0.19507912383458642
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf228_d0",
+      "keyframe_id": 228,
+      "detection_index": 0,
+      "timestamp_ns": 281802000000,
+      "object_id": 75,
+      "observation_id": 181,
+      "class_name": "bench",
+      "bbox": [
+        210.61056518554688,
+        88.58689880371094,
+        319.9511413574219,
+        143.110107421875
+      ],
+      "map_position": [
+        3.8355249032333365,
+        7.849460059623955,
+        0.16577288106011465
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf230_d0",
+      "keyframe_id": 230,
+      "detection_index": 0,
+      "timestamp_ns": 282801000000,
+      "object_id": 76,
+      "observation_id": 182,
+      "class_name": "traffic light",
+      "bbox": [
+        299.3092041015625,
+        83.88394165039062,
+        319.864990234375,
+        114.81643676757812
+      ],
+      "map_position": [
+        1.305128258659423,
+        8.805953752955151,
+        0.4054201375394619
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf236_d0",
+      "keyframe_id": 236,
+      "detection_index": 0,
+      "timestamp_ns": 296802000000,
+      "object_id": 77,
+      "observation_id": 183,
+      "class_name": "cup",
+      "bbox": [
+        81.12062072753906,
+        98.53392791748047,
+        132.06124877929688,
+        163.907470703125
+      ],
+      "map_position": [
+        0.31637333136310075,
+        2.913592082059659,
+        0.04460080704638514
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf237_d0",
+      "keyframe_id": 237,
+      "detection_index": 0,
+      "timestamp_ns": 298602000000,
+      "object_id": 77,
+      "observation_id": 184,
+      "class_name": "cup",
+      "bbox": [
+        138.78823852539062,
+        87.67242431640625,
+        209.11868286132812,
+        182.85598754882812
+      ],
+      "map_position": [
+        0.3244557589447954,
+        3.0901474738809585,
+        0.04841152190351627
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf241_d0",
+      "keyframe_id": 241,
+      "detection_index": 0,
+      "timestamp_ns": 302001000000,
+      "object_id": 78,
+      "observation_id": 185,
+      "class_name": "bench",
+      "bbox": [
+        283.86004638671875,
+        73.96591186523438,
+        319.864501953125,
+        130.58868408203125
+      ],
+      "map_position": [
+        -2.260485426330951,
+        -0.7349713239369313,
+        0.41250641553021833
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf242_d0",
+      "keyframe_id": 242,
+      "detection_index": 0,
+      "timestamp_ns": 303000000000,
+      "object_id": 79,
+      "observation_id": 186,
+      "class_name": "chair",
+      "bbox": [
+        0.020540237426757812,
+        81.92034912109375,
+        22.737407684326172,
+        142.9462890625
+      ],
+      "map_position": [
+        2.809604697084447,
+        0.611433244154437,
+        0.18417379282925103
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "border-clipped dining chair; exact identity unresolved, outside all candidate position bounds",
+      "candidate_physical_ids": [
+        "ChairA_01_001",
+        "ChairA_01_002",
+        "ChairA_01_003",
+        "ChairA_01_004"
+      ]
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf244_d0",
+      "keyframe_id": 244,
+      "detection_index": 0,
+      "timestamp_ns": 305802000000,
+      "object_id": 80,
+      "observation_id": 187,
+      "class_name": "chair",
+      "bbox": [
+        211.56033325195312,
+        64.00619506835938,
+        271.5252990722656,
+        135.9302978515625
+      ],
+      "map_position": [
+        -3.049483904986151,
+        -0.5724372675383385,
+        0.4532975893469256
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf245_d0",
+      "keyframe_id": 245,
+      "detection_index": 0,
+      "timestamp_ns": 306402000000,
+      "object_id": 81,
+      "observation_id": 188,
+      "class_name": "person",
+      "bbox": [
+        228.53025817871094,
+        106.1688232421875,
+        248.01564025878906,
+        133.4564208984375
+      ],
+      "map_position": [
+        -3.676336012288124,
+        1.0322174214880544,
+        0.10700451154931588
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf245_d1",
+      "keyframe_id": 245,
+      "detection_index": 1,
+      "timestamp_ns": 306402000000,
+      "object_id": 82,
+      "observation_id": 189,
+      "class_name": "airplane",
+      "bbox": [
+        216.58853149414062,
+        26.242725372314453,
+        294.5123596191406,
+        43.390254974365234
+      ],
+      "map_position": [
+        -3.7722285404715126,
+        1.2761863103829025,
+        1.4468383629803259
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf245_d2",
+      "keyframe_id": 245,
+      "detection_index": 2,
+      "timestamp_ns": 306402000000,
+      "object_id": 80,
+      "observation_id": 190,
+      "class_name": "chair",
+      "bbox": [
+        127.96278381347656,
+        62.30906295776367,
+        187.3523406982422,
+        135.7503204345703
+      ],
+      "map_position": [
+        -3.1921834501755,
+        -0.2348021559012805,
+        0.47052585726819696
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf246_d0",
+      "keyframe_id": 246,
+      "detection_index": 0,
+      "timestamp_ns": 307002000000,
+      "object_id": 81,
+      "observation_id": 191,
+      "class_name": "person",
+      "bbox": [
+        143.90304565429688,
+        106.44610595703125,
+        163.11395263671875,
+        133.41250610351562
+      ],
+      "map_position": [
+        -3.6168057885310674,
+        1.0451818896898781,
+        0.10513082572626449
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf246_d1",
+      "keyframe_id": 246,
+      "detection_index": 1,
+      "timestamp_ns": 307002000000,
+      "object_id": 83,
+      "observation_id": 192,
+      "class_name": "tv",
+      "bbox": [
+        243.7706298828125,
+        45.140235900878906,
+        319.75653076171875,
+        102.24568939208984
+      ],
+      "map_position": [
+        -4.5378316215701,
+        2.9560048292712633,
+        0.869275646096155
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf247_d0",
+      "keyframe_id": 247,
+      "detection_index": 0,
+      "timestamp_ns": 308001000000,
+      "object_id": 81,
+      "observation_id": 193,
+      "class_name": "person",
+      "bbox": [
+        50.04291534423828,
+        104.27354431152344,
+        73.3486557006836,
+        135.2653350830078
+      ],
+      "map_position": [
+        -3.532313965122259,
+        1.0701746618982995,
+        0.10717360937048229
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf247_d1",
+      "keyframe_id": 247,
+      "detection_index": 1,
+      "timestamp_ns": 308001000000,
+      "object_id": 84,
+      "observation_id": 194,
+      "class_name": "tv",
+      "bbox": [
+        173.42230224609375,
+        0.2957916259765625,
+        228.622314453125,
+        32.104393005371094
+      ],
+      "map_position": [
+        -4.554597834829517,
+        3.0404095205174744,
+        1.8556792536520734
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf247_d2",
+      "keyframe_id": 247,
+      "detection_index": 2,
+      "timestamp_ns": 308001000000,
+      "object_id": 83,
+      "observation_id": 195,
+      "class_name": "tv",
+      "bbox": [
+        161.4521484375,
+        43.36104202270508,
+        238.55291748046875,
+        99.37232971191406
+      ],
+      "map_position": [
+        -4.451335772927749,
+        3.0167647366792805,
+        0.9069800783777189
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf248_d0",
+      "keyframe_id": 248,
+      "detection_index": 0,
+      "timestamp_ns": 318402000000,
+      "object_id": 85,
+      "observation_id": 196,
+      "class_name": "tv",
+      "bbox": [
+        74.9224853515625,
+        43.3116455078125,
+        151.95126342773438,
+        100.45065307617188
+      ],
+      "map_position": [
+        3.200987510577251,
+        -4.459585992499235,
+        0.9259058886391472
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf248_d1",
+      "keyframe_id": 248,
+      "detection_index": 1,
+      "timestamp_ns": 318402000000,
+      "object_id": 86,
+      "observation_id": 197,
+      "class_name": "tv",
+      "bbox": [
+        87.74305725097656,
+        0.106414794921875,
+        141.9680633544922,
+        37.69190979003906
+      ],
+      "map_position": [
+        3.216922062002628,
+        -4.5636809833069085,
+        1.869207581103895
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf249_d0",
+      "keyframe_id": 249,
+      "detection_index": 0,
+      "timestamp_ns": 319200000000,
+      "object_id": 87,
+      "observation_id": 198,
+      "class_name": "tv",
+      "bbox": [
+        0.0618743896484375,
+        40.956504821777344,
+        45.173187255859375,
+        98.9542007446289
+      ],
+      "map_position": [
+        2.706805409355872,
+        -4.963057014782237,
+        0.9338792030570856
+      ],
+      "class_correct": true,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf249_d1",
+      "keyframe_id": 249,
+      "detection_index": 1,
+      "timestamp_ns": 319200000000,
+      "object_id": 88,
+      "observation_id": 199,
+      "class_name": "couch",
+      "bbox": [
+        84.87538146972656,
+        43.78953552246094,
+        166.87106323242188,
+        91.42352294921875
+      ],
+      "map_position": [
+        1.2367883805193316,
+        -2.222873936930888,
+        0.5234583431361007
+      ],
+      "class_correct": true,
+      "physical_instance_id": "SofaC_01_001",
+      "identity_status": "reviewed physical identity"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf250_d0",
+      "keyframe_id": 250,
+      "detection_index": 0,
+      "timestamp_ns": 319800000000,
+      "object_id": 89,
+      "observation_id": 200,
+      "class_name": "cup",
+      "bbox": [
+        215.97711181640625,
+        76.73214721679688,
+        312.474853515625,
+        203.61126708984375
+      ],
+      "map_position": [
+        0.7555699824597499,
+        -0.5637402040716971,
+        0.04974578234257663
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf250_d1",
+      "keyframe_id": 250,
+      "detection_index": 1,
+      "timestamp_ns": 319800000000,
+      "object_id": 90,
+      "observation_id": 201,
+      "class_name": "chair",
+      "bbox": [
+        132.1730499267578,
+        70.89910888671875,
+        164.23976135253906,
+        84.1048583984375
+      ],
+      "map_position": [
+        -1.1111762669493297,
+        -3.2520015719837456,
+        0.7154284031773686
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf250_d2",
+      "keyframe_id": 250,
+      "detection_index": 2,
+      "timestamp_ns": 319800000000,
+      "object_id": 91,
+      "observation_id": 202,
+      "class_name": "person",
+      "bbox": [
+        0.09195709228515625,
+        113.71726989746094,
+        18.456336975097656,
+        155.8043975830078
+      ],
+      "map_position": [
+        1.1029750826381632,
+        -1.6507118144958475,
+        0.03428024618063255
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf251_d0",
+      "keyframe_id": 251,
+      "detection_index": 0,
+      "timestamp_ns": 320202000000,
+      "object_id": 92,
+      "observation_id": 203,
+      "class_name": "refrigerator",
+      "bbox": [
+        121.09689331054688,
+        81.46147155761719,
+        204.73052978515625,
+        195.07630920410156
+      ],
+      "map_position": [
+        0.7985308366082148,
+        -0.6448457582264665,
+        0.049932566980053744
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf252_d0",
+      "keyframe_id": 252,
+      "detection_index": 0,
+      "timestamp_ns": 320601000000,
+      "object_id": 92,
+      "observation_id": 204,
+      "class_name": "refrigerator",
+      "bbox": [
+        17.196922302246094,
+        80.1729507446289,
+        109.15667724609375,
+        198.15902709960938
+      ],
+      "map_position": [
+        0.7598368680233076,
+        -0.7006187147747728,
+        0.049336402754271036
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf254_d0",
+      "keyframe_id": 254,
+      "detection_index": 0,
+      "timestamp_ns": 321600000000,
+      "object_id": 93,
+      "observation_id": 205,
+      "class_name": "bench",
+      "bbox": [
+        281.869873046875,
+        96.1644287109375,
+        319.8697509765625,
+        140.1849822998047
+      ],
+      "map_position": [
+        -0.5460256829914516,
+        3.7525857107411458,
+        0.13143376634166395
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf256_d0",
+      "keyframe_id": 256,
+      "detection_index": 0,
+      "timestamp_ns": 323802000000,
+      "object_id": 94,
+      "observation_id": 206,
+      "class_name": "bench",
+      "bbox": [
+        133.0419921875,
+        91.73260498046875,
+        234.43609619140625,
+        133.60726928710938
+      ],
+      "map_position": [
+        -2.354295677364764,
+        3.1282841798704215,
+        0.22963595075532584
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    },
+    {
+      "det_id": "MSI-20261012T005529_kf257_d0",
+      "keyframe_id": 257,
+      "detection_index": 0,
+      "timestamp_ns": 324402000000,
+      "object_id": 94,
+      "observation_id": 207,
+      "class_name": "bench",
+      "bbox": [
+        220.0096435546875,
+        95.69978332519531,
+        319.79669189453125,
+        135.4522705078125
+      ],
+      "map_position": [
+        -2.5955716048130295,
+        3.4908683495289665,
+        0.17953130019106578
+      ],
+      "class_correct": false,
+      "physical_instance_id": null,
+      "identity_status": "class false positive or unresolved visual target"
+    }
+  ]
+}

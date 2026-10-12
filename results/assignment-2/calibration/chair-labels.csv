@@ -1,0 +1,10 @@
+det_id,object_label,keyframe_id,label_status,evidence,true_robot_x,true_robot_y,true_robot_yaw
+MSI-20261010T224000_kf2_d0,chair_window_fridge_side,2,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf3_d0,chair_window_fridge_side,3,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf4_d0,chair_window_fridge_side,4,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf5_d0,chair_entrance_fridge_side,5,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf24_d1,chair_entrance_fridge_side,24,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf46_d0,chair_entrance_partition_side,46,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf47_d1,chair_entrance_partition_side,47,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf48_d0,chair_entrance_partition_side,48,image-reviewed physical chair,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,
+MSI-20261010T224000_kf104_d1,,104,excluded: overlapping border-clipped box,Full 140-frame sequence and fixed dining-area reference; physical table side; no association-radius-derived label,,,

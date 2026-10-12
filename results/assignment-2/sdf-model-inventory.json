@@ -1,0 +1,1764 @@
+{
+  "world_sha256": "b5c99363b709a82fdfbb08f46b40d77cb644caa7993e3740140ee5f203298a82",
+  "placed_residential_models": 87,
+  "distinct_assets": 63,
+  "directly_named_class_counts": {
+    "sports ball": 2,
+    "bed": 1,
+    "chair": 8,
+    "dining table": 4,
+    "refrigerator": 1,
+    "couch": 1,
+    "tv": 2,
+    "vase": 1
+  },
+  "class_inventory_counts": {
+    "person": 0,
+    "bicycle": 0,
+    "car": 0,
+    "motorcycle": 0,
+    "airplane": 0,
+    "bus": 0,
+    "train": 0,
+    "truck": 0,
+    "boat": 0,
+    "traffic light": 0,
+    "fire hydrant": 0,
+    "stop sign": 0,
+    "parking meter": 0,
+    "bench": 1,
+    "bird": 0,
+    "cat": 0,
+    "dog": 0,
+    "horse": 0,
+    "sheep": 0,
+    "cow": 0,
+    "elephant": 0,
+    "bear": 0,
+    "zebra": 0,
+    "giraffe": 0,
+    "backpack": 0,
+    "umbrella": 0,
+    "handbag": 0,
+    "tie": 0,
+    "suitcase": 0,
+    "frisbee": 0,
+    "skis": 0,
+    "snowboard": 0,
+    "sports ball": 2,
+    "kite": 0,
+    "baseball bat": 0,
+    "baseball glove": 0,
+    "skateboard": 0,
+    "surfboard": 0,
+    "tennis racket": 0,
+    "bottle": 0,
+    "wine glass": 0,
+    "cup": 0,
+    "fork": 0,
+    "knife": 0,
+    "spoon": 1,
+    "bowl": 0,
+    "banana": 0,
+    "apple": 0,
+    "sandwich": 0,
+    "orange": 0,
+    "broccoli": 0,
+    "carrot": 0,
+    "hot dog": 0,
+    "pizza": 0,
+    "donut": 0,
+    "cake": 0,
+    "chair": 8,
+    "couch": 1,
+    "potted plant": 0,
+    "bed": 1,
+    "dining table": 4,
+    "toilet": 0,
+    "tv": 2,
+    "laptop": 0,
+    "mouse": 0,
+    "remote": 0,
+    "keyboard": 0,
+    "cell phone": 0,
+    "microwave": 0,
+    "oven": 0,
+    "toaster": 0,
+    "sink": 1,
+    "refrigerator": 1,
+    "book": 0,
+    "clock": 0,
+    "vase": 1,
+    "scissors": 0,
+    "teddy bear": 0,
+    "hair drier": 0,
+    "toothbrush": 0
+  },
+  "unresolved_assets": [],
+  "class_policy": [
+    "Count each placed SDF model separately, including repeated assets. Count a contained physical object separately from its parent mesh.",
+    "Use dining table as the available COCO table-family label for KitchenTable, BalconyTable, CoffeeTable and ReadingDesk. Exclude cabinets, nightstands, shelving and counters. This declared mapping yields four tables; a strict meal-table-only policy would yield two.",
+    "Count the integrated KitchenCabinet sink once as a fixture; do not count its individual mesh components as separate sinks.",
+    "Count the KitchenUtensils ladle as one spoon. Exclude the two spatulas and the whisk from fork/knife/spoon counts.",
+    "Tableware contains five flat plates, not five bowls or cups. SeasoningBox has lidded spice canisters, not drinking cups or narrow-neck bottles.",
+    "CookingBench is a two-burner gas cooktop without an oven chamber; it is neither a seating bench nor a physical oven under this policy.",
+    "Vase is one decorative vase; cut stems are not a potted plant. Tablets are not laptops or cell phones. The included FitnessEquipment geometry is one weight bench with rack, counted as bench; no bicycle is present. The separately placed Dumbbell assembly does not create another bench.",
+    "Printed people, animals and objects in portrait textures are depictions, not additional physical COCO instances."
+  ],
+  "scope": "Actual bound SDF, all 63 model definitions and referenced geometry; declared table-family, integrated sink, ladle and exercise-bench policies.",
+  "physical_instances": [
+    {
+      "instance_id": "Ball_01_001",
+      "class_name": "sports ball",
+      "source": "placed SDF model",
+      "parent_model": "Ball_01_001",
+      "world_pose": [
+        3.295503,
+        4.225674,
+        0.318684,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          2.9944406560943198,
+          3.9297923744820773
+        ],
+        [
+          3.624384867156852,
+          4.559736584073705
+        ]
+      ]
+    },
+    {
+      "instance_id": "Ball_01_003",
+      "class_name": "sports ball",
+      "source": "placed SDF model",
+      "parent_model": "Ball_01_003",
+      "world_pose": [
+        -6.945503,
+        -4.22174,
+        0.318684,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -7.287860052150814,
+          -4.467308275424038
+        ],
+        [
+          -6.65791584108828,
+          -3.83736406583241
+        ]
+      ]
+    },
+    {
+      "instance_id": "Bed_01_001",
+      "class_name": "bed",
+      "source": "placed SDF model",
+      "parent_model": "Bed_01_001",
+      "world_pose": [
+        -6.165067,
+        2.03056,
+        -1e-05,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -7.181327943194391,
+          1.091674697624692
+        ],
+        [
+          -5.148016114320406,
+          3.1004496032218736
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairA_01_001",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairA_01_001",
+      "world_pose": [
+        7.11516,
+        0.209028,
+        0.024685,
+        1e-06,
+        -0.0,
+        -1.55607
+      ],
+      "map_visual_xy_bounds": [
+        [
+          6.8704783500159525,
+          -0.01064581023406546
+        ],
+        [
+          7.344295368297957,
+          0.4303301882507183
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairA_01_002",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairA_01_002",
+      "world_pose": [
+        6.25506,
+        0.219468,
+        0.011308,
+        0.0,
+        0.0,
+        -1.50414
+      ],
+      "map_visual_xy_bounds": [
+        [
+          5.99978899981877,
+          -0.003530926439302029
+        ],
+        [
+          6.4892566993175365,
+          0.4566179916142368
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairA_01_003",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairA_01_003",
+      "world_pose": [
+        6.06678,
+        1.68075,
+        0.01,
+        0.0,
+        -0.0,
+        1.56986
+      ],
+      "map_visual_xy_bounds": [
+        [
+          5.83017128539944,
+          1.4663094768607843
+        ],
+        [
+          6.303871327990004,
+          1.9057737117905929
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairA_01_004",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairA_01_004",
+      "world_pose": [
+        7.00277,
+        1.67074,
+        0.0,
+        0.0,
+        -0.0,
+        1.52363
+      ],
+      "map_visual_xy_bounds": [
+        [
+          6.75654166612496,
+          1.4412845739775977
+        ],
+        [
+          7.24244600038089,
+          1.8977728300996373
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairA_01_005",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairA_01_005",
+      "world_pose": [
+        -8.27094,
+        1.91665,
+        0.03665,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -8.487970276392339,
+          1.7566157322580462
+        ],
+        [
+          -8.048860668775626,
+          2.230287112512486
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairD_01_001",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairD_01_001",
+      "world_pose": [
+        -1.380775,
+        4.104456,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -1.6540012740805201,
+          3.901605563904419
+        ],
+        [
+          -1.0797810270629062,
+          4.393432898268741
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairD_01_002",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairD_01_002",
+      "world_pose": [
+        0.325214,
+        4.104456,
+        0.0,
+        0.0,
+        -0.0,
+        -3.138741
+      ],
+      "map_visual_xy_bounds": [
+        [
+          0.05155214449065675,
+          3.8917585947872726
+        ],
+        [
+          0.6251495165808686,
+          4.383590891915651
+        ]
+      ]
+    },
+    {
+      "instance_id": "ChairD_01_003",
+      "class_name": "chair",
+      "source": "placed SDF model",
+      "parent_model": "ChairD_01_003",
+      "world_pose": [
+        -8.270775,
+        -4.504456,
+        0.0,
+        0.0,
+        -0.0,
+        0.869673
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -8.63298778359856,
+          -4.761887825892936
+        ],
+        [
+          -7.950683551886106,
+          -4.071195313586184
+        ]
+      ]
+    },
+    {
+      "instance_id": "CoffeeTable_01_001",
+      "class_name": "dining table",
+      "source": "placed SDF model",
+      "parent_model": "CoffeeTable_01_001",
+      "world_pose": [
+        1.512301,
+        -1.733438,
+        0.041983,
+        0.0,
+        0.0,
+        0.01
+      ],
+      "map_visual_xy_bounds": [
+        [
+          0.8446084973010914,
+          -2.032875746735923
+        ],
+        [
+          2.1629062171873215,
+          -1.3713897398753798
+        ]
+      ]
+    },
+    {
+      "instance_id": "KitchenTable_01_001",
+      "class_name": "dining table",
+      "source": "placed SDF model",
+      "parent_model": "KitchenTable_01_001",
+      "world_pose": [
+        6.55269,
+        0.951173,
+        -6e-06,
+        0.0,
+        -0.0,
+        -1.56413
+      ],
+      "map_visual_xy_bounds": [
+        [
+          5.649898887787118,
+          0.6027553429843865
+        ],
+        [
+          7.451112472183754,
+          1.3059102568987646
+        ]
+      ]
+    },
+    {
+      "instance_id": "ReadingDesk_01_001",
+      "class_name": "dining table",
+      "source": "placed SDF model",
+      "parent_model": "ReadingDesk_01_001",
+      "world_pose": [
+        -8.987262,
+        2.057058,
+        0.0,
+        0.0,
+        -0.0,
+        -0.004638
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -9.251497672417504,
+          1.5621529686217002
+        ],
+        [
+          -8.7161768874199,
+          2.710641452684861
+        ]
+      ]
+    },
+    {
+      "instance_id": "BalconyTable_01_001",
+      "class_name": "dining table",
+      "source": "placed SDF model",
+      "parent_model": "BalconyTable_01_001",
+      "world_pose": [
+        -0.55624,
+        4.111241,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -0.8226578588181297,
+          3.8694051619089223
+        ],
+        [
+          -0.26303215866318275,
+          4.429030862063868
+        ]
+      ]
+    },
+    {
+      "instance_id": "KitchenCabinet_01_001/sink",
+      "class_name": "sink",
+      "source": "one integrated sink fixture, visual mesh review",
+      "parent_model": "KitchenCabinet_01_001",
+      "world_pose": null
+    },
+    {
+      "instance_id": "KitchenUtensils_01_001/ladle",
+      "class_name": "spoon",
+      "source": "one hanging ladle, counted as spoon under declared utensil policy",
+      "parent_model": "KitchenUtensils_01_001",
+      "world_pose": null
+    },
+    {
+      "instance_id": "Refrigerator_01_001",
+      "class_name": "refrigerator",
+      "source": "placed SDF model",
+      "parent_model": "Refrigerator_01_001",
+      "world_pose": [
+        8.702731,
+        -1.032031,
+        0.0,
+        0.0,
+        -0.0,
+        -1.563499
+      ],
+      "map_visual_xy_bounds": [
+        [
+          8.275278872702671,
+          -1.5605093393373781
+        ],
+        [
+          9.107428239588709,
+          -0.5192624473263311
+        ]
+      ]
+    },
+    {
+      "instance_id": "SofaC_01_001",
+      "class_name": "couch",
+      "source": "placed SDF model",
+      "parent_model": "SofaC_01_001",
+      "world_pose": [
+        0.330699,
+        -1.902792,
+        0.065992,
+        0.0,
+        0.0,
+        1.571733
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -0.9105038987504555,
+          -3.0825361402921803
+        ],
+        [
+          1.5358793814220264,
+          -0.6555548166360987
+        ]
+      ]
+    },
+    {
+      "instance_id": "TV_01_001",
+      "class_name": "tv",
+      "source": "placed SDF model",
+      "parent_model": "TV_01_001",
+      "world_pose": [
+        0.824259,
+        -5.382968,
+        0.676282,
+        0.0,
+        -0.0,
+        -1.561744
+      ],
+      "map_visual_xy_bounds": [
+        [
+          0.1423695979385366,
+          -5.397914804942562
+        ],
+        [
+          1.4401606109875347,
+          -5.339375853838563
+        ]
+      ]
+    },
+    {
+      "instance_id": "TV_02_001",
+      "class_name": "tv",
+      "source": "placed SDF model",
+      "parent_model": "TV_02_001",
+      "world_pose": [
+        -6.197322,
+        -1.388739,
+        0.676282,
+        0.0,
+        -0.0,
+        -1.561744
+      ],
+      "map_visual_xy_bounds": [
+        [
+          -6.859543236105717,
+          -1.3693068929649768
+        ],
+        [
+          -5.561752223056718,
+          -1.3107679418609786
+        ]
+      ]
+    },
+    {
+      "instance_id": "Vase_01_001",
+      "class_name": "vase",
+      "source": "placed SDF model",
+      "parent_model": "Vase_01_001",
+      "world_pose": [
+        3.055663,
+        -5.41308,
+        1.574958,
+        3e-06,
+        0.0017,
+        0.00084
+      ],
+      "map_visual_xy_bounds": [
+        [
+          2.9770620688236322,
+          -5.453563144950166
+        ],
+        [
+          3.0665634643108777,
+          -5.332238336670176
+        ]
+      ]
+    },
+    {
+      "instance_id": "FitnessEquipment_01_001",
+      "class_name": "bench",
+      "source": "visual geometry review: one integrated weight bench with rack",
+      "parent_model": "FitnessEquipment_01_001",
+      "world_pose": [
+        3.48472,
+        3.169104,
+        0.003168,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "map_visual_xy_bounds": [
+        [
+          2.948118440661974,
+          2.6289097043068117
+        ],
+        [
+          4.04085249447918,
+          3.7426753007730644
+        ]
+      ]
+    }
+  ],
+  "models": [
+    {
+      "physical_model_id": "AirconditionerA_01_001",
+      "asset_uri": "model://aws_robomaker_residential_AirconditionerA_01",
+      "sdf_world_pose": [
+        -9.19941,
+        2.41123,
+        2.084544,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "AirconditionerB_01_001",
+      "asset_uri": "model://aws_robomaker_residential_AirconditionerB_01",
+      "sdf_world_pose": [
+        -2.004656,
+        -5.22661,
+        0.003485,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Ball_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Ball_01",
+      "sdf_world_pose": [
+        3.295503,
+        4.225674,
+        0.318684,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": "sports ball"
+    },
+    {
+      "physical_model_id": "Ball_01_003",
+      "asset_uri": "model://aws_robomaker_residential_Ball_01",
+      "sdf_world_pose": [
+        -6.945503,
+        -4.22174,
+        0.318684,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": "sports ball"
+    },
+    {
+      "physical_model_id": "Bed_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Bed_01",
+      "sdf_world_pose": [
+        -6.165067,
+        2.03056,
+        -1e-05,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": "bed"
+    },
+    {
+      "physical_model_id": "NightStand_01_001",
+      "asset_uri": "model://aws_robomaker_residential_NightStand_01",
+      "sdf_world_pose": [
+        -7.72551,
+        2.86042,
+        0.005258,
+        -2e-06,
+        0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "NightStand_01_002",
+      "asset_uri": "model://aws_robomaker_residential_NightStand_01",
+      "sdf_world_pose": [
+        -4.407341,
+        2.86042,
+        0.005256,
+        0.0,
+        2e-06,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Board_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Board_01",
+      "sdf_world_pose": [
+        2.779073,
+        -5.392703,
+        1.538173,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "ChairA_01_001",
+      "asset_uri": "model://aws_robomaker_residential_ChairA_01",
+      "sdf_world_pose": [
+        7.11516,
+        0.209028,
+        0.024685,
+        1e-06,
+        -0.0,
+        -1.55607
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairA_01_002",
+      "asset_uri": "model://aws_robomaker_residential_ChairA_01",
+      "sdf_world_pose": [
+        6.25506,
+        0.219468,
+        0.011308,
+        0.0,
+        0.0,
+        -1.50414
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairA_01_003",
+      "asset_uri": "model://aws_robomaker_residential_ChairA_01",
+      "sdf_world_pose": [
+        6.06678,
+        1.68075,
+        0.01,
+        0.0,
+        -0.0,
+        1.56986
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairA_01_004",
+      "asset_uri": "model://aws_robomaker_residential_ChairA_01",
+      "sdf_world_pose": [
+        7.00277,
+        1.67074,
+        0.0,
+        0.0,
+        -0.0,
+        1.52363
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairA_01_005",
+      "asset_uri": "model://aws_robomaker_residential_ChairA_01",
+      "sdf_world_pose": [
+        -8.27094,
+        1.91665,
+        0.03665,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairD_01_001",
+      "asset_uri": "model://aws_robomaker_residential_ChairD_01",
+      "sdf_world_pose": [
+        -1.380775,
+        4.104456,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairD_01_002",
+      "asset_uri": "model://aws_robomaker_residential_ChairD_01",
+      "sdf_world_pose": [
+        0.325214,
+        4.104456,
+        0.0,
+        0.0,
+        -0.0,
+        -3.138741
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "ChairD_01_003",
+      "asset_uri": "model://aws_robomaker_residential_ChairD_01",
+      "sdf_world_pose": [
+        -8.270775,
+        -4.504456,
+        0.0,
+        0.0,
+        -0.0,
+        0.869673
+      ],
+      "direct_class": "chair"
+    },
+    {
+      "physical_model_id": "Chandelier_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Chandelier_01",
+      "sdf_world_pose": [
+        1.221061,
+        4.15574,
+        1.295,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Chandelier_01_002",
+      "asset_uri": "model://aws_robomaker_residential_Chandelier_01",
+      "sdf_world_pose": [
+        -6.451061,
+        -0.69204,
+        1.81,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Chandelier_01_003",
+      "asset_uri": "model://aws_robomaker_residential_Chandelier_01",
+      "sdf_world_pose": [
+        7.824061,
+        -1.59,
+        1.751,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Chandelier_01_004",
+      "asset_uri": "model://aws_robomaker_residential_Chandelier_01",
+      "sdf_world_pose": [
+        1.221061,
+        -1.59204,
+        1.7873,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Carpet_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Carpet_01",
+      "sdf_world_pose": [
+        0.78505,
+        -1.106647,
+        0.001106,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Carpet_01_002",
+      "asset_uri": "model://aws_robomaker_residential_Carpet_01",
+      "sdf_world_pose": [
+        2.85405,
+        3.45,
+        0.000585,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "SecurityCamera_01_001",
+      "asset_uri": "model://aws_robomaker_residential_SecurityCamera_01",
+      "sdf_world_pose": [
+        0.842134,
+        -4.996294,
+        0.495067,
+        0.0,
+        -0.0,
+        -2.841039
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "CoffeeTable_01_001",
+      "asset_uri": "model://aws_robomaker_residential_CoffeeTable_01",
+      "sdf_world_pose": [
+        1.512301,
+        -1.733438,
+        0.041983,
+        0.0,
+        0.0,
+        0.01
+      ],
+      "direct_class": "dining table"
+    },
+    {
+      "physical_model_id": "CookingBench_01_001",
+      "asset_uri": "model://aws_robomaker_residential_CookingBench_01",
+      "sdf_world_pose": [
+        9.038383,
+        -3.35114,
+        0.90361,
+        0.0,
+        -0.0,
+        3.137133
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Curtain_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Curtain_01",
+      "sdf_world_pose": [
+        -9.172642,
+        0.20376,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "KitchenTable_01_001",
+      "asset_uri": "model://aws_robomaker_residential_KitchenTable_01",
+      "sdf_world_pose": [
+        6.55269,
+        0.951173,
+        -6e-06,
+        0.0,
+        -0.0,
+        -1.56413
+      ],
+      "direct_class": "dining table"
+    },
+    {
+      "physical_model_id": "ReadingDesk_01_001",
+      "asset_uri": "model://aws_robomaker_residential_ReadingDesk_01",
+      "sdf_world_pose": [
+        -8.987262,
+        2.057058,
+        0.0,
+        0.0,
+        -0.0,
+        -0.004638
+      ],
+      "direct_class": "dining table"
+    },
+    {
+      "physical_model_id": "BalconyTable_01_001",
+      "asset_uri": "model://aws_robomaker_residential_BalconyTable_01",
+      "sdf_world_pose": [
+        -0.55624,
+        4.111241,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": "dining table"
+    },
+    {
+      "physical_model_id": "Door_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Door_01",
+      "sdf_world_pose": [
+        6.001449,
+        -5.549002,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Dumbbell_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Dumbbell_01",
+      "sdf_world_pose": [
+        2.512849,
+        2.717787,
+        0.002183,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Tablet_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Tablet_01",
+      "sdf_world_pose": [
+        1.57283,
+        -1.775857,
+        0.40179,
+        -0.020625,
+        -8e-05,
+        -0.006317
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "FitnessEquipment_01_001",
+      "asset_uri": "model://aws_robomaker_residential_FitnessEquipment_01",
+      "sdf_world_pose": [
+        3.48472,
+        3.169104,
+        0.003168,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "FoldingDoor_01_001",
+      "asset_uri": "model://aws_robomaker_residential_FoldingDoor_01",
+      "sdf_world_pose": [
+        -2.461096,
+        1.844219,
+        0.041881,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "FoldingDoor_01_002",
+      "asset_uri": "model://aws_robomaker_residential_FoldingDoor_01",
+      "sdf_world_pose": [
+        -2.461096,
+        -4.05332,
+        0.041881,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Handle_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Handle_01",
+      "sdf_world_pose": [
+        5.724,
+        -5.523,
+        0.9938,
+        0.0,
+        -0.0,
+        -3.1415
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "HouseWallB_01_001",
+      "asset_uri": "model://aws_robomaker_residential_HouseWallB_01",
+      "sdf_world_pose": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "FloorB_01_001",
+      "asset_uri": "model://aws_robomaker_residential_FloorB_01",
+      "sdf_world_pose": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "FoldingDoor_02_001",
+      "asset_uri": "model://aws_robomaker_residential_FoldingDoor_02",
+      "sdf_world_pose": [
+        4.674231,
+        2.46451,
+        0.0,
+        0.0,
+        -0.0,
+        3.14159
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "FoldingDoor_02_002",
+      "asset_uri": "model://aws_robomaker_residential_FoldingDoor_02",
+      "sdf_world_pose": [
+        4.8912,
+        -4.84968,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "KitchenCabinet_01_001",
+      "asset_uri": "model://aws_robomaker_residential_KitchenCabinet_01",
+      "sdf_world_pose": [
+        8.002009,
+        -3.836509,
+        0.012068,
+        0.0,
+        -0.0,
+        -3.140001
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "KitchenUtensils_01_001",
+      "asset_uri": "model://aws_robomaker_residential_KitchenUtensils_01",
+      "sdf_world_pose": [
+        9.285478,
+        -5.021261,
+        1.141805,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "LightC_01_001",
+      "asset_uri": "model://aws_robomaker_residential_LightC_01",
+      "sdf_world_pose": [
+        1.769567,
+        -5.444371,
+        2.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "LightC_01_002",
+      "asset_uri": "model://aws_robomaker_residential_LightC_01",
+      "sdf_world_pose": [
+        -0.138245,
+        -5.444371,
+        2.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitA_01",
+      "asset_uri": "model://aws_robomaker_residential_PortraitA_01",
+      "sdf_world_pose": [
+        -2.71236,
+        -4.817539,
+        1.0,
+        0.0,
+        -0.0,
+        1.566796
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitB_01",
+      "asset_uri": "model://aws_robomaker_residential_PortraitB_01",
+      "sdf_world_pose": [
+        -1.279683,
+        -5.42963,
+        0.0,
+        -0.076901,
+        0.0,
+        -3.116718
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitB_02",
+      "asset_uri": "model://aws_robomaker_residential_PortraitB_02",
+      "sdf_world_pose": [
+        5.737017,
+        3.08031,
+        0.3,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitB_03",
+      "asset_uri": "model://aws_robomaker_residential_PortraitB_03",
+      "sdf_world_pose": [
+        3.07138,
+        -5.349366,
+        0.005494,
+        -0.168428,
+        0.0,
+        3.104232
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitA_02",
+      "asset_uri": "model://aws_robomaker_residential_PortraitA_02",
+      "sdf_world_pose": [
+        7.937017,
+        3.08031,
+        0.3,
+        0.0,
+        -0.0,
+        3.14
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitC_01",
+      "asset_uri": "model://aws_robomaker_residential_PortraitC_01",
+      "sdf_world_pose": [
+        -9.294904,
+        -4.526084,
+        1.0,
+        0.0,
+        -0.0,
+        1.554734
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitD_01",
+      "asset_uri": "model://aws_robomaker_residential_PortraitD_01",
+      "sdf_world_pose": [
+        0.789763,
+        -5.478725,
+        1.8,
+        0.0,
+        -0.0,
+        3.138531
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitD_02",
+      "asset_uri": "model://aws_robomaker_residential_PortraitD_02",
+      "sdf_world_pose": [
+        6.870181,
+        3.08031,
+        1.488439,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitE_01",
+      "asset_uri": "model://aws_robomaker_residential_PortraitE_01",
+      "sdf_world_pose": [
+        -5.773094,
+        -5.492466,
+        1.0,
+        0.0,
+        -0.0,
+        3.132627
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "PortraitE_02",
+      "asset_uri": "model://aws_robomaker_residential_PortraitE_02",
+      "sdf_world_pose": [
+        -6.193025,
+        -1.590208,
+        0.3,
+        0.0,
+        -0.0,
+        0.00429
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitA_01",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitA_01",
+      "sdf_world_pose": [
+        -0.036864,
+        -5.110156,
+        0.49866,
+        0.0,
+        -0.0,
+        2.927784
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitA_02",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitA_02",
+      "sdf_world_pose": [
+        2.046082,
+        -1.892926,
+        0.070388,
+        -0.018328,
+        -0.000441,
+        1.576216
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitC_01",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitC_01",
+      "sdf_world_pose": [
+        -7.746377,
+        2.731075,
+        0.69462,
+        0.000488,
+        -0.000359,
+        -0.055499
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitC_02",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitC_02",
+      "sdf_world_pose": [
+        0.964613,
+        -1.586951,
+        0.127676,
+        0.001614,
+        -0.000545,
+        -1.578699
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitD_01",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitD_01",
+      "sdf_world_pose": [
+        2.64556,
+        -5.376225,
+        1.573738,
+        0.0,
+        -0.0,
+        -3.112826
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitD_02",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitD_02",
+      "sdf_world_pose": [
+        -0.589211,
+        -5.10989,
+        0.192145,
+        -1.5e-05,
+        -0.000174,
+        -3.112544
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitD_03",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitD_03",
+      "sdf_world_pose": [
+        1.826729,
+        -1.464881,
+        0.126208,
+        1e-05,
+        6e-06,
+        -3.11438
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitD_04",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitD_04",
+      "sdf_world_pose": [
+        4.302132,
+        -5.176568,
+        0.202496,
+        0.007118,
+        -1e-06,
+        3.046683
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitB_01",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitB_01",
+      "sdf_world_pose": [
+        3.547376,
+        -5.083898,
+        -0.01266,
+        -0.336622,
+        -1e-06,
+        3.046741
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "DeskPortraitB_02",
+      "asset_uri": "model://aws_robomaker_residential_DeskPortraitB_02",
+      "sdf_world_pose": [
+        2.48627,
+        -5.102525,
+        -0.01266,
+        -0.336621,
+        0.0,
+        3.046798
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Rangehood_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Rangehood_01",
+      "sdf_world_pose": [
+        9.019794,
+        -3.36994,
+        1.507605,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Refrigerator_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Refrigerator_01",
+      "sdf_world_pose": [
+        8.702731,
+        -1.032031,
+        0.0,
+        0.0,
+        -0.0,
+        -1.563499
+      ],
+      "direct_class": "refrigerator"
+    },
+    {
+      "physical_model_id": "SeasoningBox_01_001",
+      "asset_uri": "model://aws_robomaker_residential_SeasoningBox_01",
+      "sdf_world_pose": [
+        9.107968,
+        -2.651726,
+        0.902458,
+        -6e-06,
+        3.4e-05,
+        0.00129
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "ShoeRack_01_001",
+      "asset_uri": "model://aws_robomaker_residential_ShoeRack_01",
+      "sdf_world_pose": [
+        4.297978,
+        -5.173566,
+        0.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "SofaC_01_001",
+      "asset_uri": "model://aws_robomaker_residential_SofaC_01",
+      "sdf_world_pose": [
+        0.330699,
+        -1.902792,
+        0.065992,
+        0.0,
+        0.0,
+        1.571733
+      ],
+      "direct_class": "couch"
+    },
+    {
+      "physical_model_id": "Tableware_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Tableware_01",
+      "sdf_world_pose": [
+        7.15317,
+        0.982767,
+        0.817812,
+        -0.001238,
+        -0.000976,
+        1.02476
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Trash_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Trash_01",
+      "sdf_world_pose": [
+        2.360151,
+        -0.796238,
+        0.011,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Trash_01_002",
+      "asset_uri": "model://aws_robomaker_residential_Trash_01",
+      "sdf_world_pose": [
+        -8.704151,
+        1.00058,
+        0.011,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "TV_01_001",
+      "asset_uri": "model://aws_robomaker_residential_TV_01",
+      "sdf_world_pose": [
+        0.824259,
+        -5.382968,
+        0.676282,
+        0.0,
+        -0.0,
+        -1.561744
+      ],
+      "direct_class": "tv"
+    },
+    {
+      "physical_model_id": "TV_02_001",
+      "asset_uri": "model://aws_robomaker_residential_TV_02",
+      "sdf_world_pose": [
+        -6.197322,
+        -1.388739,
+        0.676282,
+        0.0,
+        -0.0,
+        -1.561744
+      ],
+      "direct_class": "tv"
+    },
+    {
+      "physical_model_id": "TVCabinet_01_001",
+      "asset_uri": "model://aws_robomaker_residential_TVCabinet_01",
+      "sdf_world_pose": [
+        0.629509,
+        -5.183576,
+        -0.017049,
+        0.0,
+        -0.0,
+        1.5792
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Vase_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Vase_01",
+      "sdf_world_pose": [
+        3.055663,
+        -5.41308,
+        1.574958,
+        3e-06,
+        0.0017,
+        0.00084
+      ],
+      "direct_class": "vase"
+    },
+    {
+      "physical_model_id": "RoomWall_01_001",
+      "asset_uri": "model://aws_robomaker_residential_RoomWall_01",
+      "sdf_world_pose": [
+        -6.09755,
+        -1.49618,
+        0.028124,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "Wardrobe_01_001",
+      "asset_uri": "model://aws_robomaker_residential_Wardrobe_01",
+      "sdf_world_pose": [
+        -3.14671,
+        2.476204,
+        0.000704,
+        0.0,
+        -0.0,
+        -1.569673
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_001",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        -9.4186,
+        -0.026285,
+        0.502739,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_002",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        -9.4186,
+        -2.37409,
+        0.502739,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_003",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        9.422616,
+        -3.373981,
+        0.502739,
+        0.0,
+        -0.0,
+        -3.136099
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_004",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        9.422558,
+        0.96852,
+        0.496581,
+        0.0,
+        -0.0,
+        -3.136099
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_005",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        4.722317,
+        4.470281,
+        0.502739,
+        0.0,
+        -0.0,
+        -3.136099
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_006",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        3.48852,
+        5.600688,
+        0.502739,
+        0.0,
+        -0.0,
+        -1.566274
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_007",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        1.140949,
+        5.600688,
+        0.502739,
+        0.0,
+        -0.0,
+        -1.566274
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_008",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        -1.19934,
+        5.600688,
+        0.502739,
+        0.0,
+        -0.0,
+        -1.566274
+      ],
+      "direct_class": null
+    },
+    {
+      "physical_model_id": "RoomWindow_01_009",
+      "asset_uri": "model://aws_robomaker_residential_RoomWindow_01",
+      "sdf_world_pose": [
+        -2.396624,
+        4.387607,
+        0.502739,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "direct_class": null
+    }
+  ],
+  "geometry_assets_supplied": 63,
+  "identified_coco_instances": 23
+}

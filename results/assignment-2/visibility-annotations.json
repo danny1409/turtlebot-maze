@@ -1,0 +1,3511 @@
+{
+  "method": "Manual native-RGB review of all 262 frames; partial identifiable objects count; ambiguous border/occlusion/tiny cases kept uncertain.",
+  "rows": [
+    {
+      "keyframe_id": 1,
+      "timestamp_ns": 1002000000,
+      "image": "MSI-20261012T005529_kf1.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 2,
+      "timestamp_ns": 10200000000,
+      "image": "MSI-20261012T005529_kf2.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 3,
+      "timestamp_ns": 12402000000,
+      "image": "MSI-20261012T005529_kf3.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 4,
+      "timestamp_ns": 14601000000,
+      "image": "MSI-20261012T005529_kf4.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": [
+        "refrigerator"
+      ]
+    },
+    {
+      "keyframe_id": 5,
+      "timestamp_ns": 16800000000,
+      "image": "MSI-20261012T005529_kf5.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 6,
+      "timestamp_ns": 19200000000,
+      "image": "MSI-20261012T005529_kf6.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 7,
+      "timestamp_ns": 22401000000,
+      "image": "MSI-20261012T005529_kf7.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 8,
+      "timestamp_ns": 23400000000,
+      "image": "MSI-20261012T005529_kf8.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 9,
+      "timestamp_ns": 24402000000,
+      "image": "MSI-20261012T005529_kf9.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 10,
+      "timestamp_ns": 25401000000,
+      "image": "MSI-20261012T005529_kf10.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 11,
+      "timestamp_ns": 26601000000,
+      "image": "MSI-20261012T005529_kf11.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 12,
+      "timestamp_ns": 28800000000,
+      "image": "MSI-20261012T005529_kf12.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 13,
+      "timestamp_ns": 29601000000,
+      "image": "MSI-20261012T005529_kf13.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 14,
+      "timestamp_ns": 30402000000,
+      "image": "MSI-20261012T005529_kf14.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "tv",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 15,
+      "timestamp_ns": 31200000000,
+      "image": "MSI-20261012T005529_kf15.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 16,
+      "timestamp_ns": 31800000000,
+      "image": "MSI-20261012T005529_kf16.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 17,
+      "timestamp_ns": 32400000000,
+      "image": "MSI-20261012T005529_kf17.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 18,
+      "timestamp_ns": 33000000000,
+      "image": "MSI-20261012T005529_kf18.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 19,
+      "timestamp_ns": 33600000000,
+      "image": "MSI-20261012T005529_kf19.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 20,
+      "timestamp_ns": 35001000000,
+      "image": "MSI-20261012T005529_kf20.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 21,
+      "timestamp_ns": 35601000000,
+      "image": "MSI-20261012T005529_kf21.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 22,
+      "timestamp_ns": 36201000000,
+      "image": "MSI-20261012T005529_kf22.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 23,
+      "timestamp_ns": 36801000000,
+      "image": "MSI-20261012T005529_kf23.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 24,
+      "timestamp_ns": 37401000000,
+      "image": "MSI-20261012T005529_kf24.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 25,
+      "timestamp_ns": 52401000000,
+      "image": "MSI-20261012T005529_kf25.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "tv",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 26,
+      "timestamp_ns": 53001000000,
+      "image": "MSI-20261012T005529_kf26.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "tv",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 27,
+      "timestamp_ns": 53400000000,
+      "image": "MSI-20261012T005529_kf27.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "tv",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 28,
+      "timestamp_ns": 53802000000,
+      "image": "MSI-20261012T005529_kf28.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 29,
+      "timestamp_ns": 54201000000,
+      "image": "MSI-20261012T005529_kf29.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 30,
+      "timestamp_ns": 54600000000,
+      "image": "MSI-20261012T005529_kf30.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 31,
+      "timestamp_ns": 55002000000,
+      "image": "MSI-20261012T005529_kf31.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 32,
+      "timestamp_ns": 55602000000,
+      "image": "MSI-20261012T005529_kf32.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 33,
+      "timestamp_ns": 56802000000,
+      "image": "MSI-20261012T005529_kf33.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 34,
+      "timestamp_ns": 58002000000,
+      "image": "MSI-20261012T005529_kf34.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 35,
+      "timestamp_ns": 59202000000,
+      "image": "MSI-20261012T005529_kf35.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 36,
+      "timestamp_ns": 60402000000,
+      "image": "MSI-20261012T005529_kf36.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 37,
+      "timestamp_ns": 61602000000,
+      "image": "MSI-20261012T005529_kf37.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 38,
+      "timestamp_ns": 63000000000,
+      "image": "MSI-20261012T005529_kf38.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 39,
+      "timestamp_ns": 64002000000,
+      "image": "MSI-20261012T005529_kf39.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 40,
+      "timestamp_ns": 64602000000,
+      "image": "MSI-20261012T005529_kf40.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bed"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 41,
+      "timestamp_ns": 65001000000,
+      "image": "MSI-20261012T005529_kf41.png",
+      "clearly_visible_classes": [
+        "chair",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 42,
+      "timestamp_ns": 65400000000,
+      "image": "MSI-20261012T005529_kf42.png",
+      "clearly_visible_classes": [
+        "chair",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 43,
+      "timestamp_ns": 65802000000,
+      "image": "MSI-20261012T005529_kf43.png",
+      "clearly_visible_classes": [
+        "chair",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 44,
+      "timestamp_ns": 66201000000,
+      "image": "MSI-20261012T005529_kf44.png",
+      "clearly_visible_classes": [
+        "bed"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 45,
+      "timestamp_ns": 66600000000,
+      "image": "MSI-20261012T005529_kf45.png",
+      "clearly_visible_classes": [
+        "bed"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 46,
+      "timestamp_ns": 67002000000,
+      "image": "MSI-20261012T005529_kf46.png",
+      "clearly_visible_classes": [
+        "bed",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 47,
+      "timestamp_ns": 67401000000,
+      "image": "MSI-20261012T005529_kf47.png",
+      "clearly_visible_classes": [
+        "chair",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "bed",
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 48,
+      "timestamp_ns": 67800000000,
+      "image": "MSI-20261012T005529_kf48.png",
+      "clearly_visible_classes": [
+        "chair",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 49,
+      "timestamp_ns": 68400000000,
+      "image": "MSI-20261012T005529_kf49.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "couch",
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 50,
+      "timestamp_ns": 68802000000,
+      "image": "MSI-20261012T005529_kf50.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 51,
+      "timestamp_ns": 69402000000,
+      "image": "MSI-20261012T005529_kf51.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 52,
+      "timestamp_ns": 70602000000,
+      "image": "MSI-20261012T005529_kf52.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 53,
+      "timestamp_ns": 71802000000,
+      "image": "MSI-20261012T005529_kf53.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "chair",
+        "couch",
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 54,
+      "timestamp_ns": 72402000000,
+      "image": "MSI-20261012T005529_kf54.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "chair",
+        "couch",
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 55,
+      "timestamp_ns": 73002000000,
+      "image": "MSI-20261012T005529_kf55.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 56,
+      "timestamp_ns": 73602000000,
+      "image": "MSI-20261012T005529_kf56.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 57,
+      "timestamp_ns": 93201000000,
+      "image": "MSI-20261012T005529_kf57.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 58,
+      "timestamp_ns": 94401000000,
+      "image": "MSI-20261012T005529_kf58.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 59,
+      "timestamp_ns": 95601000000,
+      "image": "MSI-20261012T005529_kf59.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 60,
+      "timestamp_ns": 96801000000,
+      "image": "MSI-20261012T005529_kf60.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 61,
+      "timestamp_ns": 98001000000,
+      "image": "MSI-20261012T005529_kf61.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 62,
+      "timestamp_ns": 99201000000,
+      "image": "MSI-20261012T005529_kf62.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 63,
+      "timestamp_ns": 100401000000,
+      "image": "MSI-20261012T005529_kf63.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 64,
+      "timestamp_ns": 101601000000,
+      "image": "MSI-20261012T005529_kf64.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "tv",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 65,
+      "timestamp_ns": 102801000000,
+      "image": "MSI-20261012T005529_kf65.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "refrigerator",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 66,
+      "timestamp_ns": 103602000000,
+      "image": "MSI-20261012T005529_kf66.png",
+      "clearly_visible_classes": [
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "tv",
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 67,
+      "timestamp_ns": 104001000000,
+      "image": "MSI-20261012T005529_kf67.png",
+      "clearly_visible_classes": [
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 68,
+      "timestamp_ns": 104400000000,
+      "image": "MSI-20261012T005529_kf68.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 69,
+      "timestamp_ns": 104802000000,
+      "image": "MSI-20261012T005529_kf69.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 70,
+      "timestamp_ns": 105201000000,
+      "image": "MSI-20261012T005529_kf70.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 71,
+      "timestamp_ns": 105801000000,
+      "image": "MSI-20261012T005529_kf71.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 72,
+      "timestamp_ns": 108600000000,
+      "image": "MSI-20261012T005529_kf72.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "bed"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 73,
+      "timestamp_ns": 109401000000,
+      "image": "MSI-20261012T005529_kf73.png",
+      "clearly_visible_classes": [
+        "chair",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 74,
+      "timestamp_ns": 110001000000,
+      "image": "MSI-20261012T005529_kf74.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "bed"
+      ]
+    },
+    {
+      "keyframe_id": 75,
+      "timestamp_ns": 110400000000,
+      "image": "MSI-20261012T005529_kf75.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "bed"
+      ]
+    },
+    {
+      "keyframe_id": 76,
+      "timestamp_ns": 110802000000,
+      "image": "MSI-20261012T005529_kf76.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "bed"
+      ]
+    },
+    {
+      "keyframe_id": 77,
+      "timestamp_ns": 111201000000,
+      "image": "MSI-20261012T005529_kf77.png",
+      "clearly_visible_classes": [
+        "chair",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 78,
+      "timestamp_ns": 111600000000,
+      "image": "MSI-20261012T005529_kf78.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "sports ball"
+      ]
+    },
+    {
+      "keyframe_id": 79,
+      "timestamp_ns": 112200000000,
+      "image": "MSI-20261012T005529_kf79.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "sports ball"
+      ]
+    },
+    {
+      "keyframe_id": 80,
+      "timestamp_ns": 113601000000,
+      "image": "MSI-20261012T005529_kf80.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "sports ball"
+      ]
+    },
+    {
+      "keyframe_id": 81,
+      "timestamp_ns": 114600000000,
+      "image": "MSI-20261012T005529_kf81.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "sports ball"
+      ]
+    },
+    {
+      "keyframe_id": 82,
+      "timestamp_ns": 115200000000,
+      "image": "MSI-20261012T005529_kf82.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "sports ball"
+      ]
+    },
+    {
+      "keyframe_id": 83,
+      "timestamp_ns": 116400000000,
+      "image": "MSI-20261012T005529_kf83.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 84,
+      "timestamp_ns": 117600000000,
+      "image": "MSI-20261012T005529_kf84.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 85,
+      "timestamp_ns": 118800000000,
+      "image": "MSI-20261012T005529_kf85.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "chair"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 86,
+      "timestamp_ns": 120000000000,
+      "image": "MSI-20261012T005529_kf86.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 87,
+      "timestamp_ns": 121200000000,
+      "image": "MSI-20261012T005529_kf87.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 88,
+      "timestamp_ns": 122400000000,
+      "image": "MSI-20261012T005529_kf88.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 89,
+      "timestamp_ns": 123600000000,
+      "image": "MSI-20261012T005529_kf89.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 90,
+      "timestamp_ns": 124200000000,
+      "image": "MSI-20261012T005529_kf90.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 91,
+      "timestamp_ns": 124602000000,
+      "image": "MSI-20261012T005529_kf91.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 92,
+      "timestamp_ns": 125001000000,
+      "image": "MSI-20261012T005529_kf92.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 93,
+      "timestamp_ns": 125400000000,
+      "image": "MSI-20261012T005529_kf93.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 94,
+      "timestamp_ns": 125802000000,
+      "image": "MSI-20261012T005529_kf94.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 95,
+      "timestamp_ns": 126201000000,
+      "image": "MSI-20261012T005529_kf95.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 96,
+      "timestamp_ns": 126600000000,
+      "image": "MSI-20261012T005529_kf96.png",
+      "clearly_visible_classes": [
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "chair"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 97,
+      "timestamp_ns": 127200000000,
+      "image": "MSI-20261012T005529_kf97.png",
+      "clearly_visible_classes": [
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 98,
+      "timestamp_ns": 128802000000,
+      "image": "MSI-20261012T005529_kf98.png",
+      "clearly_visible_classes": [
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 99,
+      "timestamp_ns": 129402000000,
+      "image": "MSI-20261012T005529_kf99.png",
+      "clearly_visible_classes": [
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "chair"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 100,
+      "timestamp_ns": 130002000000,
+      "image": "MSI-20261012T005529_kf100.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 101,
+      "timestamp_ns": 131202000000,
+      "image": "MSI-20261012T005529_kf101.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 102,
+      "timestamp_ns": 132801000000,
+      "image": "MSI-20261012T005529_kf102.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 103,
+      "timestamp_ns": 134802000000,
+      "image": "MSI-20261012T005529_kf103.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 104,
+      "timestamp_ns": 135801000000,
+      "image": "MSI-20261012T005529_kf104.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 105,
+      "timestamp_ns": 136401000000,
+      "image": "MSI-20261012T005529_kf105.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 106,
+      "timestamp_ns": 137001000000,
+      "image": "MSI-20261012T005529_kf106.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 107,
+      "timestamp_ns": 141600000000,
+      "image": "MSI-20261012T005529_kf107.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 108,
+      "timestamp_ns": 142800000000,
+      "image": "MSI-20261012T005529_kf108.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 109,
+      "timestamp_ns": 143400000000,
+      "image": "MSI-20261012T005529_kf109.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 110,
+      "timestamp_ns": 144000000000,
+      "image": "MSI-20261012T005529_kf110.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 111,
+      "timestamp_ns": 145002000000,
+      "image": "MSI-20261012T005529_kf111.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 112,
+      "timestamp_ns": 146202000000,
+      "image": "MSI-20261012T005529_kf112.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 113,
+      "timestamp_ns": 147402000000,
+      "image": "MSI-20261012T005529_kf113.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 114,
+      "timestamp_ns": 148602000000,
+      "image": "MSI-20261012T005529_kf114.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 115,
+      "timestamp_ns": 149802000000,
+      "image": "MSI-20261012T005529_kf115.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 116,
+      "timestamp_ns": 151002000000,
+      "image": "MSI-20261012T005529_kf116.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 117,
+      "timestamp_ns": 152400000000,
+      "image": "MSI-20261012T005529_kf117.png",
+      "clearly_visible_classes": [
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 118,
+      "timestamp_ns": 156000000000,
+      "image": "MSI-20261012T005529_kf118.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 119,
+      "timestamp_ns": 156600000000,
+      "image": "MSI-20261012T005529_kf119.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 120,
+      "timestamp_ns": 157200000000,
+      "image": "MSI-20261012T005529_kf120.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 121,
+      "timestamp_ns": 158400000000,
+      "image": "MSI-20261012T005529_kf121.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bed"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 122,
+      "timestamp_ns": 159600000000,
+      "image": "MSI-20261012T005529_kf122.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "bed",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 123,
+      "timestamp_ns": 160200000000,
+      "image": "MSI-20261012T005529_kf123.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 124,
+      "timestamp_ns": 160800000000,
+      "image": "MSI-20261012T005529_kf124.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 125,
+      "timestamp_ns": 161400000000,
+      "image": "MSI-20261012T005529_kf125.png",
+      "clearly_visible_classes": [
+        "chair",
+        "bench",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 126,
+      "timestamp_ns": 162000000000,
+      "image": "MSI-20261012T005529_kf126.png",
+      "clearly_visible_classes": [
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 127,
+      "timestamp_ns": 162600000000,
+      "image": "MSI-20261012T005529_kf127.png",
+      "clearly_visible_classes": [
+        "couch"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 128,
+      "timestamp_ns": 164202000000,
+      "image": "MSI-20261012T005529_kf128.png",
+      "clearly_visible_classes": [
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 129,
+      "timestamp_ns": 165801000000,
+      "image": "MSI-20261012T005529_kf129.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": [
+        "tv"
+      ]
+    },
+    {
+      "keyframe_id": 130,
+      "timestamp_ns": 166401000000,
+      "image": "MSI-20261012T005529_kf130.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": [
+        "tv"
+      ]
+    },
+    {
+      "keyframe_id": 131,
+      "timestamp_ns": 167001000000,
+      "image": "MSI-20261012T005529_kf131.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 132,
+      "timestamp_ns": 168201000000,
+      "image": "MSI-20261012T005529_kf132.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 133,
+      "timestamp_ns": 169401000000,
+      "image": "MSI-20261012T005529_kf133.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "tv",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 134,
+      "timestamp_ns": 170601000000,
+      "image": "MSI-20261012T005529_kf134.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "tv",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 135,
+      "timestamp_ns": 172002000000,
+      "image": "MSI-20261012T005529_kf135.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 136,
+      "timestamp_ns": 172602000000,
+      "image": "MSI-20261012T005529_kf136.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 137,
+      "timestamp_ns": 173202000000,
+      "image": "MSI-20261012T005529_kf137.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "tv",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 138,
+      "timestamp_ns": 173802000000,
+      "image": "MSI-20261012T005529_kf138.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "tv",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 139,
+      "timestamp_ns": 174600000000,
+      "image": "MSI-20261012T005529_kf139.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "tv",
+        "spoon",
+        "sink",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 140,
+      "timestamp_ns": 175800000000,
+      "image": "MSI-20261012T005529_kf140.png",
+      "clearly_visible_classes": [
+        "chair",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "refrigerator",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 141,
+      "timestamp_ns": 177000000000,
+      "image": "MSI-20261012T005529_kf141.png",
+      "clearly_visible_classes": [
+        "couch",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 142,
+      "timestamp_ns": 178200000000,
+      "image": "MSI-20261012T005529_kf142.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 143,
+      "timestamp_ns": 179400000000,
+      "image": "MSI-20261012T005529_kf143.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 144,
+      "timestamp_ns": 180600000000,
+      "image": "MSI-20261012T005529_kf144.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 145,
+      "timestamp_ns": 181800000000,
+      "image": "MSI-20261012T005529_kf145.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 146,
+      "timestamp_ns": 183201000000,
+      "image": "MSI-20261012T005529_kf146.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 147,
+      "timestamp_ns": 184800000000,
+      "image": "MSI-20261012T005529_kf147.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 148,
+      "timestamp_ns": 185400000000,
+      "image": "MSI-20261012T005529_kf148.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 149,
+      "timestamp_ns": 185802000000,
+      "image": "MSI-20261012T005529_kf149.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 150,
+      "timestamp_ns": 186201000000,
+      "image": "MSI-20261012T005529_kf150.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 151,
+      "timestamp_ns": 186801000000,
+      "image": "MSI-20261012T005529_kf151.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 152,
+      "timestamp_ns": 188001000000,
+      "image": "MSI-20261012T005529_kf152.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 153,
+      "timestamp_ns": 189201000000,
+      "image": "MSI-20261012T005529_kf153.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 154,
+      "timestamp_ns": 190401000000,
+      "image": "MSI-20261012T005529_kf154.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "refrigerator"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 155,
+      "timestamp_ns": 191400000000,
+      "image": "MSI-20261012T005529_kf155.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "refrigerator"
+      ],
+      "correct_detection_classes": [
+        "chair",
+        "dining table"
+      ]
+    },
+    {
+      "keyframe_id": 156,
+      "timestamp_ns": 192000000000,
+      "image": "MSI-20261012T005529_kf156.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "refrigerator"
+      ],
+      "correct_detection_classes": [
+        "chair",
+        "dining table"
+      ]
+    },
+    {
+      "keyframe_id": 157,
+      "timestamp_ns": 192600000000,
+      "image": "MSI-20261012T005529_kf157.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": [
+        "chair",
+        "dining table"
+      ]
+    },
+    {
+      "keyframe_id": 158,
+      "timestamp_ns": 193401000000,
+      "image": "MSI-20261012T005529_kf158.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": [
+        "chair",
+        "dining table"
+      ]
+    },
+    {
+      "keyframe_id": 159,
+      "timestamp_ns": 194202000000,
+      "image": "MSI-20261012T005529_kf159.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 160,
+      "timestamp_ns": 194802000000,
+      "image": "MSI-20261012T005529_kf160.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 161,
+      "timestamp_ns": 196002000000,
+      "image": "MSI-20261012T005529_kf161.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 162,
+      "timestamp_ns": 197202000000,
+      "image": "MSI-20261012T005529_kf162.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 163,
+      "timestamp_ns": 198402000000,
+      "image": "MSI-20261012T005529_kf163.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 164,
+      "timestamp_ns": 199602000000,
+      "image": "MSI-20261012T005529_kf164.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 165,
+      "timestamp_ns": 200802000000,
+      "image": "MSI-20261012T005529_kf165.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 166,
+      "timestamp_ns": 202002000000,
+      "image": "MSI-20261012T005529_kf166.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 167,
+      "timestamp_ns": 203202000000,
+      "image": "MSI-20261012T005529_kf167.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 168,
+      "timestamp_ns": 203802000000,
+      "image": "MSI-20261012T005529_kf168.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 169,
+      "timestamp_ns": 211602000000,
+      "image": "MSI-20261012T005529_kf169.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 170,
+      "timestamp_ns": 212001000000,
+      "image": "MSI-20261012T005529_kf170.png",
+      "clearly_visible_classes": [
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 171,
+      "timestamp_ns": 212400000000,
+      "image": "MSI-20261012T005529_kf171.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 172,
+      "timestamp_ns": 212802000000,
+      "image": "MSI-20261012T005529_kf172.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 173,
+      "timestamp_ns": 213201000000,
+      "image": "MSI-20261012T005529_kf173.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball"
+      ],
+      "correct_detection_classes": [
+        "chair",
+        "dining table"
+      ]
+    },
+    {
+      "keyframe_id": 174,
+      "timestamp_ns": 213801000000,
+      "image": "MSI-20261012T005529_kf174.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 175,
+      "timestamp_ns": 215001000000,
+      "image": "MSI-20261012T005529_kf175.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 176,
+      "timestamp_ns": 215601000000,
+      "image": "MSI-20261012T005529_kf176.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 177,
+      "timestamp_ns": 216801000000,
+      "image": "MSI-20261012T005529_kf177.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 178,
+      "timestamp_ns": 218001000000,
+      "image": "MSI-20261012T005529_kf178.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 179,
+      "timestamp_ns": 219201000000,
+      "image": "MSI-20261012T005529_kf179.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 180,
+      "timestamp_ns": 220401000000,
+      "image": "MSI-20261012T005529_kf180.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 181,
+      "timestamp_ns": 221601000000,
+      "image": "MSI-20261012T005529_kf181.png",
+      "clearly_visible_classes": [
+        "refrigerator"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 182,
+      "timestamp_ns": 223002000000,
+      "image": "MSI-20261012T005529_kf182.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "refrigerator"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 183,
+      "timestamp_ns": 223401000000,
+      "image": "MSI-20261012T005529_kf183.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 184,
+      "timestamp_ns": 223800000000,
+      "image": "MSI-20261012T005529_kf184.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 185,
+      "timestamp_ns": 224202000000,
+      "image": "MSI-20261012T005529_kf185.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 186,
+      "timestamp_ns": 224601000000,
+      "image": "MSI-20261012T005529_kf186.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 187,
+      "timestamp_ns": 225201000000,
+      "image": "MSI-20261012T005529_kf187.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 188,
+      "timestamp_ns": 227400000000,
+      "image": "MSI-20261012T005529_kf188.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 189,
+      "timestamp_ns": 228000000000,
+      "image": "MSI-20261012T005529_kf189.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 190,
+      "timestamp_ns": 228402000000,
+      "image": "MSI-20261012T005529_kf190.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 191,
+      "timestamp_ns": 229002000000,
+      "image": "MSI-20261012T005529_kf191.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table"
+      ],
+      "uncertain_visibility_classes": [
+        "bench",
+        "sports ball"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 192,
+      "timestamp_ns": 229800000000,
+      "image": "MSI-20261012T005529_kf192.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 193,
+      "timestamp_ns": 231000000000,
+      "image": "MSI-20261012T005529_kf193.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [
+        "chair"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 194,
+      "timestamp_ns": 232200000000,
+      "image": "MSI-20261012T005529_kf194.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 195,
+      "timestamp_ns": 233202000000,
+      "image": "MSI-20261012T005529_kf195.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 196,
+      "timestamp_ns": 234402000000,
+      "image": "MSI-20261012T005529_kf196.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 197,
+      "timestamp_ns": 235800000000,
+      "image": "MSI-20261012T005529_kf197.png",
+      "clearly_visible_classes": [],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 198,
+      "timestamp_ns": 236400000000,
+      "image": "MSI-20261012T005529_kf198.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 199,
+      "timestamp_ns": 237000000000,
+      "image": "MSI-20261012T005529_kf199.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 200,
+      "timestamp_ns": 237600000000,
+      "image": "MSI-20261012T005529_kf200.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 201,
+      "timestamp_ns": 241602000000,
+      "image": "MSI-20261012T005529_kf201.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 202,
+      "timestamp_ns": 248202000000,
+      "image": "MSI-20261012T005529_kf202.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 203,
+      "timestamp_ns": 248802000000,
+      "image": "MSI-20261012T005529_kf203.png",
+      "clearly_visible_classes": [
+        "chair"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 204,
+      "timestamp_ns": 249801000000,
+      "image": "MSI-20261012T005529_kf204.png",
+      "clearly_visible_classes": [
+        "chair",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 205,
+      "timestamp_ns": 251001000000,
+      "image": "MSI-20261012T005529_kf205.png",
+      "clearly_visible_classes": [
+        "chair",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 206,
+      "timestamp_ns": 252402000000,
+      "image": "MSI-20261012T005529_kf206.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 207,
+      "timestamp_ns": 253200000000,
+      "image": "MSI-20261012T005529_kf207.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 208,
+      "timestamp_ns": 253800000000,
+      "image": "MSI-20261012T005529_kf208.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "sports ball",
+        "tv",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 209,
+      "timestamp_ns": 254400000000,
+      "image": "MSI-20261012T005529_kf209.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 210,
+      "timestamp_ns": 256200000000,
+      "image": "MSI-20261012T005529_kf210.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 211,
+      "timestamp_ns": 257802000000,
+      "image": "MSI-20261012T005529_kf211.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 212,
+      "timestamp_ns": 258600000000,
+      "image": "MSI-20261012T005529_kf212.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 213,
+      "timestamp_ns": 259200000000,
+      "image": "MSI-20261012T005529_kf213.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "tv",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 214,
+      "timestamp_ns": 259800000000,
+      "image": "MSI-20261012T005529_kf214.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "tv",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 215,
+      "timestamp_ns": 268401000000,
+      "image": "MSI-20261012T005529_kf215.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 216,
+      "timestamp_ns": 269601000000,
+      "image": "MSI-20261012T005529_kf216.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 217,
+      "timestamp_ns": 270801000000,
+      "image": "MSI-20261012T005529_kf217.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 218,
+      "timestamp_ns": 272001000000,
+      "image": "MSI-20261012T005529_kf218.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 219,
+      "timestamp_ns": 273201000000,
+      "image": "MSI-20261012T005529_kf219.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 220,
+      "timestamp_ns": 273801000000,
+      "image": "MSI-20261012T005529_kf220.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 221,
+      "timestamp_ns": 274401000000,
+      "image": "MSI-20261012T005529_kf221.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 222,
+      "timestamp_ns": 275001000000,
+      "image": "MSI-20261012T005529_kf222.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 223,
+      "timestamp_ns": 275601000000,
+      "image": "MSI-20261012T005529_kf223.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 224,
+      "timestamp_ns": 276801000000,
+      "image": "MSI-20261012T005529_kf224.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 225,
+      "timestamp_ns": 278001000000,
+      "image": "MSI-20261012T005529_kf225.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 226,
+      "timestamp_ns": 279201000000,
+      "image": "MSI-20261012T005529_kf226.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 227,
+      "timestamp_ns": 280401000000,
+      "image": "MSI-20261012T005529_kf227.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 228,
+      "timestamp_ns": 281802000000,
+      "image": "MSI-20261012T005529_kf228.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 229,
+      "timestamp_ns": 282402000000,
+      "image": "MSI-20261012T005529_kf229.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 230,
+      "timestamp_ns": 282801000000,
+      "image": "MSI-20261012T005529_kf230.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 231,
+      "timestamp_ns": 283200000000,
+      "image": "MSI-20261012T005529_kf231.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 232,
+      "timestamp_ns": 283602000000,
+      "image": "MSI-20261012T005529_kf232.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 233,
+      "timestamp_ns": 284202000000,
+      "image": "MSI-20261012T005529_kf233.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 234,
+      "timestamp_ns": 295401000000,
+      "image": "MSI-20261012T005529_kf234.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 235,
+      "timestamp_ns": 296001000000,
+      "image": "MSI-20261012T005529_kf235.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 236,
+      "timestamp_ns": 296802000000,
+      "image": "MSI-20261012T005529_kf236.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 237,
+      "timestamp_ns": 298602000000,
+      "image": "MSI-20261012T005529_kf237.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 238,
+      "timestamp_ns": 300000000000,
+      "image": "MSI-20261012T005529_kf238.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 239,
+      "timestamp_ns": 300801000000,
+      "image": "MSI-20261012T005529_kf239.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "refrigerator",
+        "spoon",
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 240,
+      "timestamp_ns": 301401000000,
+      "image": "MSI-20261012T005529_kf240.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "tv",
+        "refrigerator",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 241,
+      "timestamp_ns": 302001000000,
+      "image": "MSI-20261012T005529_kf241.png",
+      "clearly_visible_classes": [
+        "couch",
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 242,
+      "timestamp_ns": 303000000000,
+      "image": "MSI-20261012T005529_kf242.png",
+      "clearly_visible_classes": [
+        "chair",
+        "couch",
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sink"
+      ],
+      "correct_detection_classes": [
+        "chair"
+      ]
+    },
+    {
+      "keyframe_id": 243,
+      "timestamp_ns": 305202000000,
+      "image": "MSI-20261012T005529_kf243.png",
+      "clearly_visible_classes": [
+        "couch",
+        "refrigerator",
+        "spoon"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "dining table",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 244,
+      "timestamp_ns": 305802000000,
+      "image": "MSI-20261012T005529_kf244.png",
+      "clearly_visible_classes": [
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "tv",
+        "refrigerator",
+        "spoon",
+        "sink"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 245,
+      "timestamp_ns": 306402000000,
+      "image": "MSI-20261012T005529_kf245.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 246,
+      "timestamp_ns": 307002000000,
+      "image": "MSI-20261012T005529_kf246.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": [
+        "tv"
+      ]
+    },
+    {
+      "keyframe_id": 247,
+      "timestamp_ns": 308001000000,
+      "image": "MSI-20261012T005529_kf247.png",
+      "clearly_visible_classes": [
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": [
+        "tv"
+      ]
+    },
+    {
+      "keyframe_id": 248,
+      "timestamp_ns": 318402000000,
+      "image": "MSI-20261012T005529_kf248.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": [
+        "tv"
+      ]
+    },
+    {
+      "keyframe_id": 249,
+      "timestamp_ns": 319200000000,
+      "image": "MSI-20261012T005529_kf249.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "vase"
+      ],
+      "correct_detection_classes": [
+        "couch",
+        "tv"
+      ]
+    },
+    {
+      "keyframe_id": 250,
+      "timestamp_ns": 319800000000,
+      "image": "MSI-20261012T005529_kf250.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "chair",
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 251,
+      "timestamp_ns": 320202000000,
+      "image": "MSI-20261012T005529_kf251.png",
+      "clearly_visible_classes": [
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "chair"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 252,
+      "timestamp_ns": 320601000000,
+      "image": "MSI-20261012T005529_kf252.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "couch"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 253,
+      "timestamp_ns": 321000000000,
+      "image": "MSI-20261012T005529_kf253.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 254,
+      "timestamp_ns": 321600000000,
+      "image": "MSI-20261012T005529_kf254.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "couch",
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 255,
+      "timestamp_ns": 323001000000,
+      "image": "MSI-20261012T005529_kf255.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 256,
+      "timestamp_ns": 323802000000,
+      "image": "MSI-20261012T005529_kf256.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "bench",
+        "sports ball"
+      ],
+      "uncertain_visibility_classes": [
+        "tv"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 257,
+      "timestamp_ns": 324402000000,
+      "image": "MSI-20261012T005529_kf257.png",
+      "clearly_visible_classes": [
+        "chair",
+        "dining table",
+        "sports ball",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "bench"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 258,
+      "timestamp_ns": 325401000000,
+      "image": "MSI-20261012T005529_kf258.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 259,
+      "timestamp_ns": 326601000000,
+      "image": "MSI-20261012T005529_kf259.png",
+      "clearly_visible_classes": [
+        "chair",
+        "sports ball",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 260,
+      "timestamp_ns": 327801000000,
+      "image": "MSI-20261012T005529_kf260.png",
+      "clearly_visible_classes": [
+        "chair",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 261,
+      "timestamp_ns": 329001000000,
+      "image": "MSI-20261012T005529_kf261.png",
+      "clearly_visible_classes": [
+        "chair",
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "dining table",
+        "sports ball"
+      ],
+      "correct_detection_classes": []
+    },
+    {
+      "keyframe_id": 262,
+      "timestamp_ns": 330402000000,
+      "image": "MSI-20261012T005529_kf262.png",
+      "clearly_visible_classes": [
+        "tv"
+      ],
+      "uncertain_visibility_classes": [
+        "chair"
+      ],
+      "correct_detection_classes": []
+    }
+  ]
+}

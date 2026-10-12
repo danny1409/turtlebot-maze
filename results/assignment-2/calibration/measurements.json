@@ -1,0 +1,105 @@
+{
+  "stationary_depth_noise_m": {
+    "count": 60,
+    "median": 0.0,
+    "p95": 0.0,
+    "maximum": 0.0,
+    "std_m": 0.0,
+    "map_point_error_p95_m": 0.0
+  },
+  "repeat_view_depth_difference_m": {
+    "count": 0
+  },
+  "bbox_centre_variation_equivalent_m": {
+    "count": 0
+  },
+  "robot_translation_error_m": {
+    "count": 0
+  },
+  "robot_yaw_error_deg": {
+    "count": 0
+  },
+  "planar_transform_point_error_bound_m": {
+    "count": 0
+  },
+  "opposite_view_position_difference_m": {
+    "count": 1,
+    "median": 0.44797107920169776,
+    "p95": 0.44797107920169776,
+    "maximum": 0.44797107920169776
+  },
+  "same_object_position_difference_m": {
+    "count": 7,
+    "median": 0.0981493744394528,
+    "p95": 0.39659090357060467,
+    "maximum": 0.44797107920169776
+  },
+  "same_object_running_mean_residual_m": {
+    "count": 5,
+    "median": 0.09341083255166531,
+    "p95": 0.40744066691674924,
+    "maximum": 0.44797107920169776
+  },
+  "rotation_compensated_bbox_repeats": [
+    {
+      "keyframes": [
+        3,
+        4
+      ],
+      "camera_displacement_m": 0.01633982951833588,
+      "shared_range_m": 2.974916083308691,
+      "box_centre_spread_after_rotation_compensation_m": 0.20064242983234634,
+      "method": "camera position + shared camera/object range * map-frame unit ray through box centre",
+      "limitation": "near-position repeat with camera rotation; residual localization/viewpoint change is included; this is not isolated stationary detector jitter"
+    },
+    {
+      "keyframes": [
+        46,
+        47
+      ],
+      "camera_displacement_m": 0.04995232281898765,
+      "shared_range_m": 2.5344829451753093,
+      "box_centre_spread_after_rotation_compensation_m": 0.043259456272546855,
+      "method": "camera position + shared camera/object range * map-frame unit ray through box centre",
+      "limitation": "near-position repeat with camera rotation; residual localization/viewpoint change is included; this is not isolated stationary detector jitter"
+    }
+  ],
+  "rotation_compensated_bbox_repeat_spread_m": {
+    "count": 2,
+    "median": 0.1219509430524466,
+    "p95": 0.19277328115435635,
+    "maximum": 0.20064242983234634
+  },
+  "opposite_view_pair": {
+    "keyframes": [
+      5,
+      24
+    ],
+    "angle_deg": 93.724379211363
+  },
+  "numeric_transform_consistency_m": {
+    "count": 88,
+    "median": 4.440892098500626e-16,
+    "p95": 1.790180836524724e-15,
+    "maximum": 2.220446049250313e-15,
+    "description": "scalar chain vs published coordinates; not localization accuracy"
+  },
+  "independent_localization_error": {
+    "status": "measured in a separate stationary native Gazebo/TF capture",
+    "source": "static-registration-and-error.json",
+    "matched_samples": 16,
+    "xy_error_m": 0.2331331266095935,
+    "yaw_error_deg": 1.2669540273880646,
+    "max_sync_ms": 3.0,
+    "scope": "Independent checkpoint, not simultaneous truth for the chair or final whole-house route."
+  },
+  "candidate_radius_m": 0.5,
+  "radius_status": "selected 0.50 m from the reviewed subset and separate measured localization checkpoint; final full-route trials are reported separately",
+  "annotation_scope": {
+    "reviewed_frames": 140,
+    "accepted_chair_labels": 8,
+    "distinct_labeled_chairs": 3,
+    "excluded_chair_keyframe": 104,
+    "scope": "image-reviewed relative physical table-side identities; current unique SDF model names are not asserted"
+  }
+}

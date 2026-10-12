@@ -1,0 +1,754 @@
+[
+  {
+    "object_id": 8,
+    "class_name": "airplane",
+    "map_x": 1.0303939986343402,
+    "map_y": -1.3994025143193864,
+    "map_z": 1.6607954857232339,
+    "observation_count": 1
+  },
+  {
+    "object_id": 18,
+    "class_name": "airplane",
+    "map_x": 1.4860101026762425,
+    "map_y": -1.8416583664679456,
+    "map_z": 1.7558373691187685,
+    "observation_count": 1
+  },
+  {
+    "object_id": 67,
+    "class_name": "airplane",
+    "map_x": 1.5571736246272945,
+    "map_y": 3.952120779413985,
+    "map_z": 1.1473733246078635,
+    "observation_count": 1
+  },
+  {
+    "object_id": 82,
+    "class_name": "airplane",
+    "map_x": -3.7722285404715126,
+    "map_y": 1.2761863103829025,
+    "map_z": 1.4468383629803259,
+    "observation_count": 1
+  },
+  {
+    "object_id": 23,
+    "class_name": "bed",
+    "map_x": -5.461442651374611,
+    "map_y": 1.0848537793578448,
+    "map_z": 0.299372823881959,
+    "observation_count": 3
+  },
+  {
+    "object_id": 25,
+    "class_name": "bed",
+    "map_x": -3.5118409537208723,
+    "map_y": -0.8809716707170631,
+    "map_z": -0.1275148204062433,
+    "observation_count": 1
+  },
+  {
+    "object_id": 29,
+    "class_name": "bed",
+    "map_x": -5.344727644487524,
+    "map_y": -2.3323206025068974,
+    "map_z": -0.1261158420000668,
+    "observation_count": 1
+  },
+  {
+    "object_id": 35,
+    "class_name": "bed",
+    "map_x": -6.446047342957943,
+    "map_y": -5.031984556866737,
+    "map_z": -0.12572794285189515,
+    "observation_count": 1
+  },
+  {
+    "object_id": 50,
+    "class_name": "bed",
+    "map_x": 4.792173929297981,
+    "map_y": -5.043387143581068,
+    "map_z": 0.3346149560182504,
+    "observation_count": 1
+  },
+  {
+    "object_id": 57,
+    "class_name": "bed",
+    "map_x": 6.28127253622604,
+    "map_y": -4.963720700541857,
+    "map_z": -0.12504612853056854,
+    "observation_count": 2
+  },
+  {
+    "object_id": 63,
+    "class_name": "bed",
+    "map_x": 6.61977910222458,
+    "map_y": 2.8307660160179524,
+    "map_z": -0.12418428475594537,
+    "observation_count": 2
+  },
+  {
+    "object_id": 65,
+    "class_name": "bed",
+    "map_x": 5.953823287986082,
+    "map_y": 2.5638333652603174,
+    "map_z": -0.12602678391884875,
+    "observation_count": 1
+  },
+  {
+    "object_id": 7,
+    "class_name": "bench",
+    "map_x": 0.3082940962619709,
+    "map_y": -4.386575187019508,
+    "map_z": 0.09495485304125578,
+    "observation_count": 1
+  },
+  {
+    "object_id": 38,
+    "class_name": "bench",
+    "map_x": 0.17891161567300018,
+    "map_y": -5.537748744320312,
+    "map_z": -0.09334939518454706,
+    "observation_count": 1
+  },
+  {
+    "object_id": 39,
+    "class_name": "bench",
+    "map_x": -0.09525144757636173,
+    "map_y": -5.07341553207247,
+    "map_z": 0.12522726509660048,
+    "observation_count": 1
+  },
+  {
+    "object_id": 42,
+    "class_name": "bench",
+    "map_x": -0.6735178879294316,
+    "map_y": -5.250121247360715,
+    "map_z": -0.06692823065851725,
+    "observation_count": 2
+  },
+  {
+    "object_id": 66,
+    "class_name": "bench",
+    "map_x": 3.9207604521314767,
+    "map_y": 3.2169632665805667,
+    "map_z": 0.12157950985660462,
+    "observation_count": 1
+  },
+  {
+    "object_id": 71,
+    "class_name": "bench",
+    "map_x": -1.1501863793109766,
+    "map_y": 3.7359099941033724,
+    "map_z": 0.2274095673867154,
+    "observation_count": 1
+  },
+  {
+    "object_id": 72,
+    "class_name": "bench",
+    "map_x": 2.6857866380752005,
+    "map_y": 6.247038749469203,
+    "map_z": 0.21142568872994263,
+    "observation_count": 1
+  },
+  {
+    "object_id": 74,
+    "class_name": "bench",
+    "map_x": 3.905570765467264,
+    "map_y": 6.868026673926383,
+    "map_z": 0.19507912383458642,
+    "observation_count": 1
+  },
+  {
+    "object_id": 75,
+    "class_name": "bench",
+    "map_x": 3.8355249032333365,
+    "map_y": 7.849460059623955,
+    "map_z": 0.16577288106011465,
+    "observation_count": 1
+  },
+  {
+    "object_id": 78,
+    "class_name": "bench",
+    "map_x": -2.260485426330951,
+    "map_y": -0.7349713239369313,
+    "map_z": 0.41250641553021833,
+    "observation_count": 1
+  },
+  {
+    "object_id": 93,
+    "class_name": "bench",
+    "map_x": -0.5460256829914516,
+    "map_y": 3.7525857107411458,
+    "map_z": 0.13143376634166395,
+    "observation_count": 1
+  },
+  {
+    "object_id": 94,
+    "class_name": "bench",
+    "map_x": -2.4749336410888967,
+    "map_y": 3.309576264699694,
+    "map_z": 0.2045836254731958,
+    "observation_count": 2
+  },
+  {
+    "object_id": 17,
+    "class_name": "boat",
+    "map_x": 0.7084339667065094,
+    "map_y": -1.7065807816884417,
+    "map_z": 1.652750228647928,
+    "observation_count": 1
+  },
+  {
+    "object_id": 70,
+    "class_name": "car",
+    "map_x": 2.648863056066383,
+    "map_y": 2.018463320610072,
+    "map_z": 0.06879468183338093,
+    "observation_count": 1
+  },
+  {
+    "object_id": 12,
+    "class_name": "chair",
+    "map_x": -9.150124529837612,
+    "map_y": 1.7764525987569177,
+    "map_z": 0.2662926426925534,
+    "observation_count": 2
+  },
+  {
+    "object_id": 20,
+    "class_name": "chair",
+    "map_x": -0.8195650352975674,
+    "map_y": -1.9404608051756838,
+    "map_z": 0.7711106840138535,
+    "observation_count": 1
+  },
+  {
+    "object_id": 31,
+    "class_name": "chair",
+    "map_x": -8.139027689488397,
+    "map_y": -4.421515020934859,
+    "map_z": 0.23535315473645624,
+    "observation_count": 1
+  },
+  {
+    "object_id": 41,
+    "class_name": "chair",
+    "map_x": -0.6570056738462114,
+    "map_y": -5.3615049142991404,
+    "map_z": 0.01805972967272753,
+    "observation_count": 2
+  },
+  {
+    "object_id": 51,
+    "class_name": "chair",
+    "map_x": 5.831375622058783,
+    "map_y": 0.19006506942137338,
+    "map_z": 0.2705110017897646,
+    "observation_count": 3
+  },
+  {
+    "object_id": 52,
+    "class_name": "chair",
+    "map_x": 5.6945630322404766,
+    "map_y": 1.5136705990587753,
+    "map_z": 0.2858465089591537,
+    "observation_count": 6
+  },
+  {
+    "object_id": 53,
+    "class_name": "chair",
+    "map_x": 6.631145676122929,
+    "map_y": 1.3888228644508693,
+    "map_z": 0.2297923932360013,
+    "observation_count": 3
+  },
+  {
+    "object_id": 55,
+    "class_name": "chair",
+    "map_x": 6.699403501085304,
+    "map_y": 0.014751132127691746,
+    "map_z": 0.30659652067197657,
+    "observation_count": 12
+  },
+  {
+    "object_id": 58,
+    "class_name": "chair",
+    "map_x": 7.259804813005124,
+    "map_y": -0.0885938998168414,
+    "map_z": 0.30857283957385784,
+    "observation_count": 8
+  },
+  {
+    "object_id": 73,
+    "class_name": "chair",
+    "map_x": 3.275902579790431,
+    "map_y": 6.751994043937872,
+    "map_z": 0.21373820776852437,
+    "observation_count": 1
+  },
+  {
+    "object_id": 79,
+    "class_name": "chair",
+    "map_x": 2.809604697084447,
+    "map_y": 0.611433244154437,
+    "map_z": 0.18417379282925103,
+    "observation_count": 1
+  },
+  {
+    "object_id": 80,
+    "class_name": "chair",
+    "map_x": -3.1208336775808254,
+    "map_y": -0.4036197117198095,
+    "map_z": 0.46191172330756125,
+    "observation_count": 2
+  },
+  {
+    "object_id": 90,
+    "class_name": "chair",
+    "map_x": -1.1111762669493297,
+    "map_y": -3.2520015719837456,
+    "map_z": 0.7154284031773686,
+    "observation_count": 1
+  },
+  {
+    "object_id": 30,
+    "class_name": "couch",
+    "map_x": -8.139072476655507,
+    "map_y": -4.420023084117087,
+    "map_z": 0.23687992107901917,
+    "observation_count": 1
+  },
+  {
+    "object_id": 88,
+    "class_name": "couch",
+    "map_x": 1.2367883805193316,
+    "map_y": -2.222873936930888,
+    "map_z": 0.5234583431361007,
+    "observation_count": 1
+  },
+  {
+    "object_id": 11,
+    "class_name": "cup",
+    "map_x": -8.434049001631363,
+    "map_y": 1.0035468205314926,
+    "map_z": 0.04183989609753334,
+    "observation_count": 6
+  },
+  {
+    "object_id": 77,
+    "class_name": "cup",
+    "map_x": 0.32041454515394807,
+    "map_y": 3.0018697779703087,
+    "map_z": 0.046506164474950706,
+    "observation_count": 2
+  },
+  {
+    "object_id": 89,
+    "class_name": "cup",
+    "map_x": 0.7555699824597499,
+    "map_y": -0.5637402040716971,
+    "map_z": 0.04974578234257663,
+    "observation_count": 1
+  },
+  {
+    "object_id": 54,
+    "class_name": "dining table",
+    "map_x": 5.774861176176943,
+    "map_y": 0.6739799634287781,
+    "map_z": 0.3600751332050508,
+    "observation_count": 4
+  },
+  {
+    "object_id": 56,
+    "class_name": "dining table",
+    "map_x": 6.626754132047123,
+    "map_y": 0.13902723935899086,
+    "map_z": 0.3071180359900469,
+    "observation_count": 2
+  },
+  {
+    "object_id": 48,
+    "class_name": "dog",
+    "map_x": 3.5227026649087714,
+    "map_y": -4.83434212931066,
+    "map_z": -0.018812805001062666,
+    "observation_count": 1
+  },
+  {
+    "object_id": 33,
+    "class_name": "frisbee",
+    "map_x": -7.097406027798113,
+    "map_y": -3.893843477677315,
+    "map_z": 0.1686856400836601,
+    "observation_count": 5
+  },
+  {
+    "object_id": 49,
+    "class_name": "horse",
+    "map_x": 3.451613827209874,
+    "map_y": -4.9130406029933775,
+    "map_z": -0.018757595599393093,
+    "observation_count": 1
+  },
+  {
+    "object_id": 5,
+    "class_name": "person",
+    "map_x": 1.9383191829022688,
+    "map_y": -1.2000190784334102,
+    "map_z": 1.795128624652944,
+    "observation_count": 1
+  },
+  {
+    "object_id": 6,
+    "class_name": "person",
+    "map_x": -0.7987622994422221,
+    "map_y": -5.073167146938805,
+    "map_z": 0.18148070545890055,
+    "observation_count": 1
+  },
+  {
+    "object_id": 9,
+    "class_name": "person",
+    "map_x": -6.6873052912119535,
+    "map_y": -1.3509855911360977,
+    "map_z": 0.8301361599035055,
+    "observation_count": 11
+  },
+  {
+    "object_id": 10,
+    "class_name": "person",
+    "map_x": -6.0187941114826256,
+    "map_y": -1.453880307964976,
+    "map_z": 0.6552764596598157,
+    "observation_count": 2
+  },
+  {
+    "object_id": 19,
+    "class_name": "person",
+    "map_x": 1.4731588068615324,
+    "map_y": -1.8223723477161873,
+    "map_z": 1.7706124529277973,
+    "observation_count": 1
+  },
+  {
+    "object_id": 21,
+    "class_name": "person",
+    "map_x": -1.1953068089390544,
+    "map_y": 3.631934005741057,
+    "map_z": 0.23297257774102312,
+    "observation_count": 2
+  },
+  {
+    "object_id": 27,
+    "class_name": "person",
+    "map_x": -5.7697030694405,
+    "map_y": -5.452924073627516,
+    "map_z": 1.1909868689152527,
+    "observation_count": 9
+  },
+  {
+    "object_id": 28,
+    "class_name": "person",
+    "map_x": -9.219529758194254,
+    "map_y": -4.527563993993227,
+    "map_z": 1.16399529486669,
+    "observation_count": 2
+  },
+  {
+    "object_id": 34,
+    "class_name": "person",
+    "map_x": -2.7620738081893026,
+    "map_y": -4.658773126064392,
+    "map_z": 1.152879608957687,
+    "observation_count": 6
+  },
+  {
+    "object_id": 37,
+    "class_name": "person",
+    "map_x": -1.386622237143408,
+    "map_y": -5.504271816549646,
+    "map_z": 0.19282523478200955,
+    "observation_count": 6
+  },
+  {
+    "object_id": 40,
+    "class_name": "person",
+    "map_x": 0.18772374054783247,
+    "map_y": -5.508928832349353,
+    "map_z": 0.8342133426553983,
+    "observation_count": 2
+  },
+  {
+    "object_id": 46,
+    "class_name": "person",
+    "map_x": 3.5335829580921576,
+    "map_y": -4.991872299499088,
+    "map_z": -0.0248802466523652,
+    "observation_count": 3
+  },
+  {
+    "object_id": 47,
+    "class_name": "person",
+    "map_x": 2.494553049006569,
+    "map_y": -5.045530473675549,
+    "map_z": -0.05796806522204255,
+    "observation_count": 1
+  },
+  {
+    "object_id": 60,
+    "class_name": "person",
+    "map_x": 7.989276177647221,
+    "map_y": 2.949643672481569,
+    "map_z": 0.4539448936536754,
+    "observation_count": 12
+  },
+  {
+    "object_id": 64,
+    "class_name": "person",
+    "map_x": 5.795427614242493,
+    "map_y": 3.0552883626189016,
+    "map_z": 0.36835678241374714,
+    "observation_count": 1
+  },
+  {
+    "object_id": 81,
+    "class_name": "person",
+    "map_x": -3.6084852553138163,
+    "map_y": 1.049191324358744,
+    "map_z": 0.10643631554868756,
+    "observation_count": 3
+  },
+  {
+    "object_id": 91,
+    "class_name": "person",
+    "map_x": 1.1029750826381632,
+    "map_y": -1.6507118144958475,
+    "map_z": 0.03428024618063255,
+    "observation_count": 1
+  },
+  {
+    "object_id": 2,
+    "class_name": "refrigerator",
+    "map_x": 2.72524888971823,
+    "map_y": 0.037761355952999565,
+    "map_z": 0.3594615189199866,
+    "observation_count": 1
+  },
+  {
+    "object_id": 13,
+    "class_name": "refrigerator",
+    "map_x": -8.366740887369216,
+    "map_y": 0.9610200800363674,
+    "map_z": 0.04950879782024843,
+    "observation_count": 1
+  },
+  {
+    "object_id": 24,
+    "class_name": "refrigerator",
+    "map_x": -4.208983340512029,
+    "map_y": 2.5394376237275735,
+    "map_z": 0.20894560935013837,
+    "observation_count": 1
+  },
+  {
+    "object_id": 45,
+    "class_name": "refrigerator",
+    "map_x": 0.7542041588942832,
+    "map_y": -3.029897050273029,
+    "map_z": 0.07417302663482694,
+    "observation_count": 1
+  },
+  {
+    "object_id": 92,
+    "class_name": "refrigerator",
+    "map_x": 0.7791838523157613,
+    "map_y": -0.6727322365006196,
+    "map_z": 0.04963448486716239,
+    "observation_count": 2
+  },
+  {
+    "object_id": 22,
+    "class_name": "skateboard",
+    "map_x": -1.2733111024816925,
+    "map_y": 3.636475955814631,
+    "map_z": -0.12099782362328111,
+    "observation_count": 1
+  },
+  {
+    "object_id": 1,
+    "class_name": "sports ball",
+    "map_x": 3.16054350865672,
+    "map_y": 3.721262641567127,
+    "map_z": 0.1269501401701772,
+    "observation_count": 1
+  },
+  {
+    "object_id": 26,
+    "class_name": "sports ball",
+    "map_x": -6.66946354729332,
+    "map_y": -4.058716603768803,
+    "map_z": 0.16032266101259943,
+    "observation_count": 5
+  },
+  {
+    "object_id": 16,
+    "class_name": "surfboard",
+    "map_x": -6.563942593153859,
+    "map_y": 1.0326940926639971,
+    "map_z": 0.3712924068633501,
+    "observation_count": 1
+  },
+  {
+    "object_id": 3,
+    "class_name": "traffic light",
+    "map_x": 2.865388606877232,
+    "map_y": 2.44228342718237,
+    "map_z": 0.05507039037040684,
+    "observation_count": 2
+  },
+  {
+    "object_id": 4,
+    "class_name": "traffic light",
+    "map_x": 1.8685989383425874,
+    "map_y": 4.299058144167802,
+    "map_z": 1.1660789855441152,
+    "observation_count": 1
+  },
+  {
+    "object_id": 32,
+    "class_name": "traffic light",
+    "map_x": -8.204274972362683,
+    "map_y": -4.286422814731452,
+    "map_z": 0.2091682392441632,
+    "observation_count": 4
+  },
+  {
+    "object_id": 43,
+    "class_name": "traffic light",
+    "map_x": 2.5206156117685437,
+    "map_y": -5.543690425705087,
+    "map_z": 1.4145656515328602,
+    "observation_count": 1
+  },
+  {
+    "object_id": 59,
+    "class_name": "traffic light",
+    "map_x": 8.70015055814943,
+    "map_y": -1.6994919488619509,
+    "map_z": -0.08131072939162641,
+    "observation_count": 3
+  },
+  {
+    "object_id": 61,
+    "class_name": "traffic light",
+    "map_x": 6.429310633574059,
+    "map_y": -0.10780062125678569,
+    "map_z": 0.509913447396709,
+    "observation_count": 3
+  },
+  {
+    "object_id": 62,
+    "class_name": "traffic light",
+    "map_x": 7.326431850194259,
+    "map_y": 0.16594749617171445,
+    "map_z": 0.37082167248651393,
+    "observation_count": 1
+  },
+  {
+    "object_id": 68,
+    "class_name": "traffic light",
+    "map_x": 1.2558924462812935,
+    "map_y": -1.3626024814899576,
+    "map_z": 1.6465385666095935,
+    "observation_count": 1
+  },
+  {
+    "object_id": 76,
+    "class_name": "traffic light",
+    "map_x": 1.305128258659423,
+    "map_y": 8.805953752955151,
+    "map_z": 0.4054201375394619,
+    "observation_count": 1
+  },
+  {
+    "object_id": 69,
+    "class_name": "truck",
+    "map_x": 2.6559888612063434,
+    "map_y": 2.015471626818831,
+    "map_z": 0.07296881845395534,
+    "observation_count": 1
+  },
+  {
+    "object_id": 36,
+    "class_name": "tv",
+    "map_x": 0.4432474780549641,
+    "map_y": -5.593215509548472,
+    "map_z": 0.9482307185577334,
+    "observation_count": 2
+  },
+  {
+    "object_id": 44,
+    "class_name": "tv",
+    "map_x": -0.6786699091406072,
+    "map_y": -5.128762130816774,
+    "map_z": 0.13576444953175076,
+    "observation_count": 1
+  },
+  {
+    "object_id": 83,
+    "class_name": "tv",
+    "map_x": -4.494583697248924,
+    "map_y": 2.986384782975272,
+    "map_z": 0.888127862236937,
+    "observation_count": 2
+  },
+  {
+    "object_id": 84,
+    "class_name": "tv",
+    "map_x": -4.554597834829517,
+    "map_y": 3.0404095205174744,
+    "map_z": 1.8556792536520734,
+    "observation_count": 1
+  },
+  {
+    "object_id": 85,
+    "class_name": "tv",
+    "map_x": 3.200987510577251,
+    "map_y": -4.459585992499235,
+    "map_z": 0.9259058886391472,
+    "observation_count": 1
+  },
+  {
+    "object_id": 86,
+    "class_name": "tv",
+    "map_x": 3.216922062002628,
+    "map_y": -4.5636809833069085,
+    "map_z": 1.869207581103895,
+    "observation_count": 1
+  },
+  {
+    "object_id": 87,
+    "class_name": "tv",
+    "map_x": 2.706805409355872,
+    "map_y": -4.963057014782237,
+    "map_z": 0.9338792030570856,
+    "observation_count": 1
+  },
+  {
+    "object_id": 14,
+    "class_name": "umbrella",
+    "map_x": -8.030774334126464,
+    "map_y": 1.6743695487635155,
+    "map_z": 0.37450736162611187,
+    "observation_count": 1
+  },
+  {
+    "object_id": 15,
+    "class_name": "umbrella",
+    "map_x": -9.010256622426404,
+    "map_y": 1.9634315313097699,
+    "map_z": 0.3078332272273152,
+    "observation_count": 2
+  }
+]

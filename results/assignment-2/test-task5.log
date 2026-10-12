@@ -1,0 +1,13 @@
+test_class_value_with_quote_and_sql_text_is_bound_as_data (test_task5.Task5DatabaseTests.test_class_value_with_quote_and_sql_text_is_bound_as_data) ... ok
+test_empty_database_exports_two_empty_lists (test_task5.Task5DatabaseTests.test_empty_database_exports_two_empty_lists) ... ok
+test_export_preserves_all_columns_vectors_and_evidence (test_task5.Task5DatabaseTests.test_export_preserves_all_columns_vectors_and_evidence) ... ok
+test_histogram_counts_objects_instead_of_observations (test_task5.Task5DatabaseTests.test_histogram_counts_objects_instead_of_observations) ... ok
+test_nearest_filters_class_and_uses_horizontal_distance (test_task5.Task5DatabaseTests.test_nearest_filters_class_and_uses_horizontal_distance) ... ok
+test_nearest_tie_is_deterministic_and_missing_class_is_empty (test_task5.Task5DatabaseTests.test_nearest_tie_is_deterministic_and_missing_class_is_empty) ... ok
+test_pose_history_preserves_every_observation_and_sorts_ros_time (test_task5.Task5DatabaseTests.test_pose_history_preserves_every_observation_and_sorts_ros_time) ... ok
+test_rectangle_includes_boundaries_and_orders_by_class_then_id (test_task5.Task5DatabaseTests.test_rectangle_includes_boundaries_and_orders_by_class_then_id) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.378s
+
+OK

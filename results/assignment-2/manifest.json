@@ -1,0 +1,19 @@
+{
+  "database": "semantic_a2_20261012t005526z_ec6db6",
+  "run_id": "MSI-20261012T005529",
+  "source_git_revision": "c78138a3d8b3785f79b8704d9ee402f414d5acb1",
+  "runtime_sha256": {
+    "object_detector.py": "0a117b56ec8a203fdb23d95e59ec6ef61896c44ac6ad9cb0ed70fded271277d8",
+    "embedding_ingest.py": "cf6d50b411edd08c7249da33f8d87ec47e05808dae65c89bed3893dd33ee97e6",
+    "semantic_schema.sql": "f8378a65b96a7b2023524b95400313825d537e670fbba4e1af385571f19cb5b7"
+  },
+  "source_policy": "Working runtime preserved byte-for-byte; four tests moved separately; test_task4 helper import redirected to combined worker.",
+  "checks": "New live Task 5: 8 passed. Earlier Task2:11 and Task3-4:33 passed in separate Docker runs. Capture audit and all live association IDs verified.",
+  "evaluation_scope": "Conservative spatial/identity rule, visibility bounds and unscorable sink/vase denominator explicitly documented.",
+  "submission_status": "Prepared deliverables; private Git push and course portal receipt not performed here.",
+  "package_checks": {
+    "installer": "Fixture installation and changed-runtime guard passed; working runtime preserved.",
+    "test_layout": "25 numerical/input checks passed; 27 PostgreSQL checks skipped. Import-only GPU stubs; no live GPU/DB here.",
+    "calibration_reproduction": "All 76 radius/tie-break rows match the original study exactly; later independent checkpoint is attached separately."
+  }
+}

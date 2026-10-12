@@ -1,0 +1,13 @@
+{
+  "keyframes": 262,
+  "empty_keyframes": 136,
+  "matched_images": 262,
+  "missing_image_keyframes": [],
+  "objects": 94,
+  "observations": 207,
+  "detections_without_observation_rows": 0,
+  "run_id": "MSI-20261012T005529",
+  "clock_epoch": 0,
+  "out_of_order_timestamps": 0,
+  "scope": "Capture consistency; class accuracy and physical identities still require review"
+}

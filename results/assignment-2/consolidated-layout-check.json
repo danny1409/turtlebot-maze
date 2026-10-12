@@ -1,0 +1,6 @@
+{
+  "discovered": 52,
+  "passed": 25,
+  "database_checks_skipped": 27,
+  "scope": "New separate test layout only; real CDR/numerical/storage input functions, import-only GPU stubs, no Docker or PostgreSQL here."
+}

@@ -1,0 +1,475 @@
+{
+  "method": "static four-chair footprint registration with shared same-mesh local centroid offset; no robot estimates used in fit",
+  "landmarks": [
+    {
+      "label": "NW",
+      "model": "ChairA_01_003",
+      "uri": null,
+      "model_world_xy": [
+        6.06678,
+        1.68075
+      ],
+      "model_world_yaw_rad": 1.56986,
+      "components": [
+        16,
+        17,
+        24,
+        25
+      ],
+      "foot_centroid_map_xy": [
+        6.0687500000000005,
+        1.6750000000000007
+      ],
+      "nominal_residual_xy_m": [
+        0.0019700000000009155,
+        -0.005749999999999256
+      ]
+    },
+    {
+      "label": "NE",
+      "model": "ChairA_01_004",
+      "uri": null,
+      "model_world_xy": [
+        7.00277,
+        1.67074
+      ],
+      "model_world_yaw_rad": 1.52363,
+      "components": [
+        18,
+        19,
+        26,
+        27
+      ],
+      "foot_centroid_map_xy": [
+        7.000000000000002,
+        1.6562500000000007
+      ],
+      "nominal_residual_xy_m": [
+        -0.002769999999998163,
+        -0.014489999999999226
+      ]
+    },
+    {
+      "label": "SW",
+      "model": "ChairA_01_002",
+      "uri": null,
+      "model_world_xy": [
+        6.25506,
+        0.219468
+      ],
+      "model_world_yaw_rad": -1.50414,
+      "components": [
+        31,
+        32,
+        35,
+        36
+      ],
+      "foot_centroid_map_xy": [
+        6.247916666666668,
+        0.2354166666666671
+      ],
+      "nominal_residual_xy_m": [
+        -0.007143333333332613,
+        0.01594866666666711
+      ]
+    },
+    {
+      "label": "SE",
+      "model": "ChairA_01_001",
+      "uri": null,
+      "model_world_xy": [
+        7.11516,
+        0.209028
+      ],
+      "model_world_yaw_rad": -1.55607,
+      "components": [
+        33,
+        34,
+        37,
+        38
+      ],
+      "foot_centroid_map_xy": [
+        7.112500000000002,
+        0.22500000000000053
+      ],
+      "nominal_residual_xy_m": [
+        -0.0026599999999987745,
+        0.01597200000000054
+      ]
+    }
+  ],
+  "world_to_map": {
+    "yaw_rad": -0.004903035365177748,
+    "yaw_deg": -0.28092323322806934,
+    "translation_xy_m": [
+      -0.0067691739182055245,
+      0.03529917503780848
+    ]
+  },
+  "shared_local_foot_centroid_offset_xy_m": [
+    -0.013455121962681853,
+    0.0013277505067014667
+  ],
+  "residuals_xy_m": [
+    [
+      -0.001977648807976351,
+      -0.0021636844386916376
+    ],
+    [
+      0.0020820842110715887,
+      0.00206661928013796
+    ],
+    [
+      0.0018698791381126512,
+      0.002190628515093662
+    ],
+    [
+      -0.001974314544582967,
+      -0.00209356333409344
+    ]
+  ],
+  "residual_norms_m": [
+    0.0029313179899026014,
+    0.0029335967533100967,
+    0.0028801564683694483,
+    0.002877659701009188
+  ],
+  "rms_residual_m": 0.0029058063298360417,
+  "maximum_residual_m": 0.0029335967533100967,
+  "jacobian_rank": 5,
+  "jacobian_singular_values": [
+    13.609491540309355,
+    2.032098295915094,
+    1.9920442840993458,
+    1.9673780635400746,
+    0.1327281638700206
+  ],
+  "grid_resolution_m": 0.05,
+  "nominal_static_residual_max_m": 0.017475330599320844,
+  "matched_robot_samples": [
+    {
+      "timestamp_ns": 183708000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 184068000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 3.0
+    },
+    {
+      "timestamp_ns": 184428000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 184788000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 185112000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 3.0
+    },
+    {
+      "timestamp_ns": 185472000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 3.0
+    },
+    {
+      "timestamp_ns": 185832000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 186192000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 3.0
+    },
+    {
+      "timestamp_ns": 186516000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 186876000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 3.0
+    },
+    {
+      "timestamp_ns": 187200000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 187560000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 187920000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 188280000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    },
+    {
+      "timestamp_ns": 188640000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 3.0
+    },
+    {
+      "timestamp_ns": 189000000000,
+      "truth_map_xy_m": [
+        4.772501173920692,
+        0.15093375533704412
+      ],
+      "estimate_map_xy_m": [
+        4.942,
+        0.311
+      ],
+      "estimated_minus_truth_xy_m": [
+        0.169498826079308,
+        0.16006624466295588
+      ],
+      "xy_error_m": 0.2331331266095935,
+      "yaw_error_rad": 0.022112519249324142,
+      "yaw_error_deg": 1.2669540273880646,
+      "sync_ms": 0.0
+    }
+  ],
+  "robot_xy_error_m": 0.2331331266095935,
+  "robot_yaw_error_deg": 1.2669540273880646,
+  "robot_yaw_error_rad": 0.022112519249324142,
+  "grid_half_cell_corner_sensitivity": {
+    "interpretation": "256 artificial half-cell centroid perturbations; sensitivity analysis, not additional observations or a confidence interval",
+    "centroid_perturbation_each_axis_m": 0.025,
+    "trials": 256,
+    "xy_error_min_max_m": [
+      0.1917504557263333,
+      0.29845317477627126
+    ],
+    "signed_yaw_error_min_max_deg": [
+      -2.052615791247828,
+      4.679683561247118
+    ],
+    "fitted_world_to_map_yaw_min_max_deg": [
+      -3.6936527670871224,
+      3.0386465854078235
+    ]
+  }
+}

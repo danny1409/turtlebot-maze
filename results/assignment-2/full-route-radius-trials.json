@@ -1,0 +1,367 @@
+{
+  "scope": "43 chair predictions participate; score only 30 individually reviewed detections of six physical chairs. Overlap/border identities unassigned; spatial accuracy not part of these association counts.",
+  "radius_selected_m": 0.5,
+  "full_replay_matches_every_live_object_id": true,
+  "trials": [
+    {
+      "radius_m": 0.15,
+      "rule": "clip",
+      "all_chair_prediction_records": 20,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 4,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 45,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.44554455445544555,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 20,
+        "one": 23,
+        "multiple": 0
+      }
+    },
+    {
+      "radius_m": 0.15,
+      "rule": "nearest",
+      "all_chair_prediction_records": 20,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 4,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 45,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.44554455445544555,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 20,
+        "one": 23,
+        "multiple": 0
+      }
+    },
+    {
+      "radius_m": 0.25,
+      "rule": "clip",
+      "all_chair_prediction_records": 17,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 3,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 50,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.49504950495049505,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 17,
+        "one": 23,
+        "multiple": 3
+      }
+    },
+    {
+      "radius_m": 0.25,
+      "rule": "nearest",
+      "all_chair_prediction_records": 17,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 3,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 44,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.43564356435643564,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 17,
+        "one": 24,
+        "multiple": 2
+      }
+    },
+    {
+      "radius_m": 0.35,
+      "rule": "clip",
+      "all_chair_prediction_records": 16,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 2,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 36,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.3564356435643564,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 16,
+        "one": 20,
+        "multiple": 7
+      }
+    },
+    {
+      "radius_m": 0.35,
+      "rule": "nearest",
+      "all_chair_prediction_records": 16,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 3,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 30,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 2,
+      "duplicate_pair_rate": 0.297029702970297,
+      "false_merge_pair_rate": 0.005988023952095809,
+      "candidate_cases": {
+        "zero": 16,
+        "one": 21,
+        "multiple": 6
+      }
+    },
+    {
+      "radius_m": 0.45,
+      "rule": "clip",
+      "all_chair_prediction_records": 13,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 13,
+        "one": 29,
+        "multiple": 1
+      }
+    },
+    {
+      "radius_m": 0.45,
+      "rule": "nearest",
+      "all_chair_prediction_records": 13,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 0,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 0,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.0,
+      "candidate_cases": {
+        "zero": 13,
+        "one": 29,
+        "multiple": 1
+      }
+    },
+    {
+      "radius_m": 0.5,
+      "rule": "clip",
+      "all_chair_prediction_records": 13,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 2,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 36,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 18,
+      "duplicate_pair_rate": 0.3564356435643564,
+      "false_merge_pair_rate": 0.05389221556886228,
+      "candidate_cases": {
+        "zero": 13,
+        "one": 23,
+        "multiple": 7
+      }
+    },
+    {
+      "radius_m": 0.5,
+      "rule": "nearest",
+      "all_chair_prediction_records": 13,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 2,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 22,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 6,
+      "duplicate_pair_rate": 0.21782178217821782,
+      "false_merge_pair_rate": 0.017964071856287425,
+      "candidate_cases": {
+        "zero": 13,
+        "one": 28,
+        "multiple": 2
+      }
+    },
+    {
+      "radius_m": 0.65,
+      "rule": "clip",
+      "all_chair_prediction_records": 12,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 7,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 11,
+      "duplicate_pair_rate": 0.06930693069306931,
+      "false_merge_pair_rate": 0.03293413173652695,
+      "candidate_cases": {
+        "zero": 12,
+        "one": 27,
+        "multiple": 4
+      }
+    },
+    {
+      "radius_m": 0.65,
+      "rule": "nearest",
+      "all_chair_prediction_records": 12,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 66,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.19760479041916168,
+      "candidate_cases": {
+        "zero": 12,
+        "one": 27,
+        "multiple": 4
+      }
+    },
+    {
+      "radius_m": 0.7,
+      "rule": "clip",
+      "all_chair_prediction_records": 12,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 22,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.0658682634730539,
+      "candidate_cases": {
+        "zero": 12,
+        "one": 25,
+        "multiple": 6
+      }
+    },
+    {
+      "radius_m": 0.7,
+      "rule": "nearest",
+      "all_chair_prediction_records": 12,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 66,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.19760479041916168,
+      "candidate_cases": {
+        "zero": 12,
+        "one": 27,
+        "multiple": 4
+      }
+    },
+    {
+      "radius_m": 0.75,
+      "rule": "clip",
+      "all_chair_prediction_records": 12,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 22,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.0658682634730539,
+      "candidate_cases": {
+        "zero": 12,
+        "one": 25,
+        "multiple": 6
+      }
+    },
+    {
+      "radius_m": 0.75,
+      "rule": "nearest",
+      "all_chair_prediction_records": 12,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 12,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 66,
+      "duplicate_pair_rate": 0.1188118811881188,
+      "false_merge_pair_rate": 0.19760479041916168,
+      "candidate_cases": {
+        "zero": 12,
+        "one": 27,
+        "multiple": 4
+      }
+    },
+    {
+      "radius_m": 1.0,
+      "rule": "clip",
+      "all_chair_prediction_records": 11,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 1,
+      "false_merge_records": 2,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 2,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 94,
+      "duplicate_pair_rate": 0.019801980198019802,
+      "false_merge_pair_rate": 0.281437125748503,
+      "candidate_cases": {
+        "zero": 11,
+        "one": 29,
+        "multiple": 3
+      }
+    },
+    {
+      "radius_m": 1.0,
+      "rule": "nearest",
+      "all_chair_prediction_records": 11,
+      "labeled_detections": 30,
+      "physical_objects": 6,
+      "duplicate_records": 0,
+      "false_merge_records": 1,
+      "same_object_pairs": 101,
+      "split_same_object_pairs": 0,
+      "different_object_pairs": 334,
+      "merged_different_object_pairs": 88,
+      "duplicate_pair_rate": 0.0,
+      "false_merge_pair_rate": 0.2634730538922156,
+      "candidate_cases": {
+        "zero": 11,
+        "one": 29,
+        "multiple": 3
+      }
+    }
+  ]
+}

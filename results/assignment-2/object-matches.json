@@ -1,0 +1,119 @@
+{
+  "position_convention": "Planar distance to registered physical visual bounds, <=0.50 m; vertical accuracy unscored.",
+  "matches": [
+    {
+      "object_id": 31,
+      "physical_instance_id": "ChairD_01_003",
+      "class_name": "chair",
+      "distance_to_visual_xy_bounds_m": 0.0,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 52,
+      "physical_instance_id": "ChairA_01_003",
+      "class_name": "chair",
+      "distance_to_visual_xy_bounds_m": 0.13560825315896352,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 53,
+      "physical_instance_id": "ChairA_01_004",
+      "class_name": "chair",
+      "distance_to_visual_xy_bounds_m": 0.13592786791183112,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 58,
+      "physical_instance_id": "ChairA_01_001",
+      "class_name": "chair",
+      "distance_to_visual_xy_bounds_m": 0.07794808958277594,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 23,
+      "physical_instance_id": "Bed_01_001",
+      "class_name": "bed",
+      "distance_to_visual_xy_bounds_m": 0.006820918266847276,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 26,
+      "physical_instance_id": "Ball_01_003",
+      "class_name": "sports ball",
+      "distance_to_visual_xy_bounds_m": 0.0,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 36,
+      "physical_instance_id": "TV_01_001",
+      "class_name": "tv",
+      "distance_to_visual_xy_bounds_m": 0.1953007046059101,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 54,
+      "physical_instance_id": "KitchenTable_01_001",
+      "class_name": "dining table",
+      "distance_to_visual_xy_bounds_m": 0.0,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    },
+    {
+      "object_id": 88,
+      "physical_instance_id": "SofaC_01_001",
+      "class_name": "couch",
+      "distance_to_visual_xy_bounds_m": 0.0,
+      "position_tolerance_m": 0.5,
+      "rule": "Reviewed class/identity, unmixed history, spatially plausible; one-to-one"
+    }
+  ],
+  "false_merge_review": [
+    {
+      "object_id": 51,
+      "class_name": "chair",
+      "keyframes": [
+        148,
+        155
+      ],
+      "observations": [
+        "KF148 d0: distinct back-row chair",
+        "KF148 d1 and KF155 d4: southwest front-row chair"
+      ],
+      "status": "possible cross-target merge; native border/overlap prevents confirmation"
+    },
+    {
+      "object_id": 55,
+      "class_name": "chair",
+      "keyframes": [
+        173,
+        174,
+        176
+      ],
+      "observations": [
+        "KF173 d0: southwest front-row chair",
+        "KF173 d1: southeast front-row chair"
+      ],
+      "status": "confirmed merge of ChairA_01_002 and ChairA_01_001"
+    },
+    {
+      "object_id": 10,
+      "class_name": "person",
+      "keyframes": [
+        33,
+        83
+      ],
+      "observations": [
+        "KF33 d2: person depicted within television image",
+        "KF83 d3: separate wall portrait"
+      ],
+      "status": "confirmed merge of different physical display/portrait targets; no real people in world"
+    }
+  ]
+}
