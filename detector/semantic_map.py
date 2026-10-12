@@ -55,12 +55,13 @@ def main():
            title=f"Semantic map: {len(objects)} objects, {len(observations)} observations")
     ax.set_aspect("equal", adjustable="datalim")
     ax.grid(True, alpha=0.25)
+    ax.margins(x=0.15, y=0.1)
     if objects or observations or poses:
         ax.legend(fontsize=8)
     if not args.keyframes:
         fig.text(0.02, 0.01, "Coverage contains only keyframes with stored detections; supply --keyframes for empty frames.",
                  fontsize=8)
-    fig.savefig(args.output, dpi=180)
+    fig.savefig(args.output, dpi=180, bbox_inches="tight")
     plt.close(fig)
     print(f"Saved {args.output}")
 
