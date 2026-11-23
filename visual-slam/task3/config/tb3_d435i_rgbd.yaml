@@ -1,0 +1,62 @@
+# stella_vslam RGB-D config for the TurtleBot3 Waffle's simulated RealSense D435i
+# (turtlebot-maze repo, demo-world-enhanced), used through stella_vslam_ros.
+#
+# Intrinsics: same as the repo's slam/config/turtlebot_realsense.yaml, derived from
+# gz_waffle.sdf.xacro (horizontal_fov = 1.047 rad, 320 x 240):
+#   fx = fy = 320 / (2 tan(1.047 / 2)) = 277.13,  cx = 160,  cy = 120
+# Differences from that file (checked against the stella_vslam source):
+#   - color_order RGB: stella_vslam_ros passes the ROS image through unchanged
+#     (encoding parameter empty), and the Gazebo bridge publishes rgb8.
+#   - focal_x_baseline set: RGB-D mode builds a virtual stereo pair from depth;
+#     0 (the default when the key is missing) disables that constraint.
+#     0.05 m (roughly the D435 baseline) x fx = 13.86.
+#   - depthmap_factor moved to Preprocessing (stella_vslam only reads it there).
+#     Gazebo depth is 32FC1 in metres, so 1.0.
+#   - depth_threshold is in metres in current stella_vslam; 5.0 = Gazebo far clip.
+#   - Loop closure enabled, map saved as msgpack.
+
+Camera:
+  name: "TurtleBot3 Waffle simulated D435i (RGBD, ROS 2)"
+  setup: "RGBD"
+  model: "perspective"
+
+  fx: 277.13
+  fy: 277.13
+  cx: 160.0
+  cy: 120.0
+
+  k1: 0.0
+  k2: 0.0
+  p1: 0.0
+  p2: 0.0
+  k3: 0.0
+
+  fps: 10.0
+  cols: 320
+  rows: 240
+
+  focal_x_baseline: 13.86
+  depth_threshold: 5.0
+
+  color_order: "RGB"
+
+Preprocessing:
+  min_size: 200
+  depthmap_factor: 1.0
+
+Feature:
+  name: "ORB for low-res simulation camera"
+  scale_factor: 1.2
+  num_levels: 6
+  ini_fast_threshold: 10
+  min_fast_threshold: 3
+
+Mapping:
+  baseline_dist_thr: 0.1
+  redundant_obs_ratio_thr: 0.9
+
+LoopDetector:
+  enabled: true
+
+System:
+  map_format: "msgpack"

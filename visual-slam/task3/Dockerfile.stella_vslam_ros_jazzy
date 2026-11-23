@@ -1,0 +1,56 @@
+# stella_vslam + stella_vslam_ros on ROS 2 Jazzy, no GUI viewer (visualise in RViz).
+# Based on the official stella_vslam_ros Dockerfile (Humble), with Jazzy and simulation fixes.
+ARG ROS_DISTRO=jazzy
+FROM ros:${ROS_DISTRO}
+ARG NUM_THREADS=2
+ENV DEBIAN_FRONTEND=noninteractive DEBCONF_NOWARNINGS=yes
+SHELL ["/bin/bash", "-c"]
+
+RUN apt-get update -y -qq && \
+    apt-get install -y -qq --no-install-recommends \
+      build-essential cmake git pkg-config curl \
+      libyaml-cpp-dev libopencv-dev libeigen3-dev libgoogle-glog-dev \
+      libatlas-base-dev libsuitesparse-dev libsqlite3-dev sqlite3 \
+      ros-${ROS_DISTRO}-libg2o \
+      ros-${ROS_DISTRO}-cv-bridge ros-${ROS_DISTRO}-image-transport \
+      ros-${ROS_DISTRO}-message-filters ros-${ROS_DISTRO}-tf2-eigen \
+      ros-${ROS_DISTRO}-tf2-geometry-msgs ros-${ROS_DISTRO}-rosbag2-cpp \
+      ros-${ROS_DISTRO}-tf2-ros ros-${ROS_DISTRO}-tf2-tools \
+      python3-colcon-common-extensions && \
+    rm -rf /var/lib/apt/lists/*
+
+# stella_vslam core library
+# Simulation fix: search_local_landmarks() fails when every visible landmark is already
+# matched ("projection candidate not found"), which always happens with a stationary
+# simulated camera (identical frames). Continue instead; the following pose optimisation
+# still requires >= 20 tracked landmarks.
+RUN git clone --depth 1 https://github.com/stella-cv/stella_vslam.git /opt/stella_vslam && \
+    cd /opt/stella_vslam && git submodule update --init --recursive && \
+    perl -0pi -e 's/spdlog::warn\("projection candidate not found"\);\s*return false;/spdlog::debug("projection candidate not found (all visible landmarks already matched)");\n        return true;/' src/stella_vslam/tracking_module.cc && \
+    grep -q "all visible landmarks already matched" src/stella_vslam/tracking_module.cc && \
+    mkdir -p build && cd build && \
+    CMAKE_PREFIX_PATH=/opt/ros/${ROS_DISTRO}/lib/cmake cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .. && \
+    make -j${NUM_THREADS} && make install && ldconfig
+
+# stella_vslam_ros (ROS 2 branch) + Jazzy fixes:
+#  1. remove the duplicate library_path environment hook (CMake "multiple commands" error)
+#  2. .h -> .hpp for ROS headers removed/deprecated in Jazzy (cv_bridge, tf2_ros)
+WORKDIR /ros2_ws
+RUN git clone --recursive -b ros2 --depth 1 https://github.com/stella-cv/stella_vslam_ros.git src/stella_vslam_ros && \
+    sed -i '/^if(NOT WIN32)/,/^endif()/d' src/stella_vslam_ros/CMakeLists.txt && \
+    ! grep -q ament_environment_hooks src/stella_vslam_ros/CMakeLists.txt && \
+    sed -i 's#cv_bridge/cv_bridge\.h>#cv_bridge/cv_bridge.hpp>#; s#tf2_ros/\(transform_listener\|transform_broadcaster\|buffer\)\.h>#tf2_ros/\1.hpp>#; s#geometry_msgs/msg/transform_stamped\.h>#geometry_msgs/msg/transform_stamped.hpp>#' \
+      src/stella_vslam_ros/src/*.cc src/stella_vslam_ros/src/*.h && \
+    ! grep -rq "cv_bridge/cv_bridge.h>" src/stella_vslam_ros/src && \
+    source /opt/ros/${ROS_DISTRO}/setup.bash && \
+    MAKEFLAGS=-j${NUM_THREADS} colcon build --parallel-workers 1 \
+      --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
+
+# ORB vocabulary
+RUN mkdir -p /vslam && \
+    curl -sL "https://github.com/stella-cv/FBoW_orb_vocab/raw/main/orb_vocab.fbow" -o /vslam/orb_vocab.fbow && \
+    test -s /vslam/orb_vocab.fbow
+
+RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \
+    echo "source /ros2_ws/install/setup.bash" >> /root/.bashrc
+CMD ["bash"]

@@ -1,0 +1,4 @@
+frames: 4541
+ATE RMSE (SE3 align only, includes scale drift): 208.24 m
+ATE RMSE (Sim3 aligned): 112.38 m
+KITTI t_err: 29.86 %   r_err: 0.0358 deg/m

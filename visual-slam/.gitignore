@@ -1,0 +1,7 @@
+.venv/
+dataset/
+*.mp4
+*.msg
+*.fbow
+*.zip
+__pycache__/
